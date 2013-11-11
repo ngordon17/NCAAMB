@@ -1,0 +1,24 @@
+SELECT *
+FROM Venue
+LIMIT 10;
+
+SELECT *
+FROM Conference
+LIMIT 10;
+
+SELECT *
+FROM Team
+LIMIT 10;
+
+SELECT *
+FROM Game
+LIMIT 10;
+
+SELECT *
+FROM Player
+LIMIT 10;
+
+SELECT *
+FROM GameStats
+LIMIT 10;
+
