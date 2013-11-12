@@ -56,7 +56,7 @@ CREATE TABLE Player (
 CREATE TABLE GameStats (
 	game_id VARCHAR(100) NOT NULL,
 	player_id VARCHAR(100) NOT NULL,
-	minutes VARCHAR(10) DEFAULT '00:00',
+	minutes INTEGER DEFAULT 0,
 	three_point_attempts INTEGER DEFAULT 0,
 	three_point_makes INTEGER DEFAULT 0,
 	two_point_attempts INTEGER DEFAULT 0,

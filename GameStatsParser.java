@@ -48,6 +48,9 @@ public class GameStatsParser {
 				Element stats = (Element) player.getElementsByTagName("statistics").item(0);
 				if (stats == null) {continue;}
 				String minutes = stats.getAttribute("minutes");
+				if (minutes.contains(":")) {
+					minutes = minutes.split(":")[0];
+				}
 				String three_point_attempts = stats.getAttribute("three_points_att");
 				String three_point_makes = stats.getAttribute("three_points_made");
 				String two_point_attempts = stats.getAttribute("two_points_att");
