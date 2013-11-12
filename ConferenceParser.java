@@ -48,7 +48,8 @@ public class ConferenceParser {
 		if (division == null) {throw new Exception("ERROR: Division does not exist");}
 	
 		for (int i = 0; i < division.getElementsByTagName("conference").getLength(); i++) {
-			Node conference = root.getElementsByTagName("conference").item(i);
+			Node conference = division.getElementsByTagName("conference").item(i);
+			System.out.println(((Element) conference).getAttribute("name"));;
 			parseConferenceElement((Element) conference, conference_writer);
 		}
 		
