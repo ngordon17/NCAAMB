@@ -28,7 +28,7 @@ FROM Conference
 ORDER BY name;
 
 --list of teams for Teams page
-SELECT id, name
+SELECT id, name, alias
 FROM Team
 ORDER BY name
 LIMIT 10;
@@ -49,6 +49,12 @@ SELECT *
 FROM Game
 WHERE scheduled_date = '2013-11-08';
 
+--box score for a given game
+SELECT *
+FROM GameStats
+WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080';
+
+--specific player's average statistics
 SELECT AVG(offensive_rebounds) AS ORPG, AVG(defensive_rebounds) AS DRPG, AVG(steals) AS SPG, 
 	AVG(assists) AS APG, AVG(personal_fouls) AS FPG, AVG(minutes) as MPG,
     SUM(cast(three_point_makes as float))/SUM(three_point_attempts) AS three_percent,

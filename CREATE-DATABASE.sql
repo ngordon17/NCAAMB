@@ -26,14 +26,14 @@ CREATE TABLE Team (
 	id VARCHAR(100) NOT NULL PRIMARY KEY,
 	name VARCHAR(100),
 	alias VARCHAR(100),
-	venue_id VARCHAR(100),
-	conference_id VARCHAR(100)
+	venue_id VARCHAR(100) REFERENCES Venue(id),
+	conference_id VARCHAR(100) REFERENCES Conference(id)
 );
 
 CREATE TABLE Game (
 	id VARCHAR(100) NOT NULL PRIMARY KEY,
-	home_team_id VARCHAR(100),
-	away_team_id VARCHAR(100),
+	home_team_id VARCHAR(100), --not referencing teams
+	away_team_id VARCHAR(100), --not referencing teams
 	--venue_id VARCHAR(100),
 	scheduled_date VARCHAR(100),
 	scheduled_time VARCHAR(100)
@@ -45,7 +45,7 @@ CREATE TABLE Player (
 	id VARCHAR(100) NOT NULL PRIMARY KEY,
 	first_name VARCHAR(100),
 	last_name VARCHAR(100),
-	team_id VARCHAR(100),
+	team_id VARCHAR(100) REFERENCES Team(id),
 	height INTEGER,
 	weight INTEGER,
 	jersey_number INTEGER,
@@ -55,8 +55,8 @@ CREATE TABLE Player (
 );
 
 CREATE TABLE GameStats (
-	game_id VARCHAR(100) NOT NULL,
-	player_id VARCHAR(100) NOT NULL,
+	game_id VARCHAR(100) NOT NULL REFERENCES Game(id),
+	player_id VARCHAR(100), --not referencing players
 	minutes INTEGER DEFAULT 0,
 	three_point_attempts INTEGER DEFAULT 0,
 	three_point_makes INTEGER DEFAULT 0,
