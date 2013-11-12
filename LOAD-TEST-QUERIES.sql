@@ -52,7 +52,15 @@ WHERE scheduled_date = '2013-11-08';
 --box score for a given game
 SELECT *
 FROM GameStats
-WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080';
+WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080'
+LIMIT 10;
+
+--list of players for a team
+SELECT *
+FROM Player
+WHERE team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f'
+ORDER BY last_name
+LIMIT 10;
 
 --specific player's average statistics
 SELECT AVG(offensive_rebounds) AS ORPG, AVG(defensive_rebounds) AS DRPG, AVG(steals) AS SPG, 
