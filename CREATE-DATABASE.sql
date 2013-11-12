@@ -35,7 +35,8 @@ CREATE TABLE Game (
 	home_team_id VARCHAR(100),
 	away_team_id VARCHAR(100),
 	--venue_id VARCHAR(100),
-	scheduled VARCHAR(100)
+	scheduled_date VARCHAR(100),
+	scheduled_time VARCHAR(100)
 	--network VARCHAR(100),
 	--internet VARCHAR(100)
 );

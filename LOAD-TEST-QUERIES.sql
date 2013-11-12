@@ -44,6 +44,11 @@ SELECT *
 FROM Player
 WHERE id = 'cad077aa-9235-4031-975d-b9301c27bf00';
 
+--schedule for a given date
+SELECT *
+FROM Game
+WHERE scheduled_date = '2013-11-08';
+
 SELECT AVG(offensive_rebounds) AS ORPG, AVG(defensive_rebounds) AS DRPG, AVG(steals) AS SPG, 
 	AVG(assists) AS APG, AVG(personal_fouls) AS FPG, AVG(minutes) as MPG,
     SUM(cast(three_point_makes as float))/SUM(three_point_attempts) AS three_percent,
