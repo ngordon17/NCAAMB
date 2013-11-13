@@ -33,8 +33,8 @@ CREATE TABLE Team (
 
 CREATE TABLE Game (
 	id VARCHAR(100) NOT NULL PRIMARY KEY,
-	home_team_id VARCHAR(100) DEFAULT 'UNKNOWN', --not referencing teams
-	away_team_id VARCHAR(100) DEFAULT 'UNKNOWN', --not referencing teams
+	home_team_id VARCHAR(100) DEFAULT 'UNKNOWN', --not referencing team id
+	away_team_id VARCHAR(100) DEFAULT 'UNKNOWN', --not referencing team id
 	--venue_id VARCHAR(100),
 	scheduled_date VARCHAR(100),
 	scheduled_time VARCHAR(100)
@@ -57,7 +57,7 @@ CREATE TABLE Player (
 
 CREATE TABLE GameStats (
 	game_id VARCHAR(100) NOT NULL REFERENCES Game(id),
-	player_id VARCHAR(100), --player reference
+	player_id VARCHAR(100), --not referencing player id
 	minutes INTEGER DEFAULT 0,
 	three_point_attempts INTEGER DEFAULT 0,
 	three_point_makes INTEGER DEFAULT 0,

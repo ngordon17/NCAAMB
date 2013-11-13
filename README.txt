@@ -14,5 +14,5 @@ matches the schema of a corresponding SQL database.
 CREATE-DATABASE.sql contains all the CREATE TABLE statements for all of our 
 relations. Run "psql -af CREATE-DATABASE.sql" to initialize all of the tables. 
 LOAD-DATABSE.sql copies all of the data from the .dat files into the SQL tables. 
-Run "psql -af LOAD-DATABASE.sql" to do this. Once this step is ocmpleted, 
+Run "psql -af LOAD-DATABASE.sql" to do this. Once this step is completed, 
 the "production" dataset has been transformed and loaded into our database. 

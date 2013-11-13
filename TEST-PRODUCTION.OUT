@@ -1,0 +1,317 @@
+SELECT *
+FROM Venue
+LIMIT 10;
+                  id                  |          name          |            address            |      city      | state | country | zipcode | capacity 
+--------------------------------------+------------------------+-------------------------------+----------------+-------+---------+---------+----------
+ c06cdbce-91ba-4306-b31c-97df5cbf2515 | Jon M. Huntsman Center | 1825 East South Campus Dr     | Salt Lake City | UT    | USA     |   84112 |    15000
+ 591ff737-8ad6-4a23-9de1-3721d5c4d8a1 | Matthew Knight Arena   | 1776 East 13th Street         | Eugene         | OR    | USA     |   97401 |    97401
+ cccd8a1b-21ba-40a5-b197-7561bc74cacb | Beasley Coliseum       | 225 North Grand Ave           | Pullman        | WA    | USA     |   99163 |    11671
+ d03346fb-8618-4ad7-bbd8-1554a003c472 | Galen Center           | 3400 South Figueroa Street    | Los Angeles    | CA    | USA     |   90007 |    10258
+ 02ccdcd1-9754-4816-9c68-2f7b9a27f844 | Gill Coliseum          | 660 Southwest 26th Street     | Corvallis      | OR    | USA     |   97331 |     9600
+ 9fe460a5-6d1e-4e27-a152-f867e2d6d099 | Maples Pavilion        | 655 Campus Drive              | Stanford       | CA    | USA     |   94305 |     7329
+ 60c78748-ee0e-4764-9c8c-141e876d2abf | McKale Center          | 1 National Championship Drive | Tuscon         | AZ    | USA     |   85721 |    14500
+ 9adf9df2-fc71-4c24-8ddf-ad77f4a935f8 | Coors Events Center    | Kittredge Loop Road           | Boulder        | CO    | USA     |   80302 |    11064
+ bf0a9070-8049-41c9-9a4e-dfa0dcf6ad07 | Haas Pavilion          | 14 Frank Schlessinger Way     | Berkeley       | CA    | USA     |   94720 |    11877
+ 1cfb6fcd-84c0-464a-b9bb-7ce687500dbc | Wells Fargo Arena      | 600 East Veterans Way         | Tempe          | AZ    | USA     |   85287 |    10754
+(10 rows)
+
+SELECT *
+FROM Conference
+LIMIT 10;
+                  id                  |       name        |  alias   
+--------------------------------------+-------------------+----------
+ 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7 | Pacific 12        | PAC12
+ 0f3991a1-8c5f-4a8e-8fab-d0ebbb21c35c | Ohio Valley       | OVC
+ 1d9219c1-696c-42a2-b1be-e8b438795521 | Missouri Valley   | MVC
+ 2853cf4d-6d62-4ec6-8e2c-d69f7a01a557 | Big 12            | BIG12
+ 302c99fe-6b0a-40ec-8ee7-f15a0355b7b5 | Sun Belt          | SUNBELT
+ 30ba44da-12b9-4d16-94f8-791c9ebb12b2 | Independents (DI) | DI-IND
+ 3126fb79-47a7-4a57-b065-8b9d1bdb660d | Big Sky           | BIGSKY
+ 3b6a48d8-1f9c-484f-8ed0-ef0a540a0efe | American Athletic | AAC
+ 468829d1-8886-4c14-91d1-e6441673b2f6 | Southern          | SOUTHERN
+ 49665f99-1a5f-434f-b841-ddde229f0eb9 | Summit League     | SUMMIT
+(10 rows)
+
+SELECT *
+FROM Team
+LIMIT 10;
+                  id                  |     name     | alias |               venue_id               |            conference_id             
+--------------------------------------+--------------+-------+--------------------------------------+--------------------------------------
+ 0d037a5d-827a-44dd-8b70-57603d671d5d | Utes         | UTAH  | c06cdbce-91ba-4306-b31c-97df5cbf2515 | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ 1da70895-f77f-44ef-b216-d63c02e696eb | Ducks        | ORE   | 591ff737-8ad6-4a23-9de1-3721d5c4d8a1 | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ 2d4f0015-adb4-4877-8c15-4a6eed7eed03 | Cougars      | WSU   | cccd8a1b-21ba-40a5-b197-7561bc74cacb | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ 3a000455-de7c-4ca8-880e-abdce7f21da9 | Trojans      | USC   | d03346fb-8618-4ad7-bbd8-1554a003c472 | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ 532d3874-b4b3-4c5c-acc6-749a6db26c8f | Beavers      | ORST  | 02ccdcd1-9754-4816-9c68-2f7b9a27f844 | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ 683ab61f-546f-44da-b085-c3a5740554aa | Cardinal     | STAN  | 9fe460a5-6d1e-4e27-a152-f867e2d6d099 | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ 9b166a3f-e64b-4825-bb6b-92c6f0418263 | Wildcats     | ARIZ  | 60c78748-ee0e-4764-9c8c-141e876d2abf | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ 9fccbf28-2858-4263-821c-fdefb3c7efa3 | Buffaloes    | COLO  | 9adf9df2-fc71-4c24-8ddf-ad77f4a935f8 | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ aacdc78d-b7fa-48f6-9686-2fdb8a95030e | Golden Bears | CAL   | bf0a9070-8049-41c9-9a4e-dfa0dcf6ad07 | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+ ad4bc983-8d2e-4e6f-a8f9-80840a786c64 | Sun Devils   | ASU   | 1cfb6fcd-84c0-464a-b9bb-7ce687500dbc | 04d5255d-b2dc-43df-9fa8-d296b0f8ccd7
+(10 rows)
+
+SELECT *
+FROM Game
+LIMIT 10;
+                  id                  |             home_team_id             |             away_team_id             | scheduled_date | scheduled_time 
+--------------------------------------+--------------------------------------+--------------------------------------+----------------+----------------
+ b6d26b73-ba4c-41b9-8af5-65e8735280ad | 2e8442e9-bd09-4d46-9dd3-de79433287f3 | 2de2f805-e9dd-4126-9e0e-d2e568552cf8 | 2013-11-01     | 23:00:00+00:00
+ c58408d2-2e3d-428a-91d6-7579705e1502 | 2ed86226-3fff-4083-90fa-6b02307e6f73 | 61be018b-2981-4140-b33e-7149797e42cb | 2013-11-08     | 17:00:00+00:00
+ 39b58648-afd6-447d-8030-59bc349ab276 | 6dfaf0ba-47c4-4e05-b0a7-72734747d48f | aa7af640-5762-4686-9181-39f7b8a8186e | 2013-11-08     | 18:00:00+00:00
+ 3224b157-68a1-4f02-bdc7-ddafbdd9ded8 | 472c22e0-843d-472c-a871-f1593fb0725d | 9c712f87-bcf4-41a5-b19c-0b8ae0a7f016 | 2013-11-08     | 19:30:00+00:00
+ 60ed7cb9-40de-4167-ae67-c68eb756d641 | 227d3567-d57b-417e-afc4-735e4cb308a1 | 412e7f0d-fb93-4e6e-be1f-9a4c7490d121 | 2013-11-08     | 20:00:00+00:00
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 912f8837-1d81-4ef9-a576-a21f271d4c64 | 09920a5f-1b25-466c-b5ae-6167214f5ba9 | 2013-11-08     | 20:00:00+00:00
+ ab187e2a-3841-4d7f-9438-6b42aeb9fc2b | 1394dd8a-040e-4509-9ee3-761d60eaf6c9 | 61a3e5ab-1be3-4694-b83f-edae0953f409 | 2013-11-08     | 20:30:00+00:00
+ 52b2b738-8973-4f50-9caa-0b9f29dc934b | 820c8f26-cf11-4997-b2e2-19f47bd2f72f | dcc09eae-db08-404b-8f81-7f7a4fd37529 | 2013-11-08     | 21:05:00+00:00
+ 2803840c-a776-4346-828d-1a4c0ee8d4cd | a8ac24ca-3b7a-4610-ad99-042661584c48 | e48e3dd5-721c-4d96-8ff4-790fe2597bfd | 2013-11-08     | 22:00:00+00:00
+ 9c7072d3-a7af-4359-b9a8-a30bf63ccebb | b2fda957-e15c-4fb2-8a13-6e58496f561e | c2104cdc-c83d-40d2-a3cd-df986e29f5d3 | 2013-11-08     | 22:00:00+00:00
+(10 rows)
+
+SELECT *
+FROM Player
+LIMIT 10;
+                  id                  | first_name |  last_name   |               team_id                | height | weight | jersey_number | year | position |      birthplace      
+--------------------------------------+------------+--------------+--------------------------------------+--------+--------+---------------+------+----------+----------------------
+ 22d96bd6-4c1e-4d20-8c76-0cb92e3fe926 | Xan        | Ricketts     | 0d037a5d-827a-44dd-8b70-57603d671d5d |     79 |    217 |            40 | JR   | F        | Sandy, UT
+ 242744d5-6bca-4b22-a43c-c43d058bf76e | Delon      | Wright       | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    180 |            55 | JR   | G        | Lawndale, CA
+ 2fd206ae-9cfe-4b8f-bcf7-f2bb5ee4c4c7 | Jeremy     | Olsen        | 0d037a5d-827a-44dd-8b70-57603d671d5d |     82 |    228 |            41 | SO   | F        | Lawrenceville, GA
+ 49b7e1dd-5298-4167-8bed-7c43dd1c77dc | Parker     | Van Dyke     | 0d037a5d-827a-44dd-8b70-57603d671d5d |     75 |    170 |             5 | FR   | G        | Salt Lake City, UT
+ 5aae3032-ce69-4cfc-8291-a0fb54c25ea3 | Marko      | Kovacevic    | 0d037a5d-827a-44dd-8b70-57603d671d5d |     83 |    235 |             1 | JR   | F        | Belgrade, Serbia
+ 5ae0ead6-65ca-4ad2-af95-55ba43ddc170 | Connor     | Van Brocklin | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    195 |             0 | JR   | G        | Fruit Heights, UT
+ 6f7bd4eb-551a-4865-bfed-1f2ff5adaeec | Renan      | Lenz         | 0d037a5d-827a-44dd-8b70-57603d671d5d |     81 |    221 |            10 | SR   | F        | Santo Angelo, Brazil
+ 8dfc4920-2559-4381-bb15-7ac960b2765d | Princeton  | Onwas        | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    210 |             3 | JR   | F-G      | Katy, TX
+ 95c21f18-2bb4-46e5-85c1-a044d98d8e0c | Ahmad      | Fields       | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    190 |            13 | FR   | G        | Washington, D.C.
+ a72fdff9-ae8e-4794-8049-981a7ecdb584 | Dakarai    | Tucker       | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    187 |            14 | SO   | G-F      | Gardena, CA
+(10 rows)
+
+SELECT *
+FROM GameStats
+LIMIT 10;
+               game_id                |              player_id               | minutes | three_point_attempts | three_point_makes | two_point_attempts | two_point_makes | field_goal_attempts | field_goal_makes | free_throw_attempts | free_throw_makes | offensive_rebounds | defensive_rebounds | assists | turnovers | steals | blocks | personal_fouls | technical_fouls | flagrant_fouls | points 
+--------------------------------------+--------------------------------------+---------+----------------------+-------------------+--------------------+-----------------+---------------------+------------------+---------------------+------------------+--------------------+--------------------+---------+-----------+--------+--------+----------------+-----------------+----------------+--------
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 5b20dcea-511a-4f12-8e3d-1210f30f9cc3 |         |                    0 |                 0 |                  0 |               0 |                   0 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | c185e813-eefc-4be0-a156-aaa6f326f004 |      20 |                    0 |                 0 |                  2 |               0 |                   2 |                0 |                     |                2 |                  1 |                  1 |       1 |         0 |      1 |      2 |              2 |               0 |              0 |      2
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 3c6ae80c-8d2a-442e-a18a-bcbc39fe40da |      17 |                    0 |                 0 |                  2 |               1 |                   2 |                1 |                     |                2 |                  1 |                  0 |       0 |         2 |      0 |      0 |              2 |               0 |              0 |      4
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | c90c543f-1c4c-4d76-afd3-feda9ea83c3c |      24 |                    3 |                 1 |                  7 |               5 |                  10 |                6 |                     |                6 |                  1 |                  8 |       0 |         3 |      1 |      0 |              0 |               0 |              0 |     19
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | be75d64b-b599-4db6-805e-ce43027ec598 |         |                    0 |                 0 |                  0 |               0 |                   0 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | f3fdd051-e6e3-49ef-8bc6-d558cd1c6b27 |      19 |                    4 |                 1 |                  2 |               0 |                   6 |                1 |                     |                0 |                  0 |                  2 |       1 |         1 |      0 |      0 |              1 |               0 |              0 |      3
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | cb0dbdc0-1036-4118-88e5-ce3351b5ecac |      22 |                    1 |                 0 |                  3 |               0 |                   4 |                0 |                     |                2 |                  1 |                  4 |       3 |         1 |      4 |      0 |              3 |               0 |              0 |      2
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 07375b0d-b12f-49e5-a0fd-602740bd223d |       8 |                    1 |                 0 |                  1 |               0 |                   2 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 327eec9a-9e85-4d63-be5a-759e8566c90f |      26 |                    0 |                 0 |                  4 |               1 |                   4 |                1 |                     |                2 |                  0 |                  5 |       1 |         1 |      0 |      0 |              0 |               0 |              0 |      4
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 09417ee3-50b7-48d1-abc8-3a4651c1f00a |         |                    0 |                 0 |                  0 |               0 |                   0 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
+(10 rows)
+
+SELECT *
+FROM Score
+LIMIT 10;
+               game_id                | home_score | away_score 
+--------------------------------------+------------+------------
+ b6d26b73-ba4c-41b9-8af5-65e8735280ad |            |           
+ c58408d2-2e3d-428a-91d6-7579705e1502 |         77 |         45
+ 39b58648-afd6-447d-8030-59bc349ab276 |         68 |         79
+ 3224b157-68a1-4f02-bdc7-ddafbdd9ded8 |        101 |         49
+ 60ed7cb9-40de-4167-ae67-c68eb756d641 |         82 |         71
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 |         77 |         69
+ ab187e2a-3841-4d7f-9438-6b42aeb9fc2b |            |           
+ 52b2b738-8973-4f50-9caa-0b9f29dc934b |         76 |         81
+ 2803840c-a776-4346-828d-1a4c0ee8d4cd |         61 |         83
+ 9c7072d3-a7af-4359-b9a8-a30bf63ccebb |         82 |         73
+(10 rows)
+
+-- list of conferences for main Conferences page
+SELECT name
+FROM Conference
+ORDER BY name;
+          name           
+-------------------------
+ America East
+ American Athletic
+ Atlantic 10
+ Atlantic Coast
+ Atlantic Sun
+ Big 12
+ Big East
+ Big Sky
+ Big South
+ Big Ten
+ Big West
+ Colonial
+ Conference USA
+ Horizon
+ Independents (DI)
+ Ivy
+ Metro Atlantic Athletic
+ Mid-American
+ Mid Eastern Athletic
+ Missouri Valley
+ Mountain West
+ Northeast
+ Ohio Valley
+ Pacific 12
+ Patriot League
+ Southeastern
+ Southern
+ Southland
+ Southwestern Athletic
+ Summit League
+ Sun Belt
+ West Coast
+ Western Athletic
+(33 rows)
+
+--list of teams for Teams page
+SELECT id, name, alias
+FROM Team
+ORDER BY name
+LIMIT 10;
+                  id                  |   name    |  alias   
+--------------------------------------+-----------+----------
+ 8ddbfca9-a931-4908-aa31-9fcd17624b5f | 49ers     | CHAR
+ 11a617d5-af03-4cce-bc8a-51114d9e41fe | 49ers     | LBSU
+ d8217105-e9c2-4267-9538-3aaeea1ae167 | Aces      | EVAN
+ ef184799-d79b-49d9-a662-991eaf4044cd | Aggies    | TA&amp;M
+ 5016fe1a-9571-4d10-bf5b-b9c1b496bd57 | Aggies    | NMSU
+ 7672ff16-8436-47e6-8546-0fb5494ec7ee | Aggies    | USU
+ 8aaad1c0-d16e-4b9f-8541-dac670addd71 | Aggies    | UCD
+ 53aaac6a-796e-41a6-a04e-6ce74c5717f8 | Aggies    | NCAT
+ 39d00ef7-320d-47cf-a2fa-859bc24d16b4 | Anteaters | UCI
+ f7e6acc3-0778-4de5-940a-d88e20df1159 | Antelopes | GC
+(10 rows)
+
+--list of players for main Players page
+SELECT id, first_name, last_name
+FROM Player
+ORDER BY last_name, first_name
+LIMIT 10;
+                  id                  | first_name |  last_name   
+--------------------------------------+------------+--------------
+ cad077aa-9235-4031-975d-b9301c27bf00 | Jordan     | Aaberg
+ b099beb2-5882-43c3-857b-a64bd5af2473 | Mike       | Aaman
+ cd870888-954e-4f17-802a-902b44aa0828 | Jordan     | Aaron
+ 4a09658f-bd08-42cd-9b30-b7553c641025 | Joe        | Aase
+ ac8ca644-4a6a-43ef-a88f-0ac49d4e1d15 | Kwesi      | Abakah
+ 6a78de5e-d849-487c-9a73-53ed28f36211 | Muhammad   | Abdul-Aleem
+ d17ea994-2e39-435e-83c5-501fe5374be8 | Musa       | Abdul-Aleem
+ fee26b24-4228-44c9-8805-dc68a5b9866a | Jalil      | Abdul-Bassit
+ 3e4fb8de-503c-4985-9f53-271b7d5f0dcd | Ahmad      | Abdullah
+ e58b9394-8dc5-40ea-8137-080f96dfc09b | Remy       | Abell
+(10 rows)
+
+--general info for specific player
+SELECT *
+FROM Player
+WHERE id = 'cad077aa-9235-4031-975d-b9301c27bf00';
+                  id                  | first_name | last_name |               team_id                | height | weight | jersey_number | year | position | birthplace  
+--------------------------------------+------------+-----------+--------------------------------------+--------+--------+---------------+------+----------+-------------
+ cad077aa-9235-4031-975d-b9301c27bf00 | Jordan     | Aaberg    | 984e7518-e418-45d5-9797-979b8c2085c1 |     81 |    225 |            44 | SR   | F        | Rothsay, MN
+(1 row)
+
+--schedule for a given date
+SELECT *
+FROM Game
+WHERE scheduled_date = '2013-11-08';
+                  id                  |             home_team_id             |             away_team_id             | scheduled_date | scheduled_time 
+--------------------------------------+--------------------------------------+--------------------------------------+----------------+----------------
+ c58408d2-2e3d-428a-91d6-7579705e1502 | 2ed86226-3fff-4083-90fa-6b02307e6f73 | 61be018b-2981-4140-b33e-7149797e42cb | 2013-11-08     | 17:00:00+00:00
+ 39b58648-afd6-447d-8030-59bc349ab276 | 6dfaf0ba-47c4-4e05-b0a7-72734747d48f | aa7af640-5762-4686-9181-39f7b8a8186e | 2013-11-08     | 18:00:00+00:00
+ 3224b157-68a1-4f02-bdc7-ddafbdd9ded8 | 472c22e0-843d-472c-a871-f1593fb0725d | 9c712f87-bcf4-41a5-b19c-0b8ae0a7f016 | 2013-11-08     | 19:30:00+00:00
+ 60ed7cb9-40de-4167-ae67-c68eb756d641 | 227d3567-d57b-417e-afc4-735e4cb308a1 | 412e7f0d-fb93-4e6e-be1f-9a4c7490d121 | 2013-11-08     | 20:00:00+00:00
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 912f8837-1d81-4ef9-a576-a21f271d4c64 | 09920a5f-1b25-466c-b5ae-6167214f5ba9 | 2013-11-08     | 20:00:00+00:00
+ ab187e2a-3841-4d7f-9438-6b42aeb9fc2b | 1394dd8a-040e-4509-9ee3-761d60eaf6c9 | 61a3e5ab-1be3-4694-b83f-edae0953f409 | 2013-11-08     | 20:30:00+00:00
+ 52b2b738-8973-4f50-9caa-0b9f29dc934b | 820c8f26-cf11-4997-b2e2-19f47bd2f72f | dcc09eae-db08-404b-8f81-7f7a4fd37529 | 2013-11-08     | 21:05:00+00:00
+ 2803840c-a776-4346-828d-1a4c0ee8d4cd | a8ac24ca-3b7a-4610-ad99-042661584c48 | e48e3dd5-721c-4d96-8ff4-790fe2597bfd | 2013-11-08     | 22:00:00+00:00
+ 9c7072d3-a7af-4359-b9a8-a30bf63ccebb | b2fda957-e15c-4fb2-8a13-6e58496f561e | c2104cdc-c83d-40d2-a3cd-df986e29f5d3 | 2013-11-08     | 22:00:00+00:00
+ d0bd2b39-bffa-492f-9e21-ed1366a44d33 | 4c9fb59b-6cec-4b0d-bb0f-628b391d138c | 8709616c-fb1c-4210-bd0c-ec4bd68fd69f | 2013-11-08     | 22:30:00+00:00
+ 379cc7e3-1d74-4ab8-a6ec-f757fa1121e7 | 7d3b9c72-cbdd-4b64-9aa3-a5bde9b75fdc | 4b3ff02c-e0ba-435b-a565-6075bc491684 | 2013-11-08     | 23:00:00+00:00
+ 841e34f7-868e-4991-b5e4-b99babd00755 | 10f450ce-143b-4e46-8bfe-52c644b68b07 | 01b0a316-317f-4120-8447-9831231aef0b | 2013-11-08     | 23:00:00+00:00
+ df6348de-ac47-4598-a5d0-9f6aac7b099b | 2778d005-cc14-4e58-9bf2-3fc37bffb62f | efba5350-79bc-47aa-a189-db177b95b491 | 2013-11-08     | 23:30:00+00:00
+(13 rows)
+
+--box score for a given game
+SELECT *
+FROM GameStats
+WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080'
+LIMIT 10;
+               game_id                |              player_id               | minutes | three_point_attempts | three_point_makes | two_point_attempts | two_point_makes | field_goal_attempts | field_goal_makes | free_throw_attempts | free_throw_makes | offensive_rebounds | defensive_rebounds | assists | turnovers | steals | blocks | personal_fouls | technical_fouls | flagrant_fouls | points 
+--------------------------------------+--------------------------------------+---------+----------------------+-------------------+--------------------+-----------------+---------------------+------------------+---------------------+------------------+--------------------+--------------------+---------+-----------+--------+--------+----------------+-----------------+----------------+--------
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 5b20dcea-511a-4f12-8e3d-1210f30f9cc3 |         |                    0 |                 0 |                  0 |               0 |                   0 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | c185e813-eefc-4be0-a156-aaa6f326f004 |      20 |                    0 |                 0 |                  2 |               0 |                   2 |                0 |                     |                2 |                  1 |                  1 |       1 |         0 |      1 |      2 |              2 |               0 |              0 |      2
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 3c6ae80c-8d2a-442e-a18a-bcbc39fe40da |      17 |                    0 |                 0 |                  2 |               1 |                   2 |                1 |                     |                2 |                  1 |                  0 |       0 |         2 |      0 |      0 |              2 |               0 |              0 |      4
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | c90c543f-1c4c-4d76-afd3-feda9ea83c3c |      24 |                    3 |                 1 |                  7 |               5 |                  10 |                6 |                     |                6 |                  1 |                  8 |       0 |         3 |      1 |      0 |              0 |               0 |              0 |     19
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | be75d64b-b599-4db6-805e-ce43027ec598 |         |                    0 |                 0 |                  0 |               0 |                   0 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | f3fdd051-e6e3-49ef-8bc6-d558cd1c6b27 |      19 |                    4 |                 1 |                  2 |               0 |                   6 |                1 |                     |                0 |                  0 |                  2 |       1 |         1 |      0 |      0 |              1 |               0 |              0 |      3
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | cb0dbdc0-1036-4118-88e5-ce3351b5ecac |      22 |                    1 |                 0 |                  3 |               0 |                   4 |                0 |                     |                2 |                  1 |                  4 |       3 |         1 |      4 |      0 |              3 |               0 |              0 |      2
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 07375b0d-b12f-49e5-a0fd-602740bd223d |       8 |                    1 |                 0 |                  1 |               0 |                   2 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 327eec9a-9e85-4d63-be5a-759e8566c90f |      26 |                    0 |                 0 |                  4 |               1 |                   4 |                1 |                     |                2 |                  0 |                  5 |       1 |         1 |      0 |      0 |              0 |               0 |              0 |      4
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 09417ee3-50b7-48d1-abc8-3a4651c1f00a |         |                    0 |                 0 |                  0 |               0 |                   0 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
+(10 rows)
+
+-- specific team info
+SELECT *
+FROM Team
+WHERE id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f';
+                  id                  |    name     | alias |               venue_id               |            conference_id             
+--------------------------------------+-------------+-------+--------------------------------------+--------------------------------------
+ faeb1160-5d15-4f26-99fc-c441cf21fc7f | Blue Devils | DUKE  | c134cdf8-d1c8-4972-b4f2-8f167261eb50 | 88368ebb-01fb-44d5-a6c6-3e7d46bb3ab7
+(1 row)
+
+--list of players for a team, will also be used for specific team info
+SELECT *
+FROM Player
+WHERE team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f'
+ORDER BY last_name
+LIMIT 10;
+                  id                  | first_name | last_name |               team_id                | height | weight | jersey_number | year | position |     birthplace     
+--------------------------------------+------------+-----------+--------------------------------------+--------+--------+---------------+------+----------+--------------------
+ df89300b-42af-43eb-8873-7bda04941c56 | Quinn      | Cook      | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     73 |    175 |             2 | JR   | G        | WASHINGTON, DC
+ 1d3c6426-5cfa-4340-bc71-8b3f858c5690 | Andre      | Dawkins   | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     77 |    215 |            34 | SR   | G        | CHESAPEAKE, VA
+ e6446f66-4b8c-49bc-912f-40064035d21d | Josh       | Hairston  | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     80 |    235 |            15 | SR   | F        | FREDERICKSBURG, VA
+ cc26460b-35f0-4083-924a-54f2b6016f6e | Rodney     | Hood      | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     80 |    215 |             5 | SO   | F        | MERIDIAN, MS
+ 61af49d8-936e-4577-b2fa-e291f41bbae3 | Amile      | Jefferson | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     81 |    210 |            21 | SO   | F        | PHILADELPHIA, PA
+ 2f37c6dc-7c65-4048-ab4a-6ae1d8d67169 | Matt       | Jones     | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     76 |    200 |            13 | FR   | G        | DESOTO, TX
+ 712e73d7-60d5-45c9-8b44-2646260167f8 | Alex       | Murphy    | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     80 |    220 |            12 | SO   | F        | WAKEFIELD, RI
+ 210ed87b-6f02-402b-b6b2-45081f36d164 | Semi       | Ojeleye   | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     79 |    230 |            20 | FR   | F        | OTTAWA, KS
+ 55492e32-bf39-4d4e-8dfa-3695089b9cba | Nick       | Pagliuca  | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     75 |    175 |            45 | FR   | G        | WESTON, MA
+ b6dc050a-ac6a-4cce-8cc4-709f5e978ca2 | Jabari     | Parker    | faeb1160-5d15-4f26-99fc-c441cf21fc7f |     80 |    235 |             1 | FR   | F        | CHICAGO, IL
+(10 rows)
+
+--specific player's average statistics
+SELECT AVG(offensive_rebounds) AS ORPG, AVG(defensive_rebounds) AS DRPG, AVG(steals) AS SPG, 
+	AVG(assists) AS APG, AVG(personal_fouls) AS FPG, AVG(minutes) as MPG,
+    SUM(cast(three_point_makes as float))/SUM(three_point_attempts) AS three_percent,
+    SUM(cast(two_point_makes as float))/SUM(two_point_attempts) AS two_percent,
+    SUM(cast(free_throw_makes as float))/SUM(free_throw_attempts) AS free_percent,
+    (SUM(cast(two_point_makes as float)) * 2 + SUM(three_point_makes) * 3)/COUNT(*) AS avg_points
+FROM GameStats
+WHERE player_id = 'c90c543f-1c4c-4d76-afd3-feda9ea83c3c' AND minutes <> 0;
+          orpg          |        drpg        |          spg           |          apg           |          fpg           |         mpg         |   three_percent   |    two_percent    | free_percent | avg_points 
+------------------------+--------------------+------------------------+------------------------+------------------------+---------------------+-------------------+-------------------+--------------+------------
+ 1.00000000000000000000 | 8.0000000000000000 | 1.00000000000000000000 | 0.00000000000000000000 | 0.00000000000000000000 | 24.0000000000000000 | 0.333333333333333 | 0.714285714285714 |              |         13
+(1 row)
+
+/*
+SELECT Team.id, Team.alias, wins.wins
+FROM Team, (SELECT Team.id AS tid, COUNT(*) AS wins
+            FROM Team, Game, Score
+            WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND Score.home_score > Score.away_score)
+                   OR (Team.id = Game.away_team_id AND Game.id = Score.game_id and Score.home_score < Score.away_score)
+            GROUP BY tid) AS wins
+WHERE Team.conference_id = '302c99fe-6b0a-40ec-8ee7-f15a0355b7b5' AND Team.id = wins.tid;
+*/
+-- list of teams in a specific conference ordered by record
+SELECT  Team.id, Team.alias, wins.wins, losses.losses
+FROM Team, (SELECT Team.id AS tid, COUNT(*) AS wins
+			FROM Team, Game, Score
+			WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND Score.home_score > Score.away_score)
+				  OR (Team.id = Game.away_team_id AND Game.id = Score.game_id AND Score.home_score < Score.away_score)
+			GROUP BY tid) AS wins,
+			(SELECT Team.id AS tid, COUNT(*) AS losses
+			FROM Team, Game, Score
+			WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND Score.home_score < Score.away_score)
+				  OR (Team.id = Game.away_team_id AND Game.id = Score.game_id AND Score.home_score > Score.away_score)
+			GROUP BY tid) AS losses
+WHERE Team.conference_id = '04d5255d-b2dc-43df-9fa8-d296b0f8ccd7' AND Team.id = wins.tid AND Team.id = losses.tid
+ORDER BY wins.wins DESC, losses.losses ASC;	
+ id | alias | wins | losses 
+----+-------+------+--------
+(0 rows)
+
