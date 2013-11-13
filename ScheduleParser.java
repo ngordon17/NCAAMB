@@ -1,7 +1,9 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -17,7 +19,7 @@ public class ScheduleParser {
 	
 	public static void parse(String year, String ncaamb_season) throws Exception {
 		String url = SportDataReader.getScheduleURL(year, ncaamb_season);
-		SportDataReader.readSportData(url, SCHEDULE_OUTPUT);	
+		SportDataReader.readSportData(url, SCHEDULE_OUTPUT);
 		FileWriter game_writer = new FileWriter(new File(GAME_OUTPUT));
 		Element root = getDocumentElement(new File(SCHEDULE_OUTPUT));
 		
@@ -25,10 +27,10 @@ public class ScheduleParser {
 		root = (Element)  (root.getElementsByTagName("games").item(0));
 		
 		NodeList games = root.getElementsByTagName("game");
-		
+		Set<String> div_one_teams = new HashSet<String>(SportDataParser.findAllTeams());
 		for (int i = 0; i < games.getLength(); i++) {
 			Element game = (Element) games.item(i);
-			parseGame(game, game_writer);
+			parseGame(game, game_writer, div_one_teams);
 		}
 		
 		game_writer.close();	
@@ -70,10 +72,11 @@ public class ScheduleParser {
 		return game_ids;
 	}
 	
-	public static void parseGame(Element game, FileWriter game_writer) throws Exception {
+	public static void parseGame(Element game, FileWriter game_writer, Set<String> div_one_team_ids) throws Exception {
 		String id = game.getAttribute("id");
 		String home_team_id = game.getAttribute("home_team");
 		String away_team_id = game.getAttribute("away_team");
+		if (!div_one_team_ids.contains(home_team_id) || !div_one_team_ids.contains(away_team_id)) return;
 		String scheduled_date = game.getAttribute("scheduled").split("T")[0];
 		String scheduled_time = game.getAttribute("scheduled").split("T")[1];
 		
