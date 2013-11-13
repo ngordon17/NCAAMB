@@ -8,9 +8,9 @@ import java.net.URL;
 
 
 public class SportDataReader {
-	private static final String[] API_KEYS = new String[] {"hrk659wjj5nydjjx6mueq2m6", "kqe6mbgdzu7kchtnmcvm6sgc", 
+	private static final String[] API_KEYS = new String[] {"hrk659wjj5nydjjx6mueq2m6", "vknf9t57hm9jtscqxa3ak3dd", 
 		"gkpz93nzrgmerdnznrfggefm", "vdyyhmukpw2r2pepgf7azvqn", "3ycygyaqcytzb49z99uvtb9p", "ame4gk9kcgf3q9uaavgq8zer",
-		"msfaz8qr42k74xzhk9xx2awx", "vknf9t57hm9jtscqxa3ak3dd"};
+		"msfaz8qr42k74xzhk9xx2awx", "kqe6mbgdzu7kchtnmcvm6sgc"};
 	private static int API_KEY_INDEX = 0;
 	private static String API_KEY = "hrk659wjj5nydjjx6mueq2m6";
 	private static final String VERSION = "3";
@@ -114,11 +114,18 @@ public class SportDataReader {
 						}
 						else {
 							API_KEY = API_KEYS[API_KEY_INDEX];
+							
+							int beforeKey = url_path.indexOf("=");
+							url_path = url_path.substring(0, beforeKey + 1) + API_KEY;
+							url = new URL(url_path);
+							conn = (HttpURLConnection) url.openConnection();
+							conn.setRequestMethod("GET");
+							
 							System.err.println("NOTICE: Switching to new key: " + API_KEY);
 							count = 2;
 						}
 					}
-					else {System.err.println("ERROR: HTTP 403 - " + count + " tries remaining...");}
+					else {System.err.println("ERROR: HTTP 403 - " + count + " tries remaining... ");}
 					synchronized(SportDataReader.class) {SportDataReader.class.wait(10000);}
 				}
 				else {System.err.println("ERROR: Could not read from url...");}
