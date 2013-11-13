@@ -77,10 +77,10 @@ LIMIT 10;
  49b7e1dd-5298-4167-8bed-7c43dd1c77dc | Parker     | Van Dyke     | 0d037a5d-827a-44dd-8b70-57603d671d5d |     75 |    170 |             5 | FR   | G        | Salt Lake City, UT
  5aae3032-ce69-4cfc-8291-a0fb54c25ea3 | Marko      | Kovacevic    | 0d037a5d-827a-44dd-8b70-57603d671d5d |     83 |    235 |             1 | JR   | F        | Belgrade, Serbia
  5ae0ead6-65ca-4ad2-af95-55ba43ddc170 | Connor     | Van Brocklin | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    195 |             0 | JR   | G        | Fruit Heights, UT
+ 6860baf8-72e1-4e57-b94f-009ca56c65f9 | Austin     | Eastman      | 0d037a5d-827a-44dd-8b70-57603d671d5d |        |        |            15 | FR   | F-G      | 
  6f7bd4eb-551a-4865-bfed-1f2ff5adaeec | Renan      | Lenz         | 0d037a5d-827a-44dd-8b70-57603d671d5d |     81 |    221 |            10 | SR   | F        | Santo Angelo, Brazil
  8dfc4920-2559-4381-bb15-7ac960b2765d | Princeton  | Onwas        | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    210 |             3 | JR   | F-G      | Katy, TX
  95c21f18-2bb4-46e5-85c1-a044d98d8e0c | Ahmad      | Fields       | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    190 |            13 | FR   | G        | Washington, D.C.
- a72fdff9-ae8e-4794-8049-981a7ecdb584 | Dakarai    | Tucker       | 0d037a5d-827a-44dd-8b70-57603d671d5d |     77 |    187 |            14 | SO   | G-F      | Gardena, CA
 (10 rows)
 
 SELECT *
@@ -244,6 +244,36 @@ LIMIT 10;
  fbd4d02d-a1cc-4274-b186-4e6b08942080 | 327eec9a-9e85-4d63-be5a-759e8566c90f |      26 |                    0 |                 0 |                  4 |               1 |                   4 |                1 |                     |                2 |                  0 |                  5 |       1 |         1 |      0 |      0 |              0 |               0 |              0 |      4
  fbd4d02d-a1cc-4274-b186-4e6b08942080 | 09417ee3-50b7-48d1-abc8-3a4651c1f00a |         |                    0 |                 0 |                  0 |               0 |                   0 |                0 |                     |                0 |                  0 |                  0 |       0 |         0 |      0 |      0 |              0 |               0 |              0 |      0
 (10 rows)
+
+--score for a specific game
+SELECT *
+FROM Score
+WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080';
+               game_id                | home_score | away_score 
+--------------------------------------+------------+------------
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 |         77 |         69
+(1 row)
+
+--scores for a given date
+SELECT id, home_team_id, away_team_id, home_score, away_score
+FROM Score, Game
+WHERE scheduled_date = '2013-11-08' AND id = game_id;
+                  id                  |             home_team_id             |             away_team_id             | home_score | away_score 
+--------------------------------------+--------------------------------------+--------------------------------------+------------+------------
+ c58408d2-2e3d-428a-91d6-7579705e1502 | 2ed86226-3fff-4083-90fa-6b02307e6f73 | 61be018b-2981-4140-b33e-7149797e42cb |         77 |         45
+ 39b58648-afd6-447d-8030-59bc349ab276 | 6dfaf0ba-47c4-4e05-b0a7-72734747d48f | aa7af640-5762-4686-9181-39f7b8a8186e |         68 |         79
+ 3224b157-68a1-4f02-bdc7-ddafbdd9ded8 | 472c22e0-843d-472c-a871-f1593fb0725d | 9c712f87-bcf4-41a5-b19c-0b8ae0a7f016 |        101 |         49
+ 60ed7cb9-40de-4167-ae67-c68eb756d641 | 227d3567-d57b-417e-afc4-735e4cb308a1 | 412e7f0d-fb93-4e6e-be1f-9a4c7490d121 |         82 |         71
+ fbd4d02d-a1cc-4274-b186-4e6b08942080 | 912f8837-1d81-4ef9-a576-a21f271d4c64 | 09920a5f-1b25-466c-b5ae-6167214f5ba9 |         77 |         69
+ ab187e2a-3841-4d7f-9438-6b42aeb9fc2b | 1394dd8a-040e-4509-9ee3-761d60eaf6c9 | 61a3e5ab-1be3-4694-b83f-edae0953f409 |            |           
+ 52b2b738-8973-4f50-9caa-0b9f29dc934b | 820c8f26-cf11-4997-b2e2-19f47bd2f72f | dcc09eae-db08-404b-8f81-7f7a4fd37529 |         76 |         81
+ 2803840c-a776-4346-828d-1a4c0ee8d4cd | a8ac24ca-3b7a-4610-ad99-042661584c48 | e48e3dd5-721c-4d96-8ff4-790fe2597bfd |         61 |         83
+ 9c7072d3-a7af-4359-b9a8-a30bf63ccebb | b2fda957-e15c-4fb2-8a13-6e58496f561e | c2104cdc-c83d-40d2-a3cd-df986e29f5d3 |         82 |         73
+ d0bd2b39-bffa-492f-9e21-ed1366a44d33 | 4c9fb59b-6cec-4b0d-bb0f-628b391d138c | 8709616c-fb1c-4210-bd0c-ec4bd68fd69f |        119 |         56
+ 379cc7e3-1d74-4ab8-a6ec-f757fa1121e7 | 7d3b9c72-cbdd-4b64-9aa3-a5bde9b75fdc | 4b3ff02c-e0ba-435b-a565-6075bc491684 |         82 |         78
+ 841e34f7-868e-4991-b5e4-b99babd00755 | 10f450ce-143b-4e46-8bfe-52c644b68b07 | 01b0a316-317f-4120-8447-9831231aef0b |         72 |         67
+ df6348de-ac47-4598-a5d0-9f6aac7b099b | 2778d005-cc14-4e58-9bf2-3fc37bffb62f | efba5350-79bc-47aa-a189-db177b95b491 |         77 |         78
+(13 rows)
 
 -- specific team info
 SELECT *
