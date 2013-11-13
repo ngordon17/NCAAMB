@@ -1,10 +1,11 @@
 import java.io.File;
 import java.io.FileWriter;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -18,11 +19,12 @@ public class GameStatsParser {
 	
 	public static void parse(String year, String ncaamb_season, String curr_date) throws Exception {
 		List<String> game_ids = ScheduleParser.findAllGames(year, ncaamb_season, curr_date);
+		Set<String> div_one_teams = new HashSet<String>(SportDataParser.findAllTeams());
 		FileWriter game_stats_writer = new FileWriter(new File(GAME_STATS_OUTPUT));
 		FileWriter score_writer = new FileWriter(new File(SCORE_OUTPUT));
 		for(int i = 0; i < game_ids.size(); i++) {
 			synchronized(GameStatsParser.class) {GameStatsParser.class.wait(1000);}
-			parseGameSummary(game_ids.get(i), game_stats_writer, score_writer);
+			parseGameSummary(game_ids.get(i), game_stats_writer, score_writer, div_one_teams);
 			//game_stats_writer.flush();
 			System.out.println("Parsed Game: " + game_ids.get(i) + " Games Remaining: " + (game_ids.size() - i));
 			synchronized(GameStatsParser.class) {GameStatsParser.class.wait(1000);}
@@ -31,13 +33,18 @@ public class GameStatsParser {
 		game_stats_writer.close();	
 	}
 	
-	public static void parseGameSummary(String game_id, FileWriter game_stats_writer, FileWriter score_writer) throws Exception {
+	public static void parseGameSummary(String game_id, FileWriter game_stats_writer, FileWriter score_writer, Set<String> div_one_team_ids) throws Exception {
 		String url = SportDataReader.getGameSummaryURL(game_id);
 		SportDataReader.readSportData(url, GAME_SUMMARY_OUTPUT);
 		
 		Element root = getDocumentElement(new File(GAME_SUMMARY_OUTPUT));
 		
+		String home_team_id = root.getAttribute("home_team");
+		String away_team_id = root.getAttribute("away_team");
+		if (!div_one_team_ids.contains(home_team_id) || !div_one_team_ids.contains(away_team_id)) return;
+		
 		NodeList teams = root.getElementsByTagName("team");
+		
 		String[] scores = new String[2];
 		for (int i = 0; i < teams.getLength(); i++) {
 			Element team = (Element) teams.item(i);

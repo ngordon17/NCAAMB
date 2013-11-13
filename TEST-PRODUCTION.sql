@@ -53,6 +53,11 @@ SELECT *
 FROM Game
 WHERE scheduled_date = '2013-11-08';
 
+--schedule for a given team
+SELECT *
+FROM Game
+WHERE home_team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f' OR away_team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f';
+
 --box score for a given game
 SELECT *
 FROM GameStats
