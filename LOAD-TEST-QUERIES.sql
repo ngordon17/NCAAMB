@@ -59,7 +59,12 @@ FROM GameStats
 WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080'
 LIMIT 10;
 
---list of players for a team
+-- specific team info
+SELECT *
+FROM Team
+WHERE id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f';
+
+--list of players for a team, will also be used for specific team info
 SELECT *
 FROM Player
 WHERE team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f'
