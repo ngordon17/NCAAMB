@@ -4,6 +4,7 @@
 49b7e1dd-5298-4167-8bed-7c43dd1c77dc|Parker|Van Dyke|0d037a5d-827a-44dd-8b70-57603d671d5d|75|170|5|FR|G|Salt Lake City, UT
 5aae3032-ce69-4cfc-8291-a0fb54c25ea3|Marko|Kovacevic|0d037a5d-827a-44dd-8b70-57603d671d5d|83|235|1|JR|F|Belgrade, Serbia
 5ae0ead6-65ca-4ad2-af95-55ba43ddc170|Connor|Van Brocklin|0d037a5d-827a-44dd-8b70-57603d671d5d|77|195|0|JR|G|Fruit Heights, UT
+6860baf8-72e1-4e57-b94f-009ca56c65f9|Austin|Eastman|0d037a5d-827a-44dd-8b70-57603d671d5d|||15|FR|F-G|
 6f7bd4eb-551a-4865-bfed-1f2ff5adaeec|Renan|Lenz|0d037a5d-827a-44dd-8b70-57603d671d5d|81|221|10|SR|F|Santo Angelo, Brazil
 8dfc4920-2559-4381-bb15-7ac960b2765d|Princeton|Onwas|0d037a5d-827a-44dd-8b70-57603d671d5d|77|210|3|JR|F-G|Katy, TX
 95c21f18-2bb4-46e5-85c1-a044d98d8e0c|Ahmad|Fields|0d037a5d-827a-44dd-8b70-57603d671d5d|77|190|13|FR|G|Washington, D.C.
@@ -168,7 +169,7 @@ fdd92235-668b-438f-be63-73ca4a9048f4|Egor|Koulechov|ad4bc983-8d2e-4e6f-a8f9-8084
 90fd329a-23fe-4133-9b29-2dd2b43618c2|Desmond|Simmons|e52c9644-717a-46f4-bf16-aeca000b3b44|79|220|30|JR|F|Vallejo, CA
 b66396d0-8050-4a35-b2ac-e2ae267476f1|Robert|Upshaw|e52c9644-717a-46f4-bf16-aeca000b3b44|83|255|24|SO|C|Fresno, CA
 b98eb078-611f-46d6-92f5-9a150b2a356e|Jahmel|Taylor|e52c9644-717a-46f4-bf16-aeca000b3b44|70|180|21|FR|G|Los Angeles, CA
-c22df01e-9da8-4014-bf44-0ce399dc9805|Shawn|Kemp, Jr.|e52c9644-717a-46f4-bf16-aeca000b3b44|81|255|40|JR|F|Canton, GA
+c22df01e-9da8-4014-bf44-0ce399dc9805|Shawn|Kemp|e52c9644-717a-46f4-bf16-aeca000b3b44|81|255|40|JR|F|Canton, GA
 e17d1317-4fc4-407e-89fc-ba57843007d6|Gilles|Dierickx|e52c9644-717a-46f4-bf16-aeca000b3b44|83|220|34|SO|C|Ghent, Belguim
 e566dba9-e3eb-41bf-ba5b-dd1bfda9d284|C.J.|Wilcox|e52c9644-717a-46f4-bf16-aeca000b3b44|77|195|23|SR|G|Pleasant Grove, UT
 fffa7de7-2335-451e-9823-2a1b121adbc3|Quinn|Sterling|e52c9644-717a-46f4-bf16-aeca000b3b44|76|185|22|JR|G|Mercer Island, WA
@@ -584,7 +585,7 @@ fdf1b6d0-d94d-47b7-bcbf-19ef5ed46aa4|Ford|Stuen|8ab00d43-840a-4c96-bdee-bf88fa6e
 aa54bffa-50d8-4f14-ab06-0975854bf681|D.J.|Bennett|b2fda957-e15c-4fb2-8a13-6e58496f561e|80|202|31|JR|F|CHICAGO, IL
 cb8b608e-bca4-4bb3-bcee-b9ce8f7fc83c|Keshaun|Hamilton|b2fda957-e15c-4fb2-8a13-6e58496f561e|82|270|4|JR|C|PALATKA, FL
 d4647a2e-e0eb-4472-857c-e5bdcc369c24|James|Fraschilla|b2fda957-e15c-4fb2-8a13-6e58496f561e|70|150|13|JR|G|DALLAS, TX
-e0eed913-dba5-4e30-a4f3-0b0bf78a3323|Buddy|Hield|b2fda957-e15c-4fb2-8a13-6e58496f561e|75|199|3|SO|G|FREEPORT,, BHS
+e0eed913-dba5-4e30-a4f3-0b0bf78a3323|Buddy|Hield|b2fda957-e15c-4fb2-8a13-6e58496f561e|75|199|24|SO|G|FREEPORT,, BHS
 ea20f65a-d553-4ffa-9aa6-8a56acfc1310|Trey|Slate|b2fda957-e15c-4fb2-8a13-6e58496f561e|73|196|45|FR|G|GORE, OK
 f8bca9b6-fa0f-4f59-b61a-b3aec6c613da|Cameron|Clark|b2fda957-e15c-4fb2-8a13-6e58496f561e|79|209|21|SR|G-F|SHERMAN, TX
 057db752-67b8-4110-9571-e87bac4deffd|Marcus|Foster|d203f38a-a166-4258-bca2-e161b591ecfb|74|200|2|FR|G|WICHITA FALLS, TX
@@ -673,7 +674,7 @@ cf8faa33-0349-40a8-8ab4-3a8d3a753ee0|Patrick|Strake|f8c705b7-87d3-411a-9c8b-5124
 8b4216bd-388e-4f6d-adcf-e9d35c5b4ebb|Christian|Garrett|fae4855b-1b64-4b40-a632-9ed345e1e952|75|185|15|JR|G|LOS ANGELES, CA
 8cd91331-549c-44ff-a119-b64968756767|Andrew|Wiggins|fae4855b-1b64-4b40-a632-9ed345e1e952|80|200|22|FR|G|THORNHILL, ON, CA
 913d72bc-1917-49ec-b84b-e5858778a28b|Tarik|Black|fae4855b-1b64-4b40-a632-9ed345e1e952|81|260|25|SR|F|MEMPHIS, TN
-9c57be8e-02e0-4e8f-82b3-a41bb24aa765|Wayne|Seldon Jr.|fae4855b-1b64-4b40-a632-9ed345e1e952|77|230|1|FR|G|ROXBURY, MA
+9c57be8e-02e0-4e8f-82b3-a41bb24aa765|Wayne|Selden|fae4855b-1b64-4b40-a632-9ed345e1e952|77|230|1|FR|G|ROXBURY, MA
 a2fc744c-ac4d-44fa-b74e-ea128d624dac|Frank|Mason|fae4855b-1b64-4b40-a632-9ed345e1e952|71|185|0|FR|G|PETERSBURG, VA
 b953ce06-9523-4406-835b-9612cbeb024b|Tyler|Self|fae4855b-1b64-4b40-a632-9ed345e1e952|74|165|11|SO|G|LAWRENCE, KS
 d93fa10a-aec6-4861-ada3-47111651ece1|Brannen|Greene|fae4855b-1b64-4b40-a632-9ed345e1e952|79|215|14|FR|G|JULIETTE, GA
@@ -842,11 +843,11 @@ e247696e-4cf6-48de-bc5c-dde242145871|Terrence|Smith|500d7223-ecff-494b-9539-2842
 e975548f-2f2a-4208-bc91-682fd9066a92|Tim|Coleman|500d7223-ecff-494b-9539-28427156c783|77|210|2|FR|F|Union, NJ
 f57cdacc-9d91-4ee8-a3ef-0b8d6e05dec5|Rob|Ukawuba|500d7223-ecff-494b-9539-28427156c783|75|210|25|FR|G|East Brunswick, NJ
 105a224f-9924-4fc1-ae79-936b122118f9|Chris|Heine|1753768d-e46e-40b1-8d69-a8ae5cccec03|73|175|10|JR|G|PHOENIX, AZ
-1aa1a4b4-7f7b-468d-8d2c-13e45bc18ffa|Gaellan|Bewernick|1753768d-e46e-40b1-8d69-a8ae5cccec03|78|215|20|JR|F|LOS ANGELES, CA
+1aa1a4b4-7f7b-468d-8d2c-13e45bc18ffa|Gaellan|Bewernick|1753768d-e46e-40b1-8d69-a8ae5cccec03|78|215|32|JR|F|LOS ANGELES, CA
 2c555e47-47de-4574-9371-35b4aeb05fe3|Jordan|Banks|1753768d-e46e-40b1-8d69-a8ae5cccec03|73|175|23|JR|G|LENEXA, KS
 643ac6dc-4e3a-48ba-bb30-0a90b1454189|Quinton|Upshur|1753768d-e46e-40b1-8d69-a8ae5cccec03|77|207|2|JR|G|NORFOLK, VA
 64fa2063-e25d-4413-8784-6b5146fc9a1d|Zachary|Reynolds|1753768d-e46e-40b1-8d69-a8ae5cccec03|79|240|14|JR|F|TAMPA BAY, FL
-72c1de7b-67c9-4a88-9640-e310ac0b2455|Len|Springs|1753768d-e46e-40b1-8d69-a8ae5cccec03|82|220|32|JR|F-C|COMPTON, CA
+72c1de7b-67c9-4a88-9640-e310ac0b2455|Len|Springs|1753768d-e46e-40b1-8d69-a8ae5cccec03|82|220|15|JR|F-C|COMPTON, CA
 7bf3809a-8ae5-4a31-b03c-7c7e885829bb|Kris|Yanku|1753768d-e46e-40b1-8d69-a8ae5cccec03|76|183|4|FR|G|CHATSWORTH, CA
 a037a662-e599-4aed-87b8-8e99e5ec6d63|Aaseem|Dixon|1753768d-e46e-40b1-8d69-a8ae5cccec03|72|185|1|JR|G|LAS VEGAS, NV
 a9de6046-b120-4dab-848f-eadfeeb92a86|Ako|Kaluna|1753768d-e46e-40b1-8d69-a8ae5cccec03|79|276|11|FR|F-C|STEVENSON RANCH, CA
@@ -1107,6 +1108,7 @@ f9e0ede2-1059-4b25-8742-56eb82254975|Daniel|Dingle|8598d1b6-106b-4083-a512-2e495
 dc271099-a9c3-4f8b-9b70-1507af4da6a1|Jermaine|Sanders|a17dfc54-415f-49c3-a2e6-d6fa9db18b0a|77|215|15|JR|F|FAR ROCKAWAY, NY
 dfa9a3a6-85de-48fc-bf4e-178d077d949d|Shaquille|Thomas|a17dfc54-415f-49c3-a2e6-d6fa9db18b0a|79|187|3|SO|F|PATERSON, NJ
 f7cb2a42-099a-4576-a9ea-de9aa89bfc58|Jermaine|Lawrence|a17dfc54-415f-49c3-a2e6-d6fa9db18b0a|81|205|11|FR|F|SPRINGFIELD GARDENS, NY
+128141c8-442a-4b4d-a0f7-9cd97a8ea0ea|Jalen|Hyde|b03bb029-4499-4a2c-9074-5071ed360b21|||23|FR|F-G|
 242bcebf-17f4-45f4-8415-c911903e5a3c|Logan|Kelley|b03bb029-4499-4a2c-9074-5071ed360b21|74|200|30|SO|G|MOUNTAINSIDE, NJ
 2ea02312-8569-42e9-84f9-4cf656d54684|Kerwin|Okoro|b03bb029-4499-4a2c-9074-5071ed360b21|77|220|3|SO|G-F|BRONX, NY
 472acd2c-fbd0-4974-b575-e1fca456af2b|Jerome|Seagears|b03bb029-4499-4a2c-9074-5071ed360b21|73|175|1|JR|G|SILVER SPRINGS, MD
@@ -1814,7 +1816,7 @@ fdb3481a-f528-4a21-bad0-93d5a2994ff3|Denzell|Taylor|ce967953-5c50-4220-87b2-99ac
 35e65f88-3e72-4262-8c38-112bc9a8d4ba|Issiah|Grayson|2da57857-b038-4ad3-8199-e3fb339f57d2|71|165|12|SR|G|Atlanta, GA
 48626f7e-67f9-46ff-b9d3-0d31e9560cc0|Brandon|Barnes|2da57857-b038-4ad3-8199-e3fb339f57d2|73|195|32|SR|G|Douglasville, GA
 52ea2a8f-772b-4977-a56a-92515baf4fd6|Deng|Deng|2da57857-b038-4ad3-8199-e3fb339f57d2|80|175|30|SO|F|Aweil, South Sudan
-6abf6461-010a-4e91-8239-72ff03b2c91d|Tyler|Smith|2da57857-b038-4ad3-8199-e3fb339f57d2|83|265|55|JR|C|McLoud, OK
+6abf6461-010a-4e91-8239-72ff03b2c91d|Zech|Smith|2da57857-b038-4ad3-8199-e3fb339f57d2|83|265|55|JR|C|McLoud, OK
 7a915174-ed46-4288-8fb1-5a93c3aa067b|Zach|Lamb|2da57857-b038-4ad3-8199-e3fb339f57d2|75|180|5|SR|G|Norcross, GA
 7b041254-eb26-414d-a9a1-f092320debc3|Corey|Hall|2da57857-b038-4ad3-8199-e3fb339f57d2|79|210|22|SR|F|Chicago, IL
 918a84dc-c923-4e57-b0f8-c66318f175e8|Tyrell|Corbin|2da57857-b038-4ad3-8199-e3fb339f57d2|72|180|2|JR|G|Columbia, SC
@@ -1846,6 +1848,7 @@ ed302b6d-3867-4cb6-b5bc-5523a9b3b9cd|Joshua|Batson|2f8c85a7-54f4-4942-be16-2cbac
 56fca896-adb6-4679-b0b3-8f99ea164a77|Marquis|Salmon|4200f37c-86e0-413e-a5c4-e5edf1e272e7|79||33|FR|F|Los Angeles, CA
 5f683ee6-85a8-41ed-a900-b4a028456c33|Hayes|Garrity|4200f37c-86e0-413e-a5c4-e5edf1e272e7|73||2|SO|G|Beaverton, OR
 977539a5-cc63-49ca-a828-20960e8cd8ef|Zach|Nelson|4200f37c-86e0-413e-a5c4-e5edf1e272e7|79||21|FR|F|Yuba City, CA
+a683a630-ae76-42e1-8f13-bc37a902b77f|Brenden|Evans|4200f37c-86e0-413e-a5c4-e5edf1e272e7|77||20|JR|F|
 b06abce0-b339-4b46-a6a1-ec52c58ee808|Chad|Ross|4200f37c-86e0-413e-a5c4-e5edf1e272e7|79||22|JR|F|Snellville, GA
 b3d34251-59b3-43bc-ba20-79ccad0a01a9|Holton|Hunsaker|4200f37c-86e0-413e-a5c4-e5edf1e272e7|72||12|SR|G|North Salt Lake City, UT
 bc252643-4eff-45d3-b06d-8a8cf95fb1f2|Eli|Robison|4200f37c-86e0-413e-a5c4-e5edf1e272e7|77||44|FR|F|Provo, UT
@@ -2500,7 +2503,7 @@ fb3b3bd5-7dfe-4e07-8ccf-43b85ca78352|Larry|Haley|ffa04cde-aa2d-4e91-b2cd-bde2bfe
 2d02a800-8355-4ab3-87e3-ce8df3e542e1|Trae|Golden|0f63a6f5-bda7-4fd9-9271-8d33f555ca19|74|205|23|SR|G|POWDER SPRINGS, GA
 3bb0946b-64ec-44da-b2e6-f44720d294d3|Colin|Gurry|0f63a6f5-bda7-4fd9-9271-8d33f555ca19|73|183|41|SO|G|CANTON, CT
 3d04f04a-7415-47de-b768-61f45c26e8ae|Brooks|Doyle|0f63a6f5-bda7-4fd9-9271-8d33f555ca19|76|199|32|SO|G|ATLANTA, GA
-40c39549-a9f5-406d-aa24-7d0f2f6a6786|Robert|Carter Jr.|0f63a6f5-bda7-4fd9-9271-8d33f555ca19|80|247|4|SO|F|THOMASVILLE, GA
+40c39549-a9f5-406d-aa24-7d0f2f6a6786|Robert|Carter|0f63a6f5-bda7-4fd9-9271-8d33f555ca19|80|247|4|SO|F|THOMASVILLE, GA
 4457e431-fabd-4388-a143-ef0a2b5f7d2d|Quinton|Stephens|0f63a6f5-bda7-4fd9-9271-8d33f555ca19|80|184|12|FR|F|ATLANTA, GA
 4f360cb2-377d-4e8e-95e8-6612569f9539|Kammeon|Holsey|0f63a6f5-bda7-4fd9-9271-8d33f555ca19|80|234|24|SR|F|SPARTA, GA
 63ca3cc2-e0be-4689-a2fe-86f9bdab01ec|Daniel|Miller|0f63a6f5-bda7-4fd9-9271-8d33f555ca19|83|275|5|SR|C|LOGANVILLE, GA
@@ -2583,6 +2586,7 @@ f87c3418-868c-4adc-abe4-81b4649cb38e|Lonnie|Jackson|4b3ff02c-e0ba-435b-a565-6075
 3f597964-1fc5-45b7-b6c6-7438b33cbab8|Devin|Thomas|4fbebf0a-e117-4a0c-8f15-c247535a2a1b|81|245|2|SO|F|HARRISBURG, PA
 529a62f1-2b55-4eb7-86bc-64fa29b73725|Travis|McKie|4fbebf0a-e117-4a0c-8f15-c247535a2a1b|79|220|30|SR|F|RICHMOND, VA
 52ce313e-547f-48e8-bd9d-9963d7d2ea5a|Doug|Niedrich|4fbebf0a-e117-4a0c-8f15-c247535a2a1b|78|200|52|JR|F|KILDEER, IL
+768429c5-dd23-4278-9c94-a2896c9b6040|Stephen|Prendergast|4fbebf0a-e117-4a0c-8f15-c247535a2a1b|73|175|35||G|
 81b05b4a-43e8-4343-b9ad-bde277b68726|Tyler|Cavanaugh|4fbebf0a-e117-4a0c-8f15-c247535a2a1b|81|230|34|SO|F|JAMESVILLE, NY
 919bb329-40d0-46d9-a116-f707141bb5fa|Aaron|Rountree|4fbebf0a-e117-4a0c-8f15-c247535a2a1b|80|195|33|SO|F|WILSON, NC
 b4f40c24-1187-4f7d-b057-e5ac28d8831b|Daniel|Green|4fbebf0a-e117-4a0c-8f15-c247535a2a1b|82|230|4|SO|F|COLLEYVILLE, TX
@@ -3097,7 +3101,7 @@ ee3c7d8f-03b9-484a-a75f-d0f7a181bd4e|Sommy|Ogukwe|559db90c-741f-40d1-aa81-3fdd1d
 87d16e10-8777-4fda-97ec-305e23f64f89|Leron|Fisher|600aad0e-85e7-4db8-be0b-94ba02a08e55|71|160|1|SO|G|BALTIMORE, MD
 9424ab3f-ee9d-4529-9489-d9050e219d36|Isaac|Belton|600aad0e-85e7-4db8-be0b-94ba02a08e55|76|205|15|FR|G|SALEM, VA
 d1288f46-665d-4587-9683-c25393af7519|David|Robinson|600aad0e-85e7-4db8-be0b-94ba02a08e55|75|190|13|SR|G|CHESTERFIELD, VA
-ecaac5b2-3728-4dac-9e89-2d1d8148f6de|Curtis|Rowser III|600aad0e-85e7-4db8-be0b-94ba02a08e55|73|165|5|FR|G|STAFFORD, VA
+ecaac5b2-3728-4dac-9e89-2d1d8148f6de|Curtis|Rowser|600aad0e-85e7-4db8-be0b-94ba02a08e55|73|165|5|FR|G|STAFFORD, VA
 f610991d-79d8-4bc6-ba4a-aa80c567542f|Darrion|Allen|600aad0e-85e7-4db8-be0b-94ba02a08e55|74|165|3|FR|G|POMPANO BEACH, FL
 f79fc3af-25e7-4149-bcdb-9fd417de9567|Eric|Shaw|600aad0e-85e7-4db8-be0b-94ba02a08e55|79|192|4|FR|F|STAFFORD, VA
 f81d05c1-1c1f-416f-955f-366e1a16416f|Lucas|Woodhouse|600aad0e-85e7-4db8-be0b-94ba02a08e55|73|165|2|SO|G|GREENLAWN, NY
@@ -3449,7 +3453,7 @@ faf1edba-7512-4f07-be40-7efe3840d40a|Danny|Berger|7672ff16-8436-47e6-8546-0fb549
 0f632186-130a-4dbb-8c94-dc4647744386|Austin|Haldorson|a7127c0a-a466-47ae-91ad-9a71ee2c9427|80|210|21|SO|F|Highlands Ranch, CO
 0ff6f421-3f80-439d-b14c-9eb2b94efaf9|Aaron|Tyser|a7127c0a-a466-47ae-91ad-9a71ee2c9427|76|205|3|SO|G|Buffalo, WY
 1ee8da52-1253-4c48-b34a-738f13a53882|Zane|Stull|a7127c0a-a466-47ae-91ad-9a71ee2c9427|73|185|33|FR|G|Omaha, NE
-2bbc3fb0-effb-40a2-83d1-2c30de9826d1|Charles|Hankerson Jr.|a7127c0a-a466-47ae-91ad-9a71ee2c9427|76|220|1|JR|G|Miami, FL
+2bbc3fb0-effb-40a2-83d1-2c30de9826d1|Charles|Hankerson|a7127c0a-a466-47ae-91ad-9a71ee2c9427|76|220|1|JR|G|Miami, FL
 327f048c-ea27-4862-9be2-b79b7dedf71e|Jason|McManamen|a7127c0a-a466-47ae-91ad-9a71ee2c9427|77|190|23|SO|G|Torrington, WY
 52257ee1-a161-4837-a792-d444ed92bb8f|Josh|Adams|a7127c0a-a466-47ae-91ad-9a71ee2c9427|74|175|14|SO|G|Parker, CO
 6602c69b-7171-42cf-a7b5-dde979d40aa2|Alan|Herndon|a7127c0a-a466-47ae-91ad-9a71ee2c9427|81|200|32|FR|F|Colorado Springs, CO
@@ -3920,7 +3924,7 @@ ee8b61fe-1662-4f6a-a274-e753634831e0|Bryson|Scott|12d7f888-675b-459f-9099-a38f77
 0d26f907-be1b-4607-a6f7-ed2bd1339356|Rayvonte|Rice|150148c2-ca8f-414f-8f41-d94a55d4a122|76|235|24|JR|G|CHAMPAIGN, IL
 0f745d10-aa6c-4ac3-90da-e8af9cc7ebb4|Aaron|Cosby|150148c2-ca8f-414f-8f41-d94a55d4a122|75|195|11|JR|G|LOUISVILLE, KY
 3462c8fd-9bf6-4dd6-8e56-83d4c2ccce8e|Tracy|Abrams|150148c2-ca8f-414f-8f41-d94a55d4a122|75|190|13|JR|G|CHICAGO, IL
-369379af-abf1-4b9a-b8f0-da61d4c46fc2|Maverick|Morris|150148c2-ca8f-414f-8f41-d94a55d4a122|82|250|22|FR|C|SPRINGBORO, OH
+369379af-abf1-4b9a-b8f0-da61d4c46fc2|Maverick|Morgan|150148c2-ca8f-414f-8f41-d94a55d4a122|82|250|22|FR|C|SPRINGBORO, OH
 44757a4d-4919-4d49-a6c0-cd25fbec6b63|Mike|LaTulip|150148c2-ca8f-414f-8f41-d94a55d4a122|73|170|10|SO|G|ARLINGTON HEIGHTS, IL
 5130cdd7-06ce-47af-ab68-c973d73e7b22|Jon|Ekey|150148c2-ca8f-414f-8f41-d94a55d4a122|79|225|33|SR|F|INDEPENDENCE, MO
 5e5b86de-8c07-4a12-91ed-e729cf7e0274|Ahmad|Starks|150148c2-ca8f-414f-8f41-d94a55d4a122|69|165|3|SR|G|CHICAGO, IL
@@ -4125,17 +4129,17 @@ f395995e-a844-4fb0-9e6e-a1862abfdfae|Kameron|Mitchell|23426c0b-1705-4dfb-a0e2-ef
 4cf377d1-53cb-459c-83f1-603bcc4946c2|Dave|Wiegmann|290a5130-836d-45e6-824f-28704d6ba246|80|215|22|SR|F|Breese, IL
 57fca67e-fe42-437b-a708-4db15dcf3853|Ede|Egharevba|290a5130-836d-45e6-824f-28704d6ba246|78|210|15|SO|F|Queens, NY
 5f065b99-c8e4-4290-a3e4-2ff1832c74fb|Reece|Williams|290a5130-836d-45e6-824f-28704d6ba246|73|200|13|SO|G|White Plains, NY
-699f468b-c742-4a95-a12b-f6ac60174daa|Peter|Hooley|290a5130-836d-45e6-824f-28704d6ba246|76|200|12|SO|G|Hahndorf, South Australia
+699f468b-c742-4a95-a12b-f6ac60174daa|Peter|Hooley|290a5130-836d-45e6-824f-28704d6ba246|76|200|12|SO|G|Adelaide, SA, AUS
 70ccef9b-3004-4831-930a-ee1a509a4c82|Dallas|Ennema|290a5130-836d-45e6-824f-28704d6ba246|78|210|24|FR|F|Sheldon, IA
 75663060-2003-4bbb-91d6-ac60a094cfd8|Gary|Johnson|290a5130-836d-45e6-824f-28704d6ba246|78|205|20|SR|F|Moreno Valley, CA
 8c8aa4e1-b790-4fa3-80f0-bb59bb9f52bd|John|Puk|290a5130-836d-45e6-824f-28704d6ba246|82|235|44|SR|C|Waterloo, IA
-99d9d57f-7ebc-44c7-a899-f8ce1d4d82a4|Levan|Shengelia|290a5130-836d-45e6-824f-28704d6ba246|81|250|4|JR|F|Tbilisi, Republic of Georgia
-b90d1e70-9270-4eb4-aa94-f341a441bea6|Anders|Haas|290a5130-836d-45e6-824f-28704d6ba246|73|175|5|SO|G|Copenhagen, Denmark
+99d9d57f-7ebc-44c7-a899-f8ce1d4d82a4|Levan|Shengelia|290a5130-836d-45e6-824f-28704d6ba246|81|250|4|JR|F|Tbilisi,, GEO
+b90d1e70-9270-4eb4-aa94-f341a441bea6|Anders|Haas|290a5130-836d-45e6-824f-28704d6ba246|73|175|5|SO|G|Copenhagen,, DNK
 c3687e99-fc39-4894-a8cd-b16ea90932dd|Anthony|Odunsi|290a5130-836d-45e6-824f-28704d6ba246|76|210|0|JR|G|Sugar Land, TX
-e00cfdff-6eef-4d2c-886c-b1f3efaff0ff|Michael|Rowley|290a5130-836d-45e6-824f-28704d6ba246|80|230|10|FR|F|Sydney, Australia
+e00cfdff-6eef-4d2c-886c-b1f3efaff0ff|Michael|Rowley|290a5130-836d-45e6-824f-28704d6ba246|80|230|10|FR|F|Sydney, NSW, AUS
 f34403bf-d9b8-49dd-9141-2204d2febe32|DJ|Evans|290a5130-836d-45e6-824f-28704d6ba246|69|175|3|SR|G|Brandon, MS
-f54aedd6-5150-4b18-8ebc-c277408c1789|Sam|Rowley|290a5130-836d-45e6-824f-28704d6ba246|78|230|14|JR|F|Sydney, Australia
-f8a48b3a-9fbf-45f0-a3b3-aabac7f34cec|Luke|Devlin|290a5130-836d-45e6-824f-28704d6ba246|80|235|11|SR|F|Sydney, Australia
+f54aedd6-5150-4b18-8ebc-c277408c1789|Sam|Rowley|290a5130-836d-45e6-824f-28704d6ba246|78|230|14|JR|F|Sydney, NSW, AUS
+f8a48b3a-9fbf-45f0-a3b3-aabac7f34cec|Luke|Devlin|290a5130-836d-45e6-824f-28704d6ba246|80|235|11|SR|F|Sydney, NSW, AUS
 019a14d4-ebe1-4ebb-a054-3a477feb8092|David|Kadiri|32755362-6336-4dd3-ac34-6f72a6cc150b|80|190|24|FR|F-C|Beltsville, MD
 1d73a635-15b3-4d47-bec4-3de403aaf4ff|Rodney|Elliott|32755362-6336-4dd3-ac34-6f72a6cc150b|72|180|2|FR|G|Baltimore, MD
 1efa5173-4457-412f-a6c2-51372affcaf8|Chase|Plummer|32755362-6336-4dd3-ac34-6f72a6cc150b|78|230|1|SR|F|Plainfield, NJ
@@ -4182,20 +4186,20 @@ e7c31095-5c74-4ed8-a936-bf864b4546ff|Jordon|Bronner|93cb009e-5bbf-4081-b2c9-4402
 313085ec-c798-40ea-baaa-15de53afe11b|Yolonzo|Moore|dba620d9-7282-4638-bf05-13caf48eeed1|74|175|15|JR|G|Austin, TX
 4bc38422-8d8b-468f-b348-6bc654a09b66|Jeremiah|Aska|dba620d9-7282-4638-bf05-13caf48eeed1|68|165|3|SR|G|Bronx, NY
 52764576-d425-4dec-8913-dd6b779675bb|Nate|Sikma|dba620d9-7282-4638-bf05-13caf48eeed1|79|235|43|JR|F|Bellevue, WA
-63f385f9-24aa-45ad-9906-5735d0b5f275|Yasin|Kolo|dba620d9-7282-4638-bf05-13caf48eeed1|82|245|12|SO|C|Goettingen, Germany
-9304d130-5e00-4168-af2a-8e6ca9f0d7eb|Preston|Anderson|dba620d9-7282-4638-bf05-13caf48eeed1|78|185|21|FR|G-F|Cayuga, TX
-9c0047c3-7222-451e-bc64-f9210889d02f|Corban|Wroe|dba620d9-7282-4638-bf05-13caf48eeed1|74|195|4|JR|G|Brisbane, Australia
-ba76b6d3-f45c-4695-a1c5-fe57cdaf602b|Dougal|Weir|dba620d9-7282-4638-bf05-13caf48eeed1|81|240|14|FR|C|Sydney, Australia
+63f385f9-24aa-45ad-9906-5735d0b5f275|Yasin|Kolo|dba620d9-7282-4638-bf05-13caf48eeed1|82|245|12|SO|C|Goettingen, NI, DEU
+9304d130-5e00-4168-af2a-8e6ca9f0d7eb|Preston|Anderson|dba620d9-7282-4638-bf05-13caf48eeed1|78|185|21|FR|F|Cayuga, TX
+9c0047c3-7222-451e-bc64-f9210889d02f|Corban|Wroe|dba620d9-7282-4638-bf05-13caf48eeed1|74|195|4|JR|G|Brisbane, QL, AUS
+ba76b6d3-f45c-4695-a1c5-fe57cdaf602b|Dougal|Weir|dba620d9-7282-4638-bf05-13caf48eeed1|81|240|14|FR|C|Sydney, NS, AUS
 bd2a1654-1c98-4259-85b9-136449a0c9f0|Jamie|Schneck|dba620d9-7282-4638-bf05-13caf48eeed1|80|240|50|JR|F-C|Whitefish Bay, WI
-bedff67d-6dc0-4903-9b14-33c543c2a08e|Taylor|Dyson|dba620d9-7282-4638-bf05-13caf48eeed1|76|185|11|SO|G|Sassafras, Australia
+bedff67d-6dc0-4903-9b14-33c543c2a08e|Taylor|Dyson|dba620d9-7282-4638-bf05-13caf48eeed1|76|185|11|SO|G|Sassafras, VI, AUS
 c36a2069-bdf1-49c7-8fee-0bcc3ae463c5|Evan|Cooper|dba620d9-7282-4638-bf05-13caf48eeed1|72|185|22|SO|G|Houston, TX
 c573ba65-d292-4b84-8683-381d3c475281|Mark|Nwakamma|dba620d9-7282-4638-bf05-13caf48eeed1|78|235|1|JR|F|Leander, TX
-ce967c18-29f0-4a3a-a364-cdf8854b3978|Wes|Cole|dba620d9-7282-4638-bf05-13caf48eeed1|72|165|0|JR|G|The Woodlands, TX
+ce967c18-29f0-4a3a-a364-cdf8854b3978|Wes|Cole|dba620d9-7282-4638-bf05-13caf48eeed1|72|165|00|JR|G|The Woodlands, TX
 ddc8fe61-0572-4dd9-97d8-b331b224085e|Justin|Graham|dba620d9-7282-4638-bf05-13caf48eeed1|73|175|2|FR|G|San Antonio, TX
 e641c35a-963e-4804-b92b-1383cbf12e9d|Adam|Oresky|dba620d9-7282-4638-bf05-13caf48eeed1|80|205|33|SR|F|Lawrenceville, NJ
 0291514c-1584-4281-8485-de9b1ae6ba95|Alex|Ogundadegbe|fa0f8282-c4f1-490e-962c-f25350cd76f4|80|235|15|SR|C|Bowie, MD
-05134fc4-eb06-4fac-9fa7-8aedd755aaa5|Nick|Madray|fa0f8282-c4f1-490e-962c-f25350cd76f4|81|215|21|FR|F|Mississauga, Ontario, Canada
-08dc3375-7523-4340-a0d2-caf20c645252|Rayner|Moquete|fa0f8282-c4f1-490e-962c-f25350cd76f4|73|195|11|SR|G|Santo Domingo, Dominican Republic
+05134fc4-eb06-4fac-9fa7-8aedd755aaa5|Nick|Madray|fa0f8282-c4f1-490e-962c-f25350cd76f4|81|215|21|FR|F|Mississauga, ON, CAN
+08dc3375-7523-4340-a0d2-caf20c645252|Rayner|Moquete|fa0f8282-c4f1-490e-962c-f25350cd76f4|73|195|11|SR|G|Santo Domingo,, DOM
 22a85d11-ac46-4be3-a79d-b7420a0a5699|Robert|Mansell|fa0f8282-c4f1-490e-962c-f25350cd76f4|76|200|2|JR|G|Philadelphia, PA
 2a83100f-c488-40d1-9a25-c0d2ff9f64b2|John|Rinaldi|fa0f8282-c4f1-490e-962c-f25350cd76f4|73|190|12|FR|G|Dunmore, PA
 3d002802-688c-4b08-9db1-618fbafadd70|Jordan|Reed|fa0f8282-c4f1-490e-962c-f25350cd76f4|76|205|3|SO|G|Philadelphia, PA
@@ -4206,7 +4210,7 @@ e641c35a-963e-4804-b92b-1383cbf12e9d|Adam|Oresky|dba620d9-7282-4638-bf05-13caf48
 963014bd-1154-49c6-be3f-20358f545cfc|Marlon|Beck|fa0f8282-c4f1-490e-962c-f25350cd76f4|71|175|1|FR|G|Bowie, MD
 a51279dc-39bc-4a24-83e5-fb7734cc47b9|Yosef|Yacob|fa0f8282-c4f1-490e-962c-f25350cd76f4|72|170|10|FR|G|Chester, PA
 b44b4ba1-9668-4422-8dd8-4056db4ccdf8|Matt|Smith|fa0f8282-c4f1-490e-962c-f25350cd76f4|70|180|20|FR|G|East Northport, NY
-f9884074-88d8-42b9-a895-dd215eb5fe70|Roland|Brown|fa0f8282-c4f1-490e-962c-f25350cd76f4|80|240|25|SR|C|Queens, NY
+f9884074-88d8-42b9-a895-dd215eb5fe70|Roland|Brown|fa0f8282-c4f1-490e-962c-f25350cd76f4|80|240|25|SR|F|Queens, NY
 015a9e88-66ee-4a6f-8f63-aa14957e78da|Mostafa|Latif|3556d445-b3f1-467e-b150-952b32dfb150|80|230|24|SR|F|Alexandria, Egypt
 0ed75b48-577d-4070-8f30-19df445cfea1|De'von|Barnett|3556d445-b3f1-467e-b150-952b32dfb150|76|190|5|FR|F|Waldorf, MD
 24b53ba9-5256-4123-93a8-010d5296e150|Cole|Walton|3556d445-b3f1-467e-b150-952b32dfb150|83|215|3|FR|C|Bellevue, WA
@@ -4653,7 +4657,6 @@ f46c4d4e-97f3-458b-8d77-824d7f611f2d|Jarvis|Pugh|28023973-1d9d-4d01-b939-dc8f9b4
 35b1f6df-ac68-417c-95d0-82dddec3a634|Dustin|Triano|2f4d21f8-6d5f-48a5-abca-52a30583871a|75|173|40|FR|G|Vancouver, BC,, CAN
 3c0ad660-96eb-4188-970c-61dba7d92c54|David|Stockton|2f4d21f8-6d5f-48a5-abca-52a30583871a|71|165|11|SR|G|Spokane, WA
 4e153ad0-b6eb-403e-926f-13cf4e560297|Connor|Griffin|2f4d21f8-6d5f-48a5-abca-52a30583871a|76|205|14|FR|F|Portland, OR
-56e8d8b2-ea93-4128-b9eb-8da0c29520f3|Kyle|Wiltjer|2f4d21f8-6d5f-48a5-abca-52a30583871a|82|239|33|JR|F|Portland, OR
 616fd60a-4f0e-4694-93ba-9b5f6551bdcf|Luke|Meikle|2f4d21f8-6d5f-48a5-abca-52a30583871a|80|200|21|FR|F|Tacoma, WA
 681527dc-2df5-4a2d-9529-d4c0a156871e|Gary|Bell|2f4d21f8-6d5f-48a5-abca-52a30583871a|73|220|5|JR|G|Kent, WA
 6e43b6fd-11af-45ec-8b2a-3a8df7644df3|Ryan|Edwards|2f4d21f8-6d5f-48a5-abca-52a30583871a|85|300|25|FR|C|Kalispell, MT
@@ -4889,7 +4892,7 @@ d19ef46f-f10e-4b16-8b2b-9ac29f9d00a6|Felix|Balamou|c1f4aae1-aa16-4095-aeab-10e5c
 e1729b62-16d1-4105-b2bd-44dc4a2d1ebb|Sir'Dominic|Pointer|c1f4aae1-aa16-4095-aeab-10e5c2a1236a|77|196|15|JR|G-F|Detroit, MI
 f0d2f5c2-20a3-46e1-85c1-9d91477613bc|Max|Hooper|c1f4aae1-aa16-4095-aeab-10e5c2a1236a|78|206|10|SO|G-F|Carmel Valley, CA
 0d6348d9-f860-46df-80b0-da6b58b32c37|Cory|Dolins|ee09e6ad-3872-4745-bbb9-ebbd5c6f8318|72|182|13|SO|G|Skokie, IL
-19f98d2b-ff91-4be6-9e1c-a1c5bf412831|Tommy|Hamilton Jr.|ee09e6ad-3872-4745-bbb9-ebbd5c6f8318|82|284|2|FR|C|Chicago, IL
+19f98d2b-ff91-4be6-9e1c-a1c5bf412831|Tommy|Hamilton|ee09e6ad-3872-4745-bbb9-ebbd5c6f8318|82|284|2|FR|C|Chicago, IL
 1c8f5113-20f9-4123-a81d-901289c64278|Edwind|McGhee|ee09e6ad-3872-4745-bbb9-ebbd5c6f8318|75|205|4|SR|G|Champaign, IL
 325db4a4-9406-408c-8eff-40b5bef06b6d|Cleveland|Melvin|ee09e6ad-3872-4745-bbb9-ebbd5c6f8318|80|208|12|SR|F|Baltimore, MD
 36fc570b-9be7-419f-a96a-26d41f538c37|R.J.|Curington|ee09e6ad-3872-4745-bbb9-ebbd5c6f8318|76|196|0|FR|G|Dyer, IN

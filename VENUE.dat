@@ -19,7 +19,7 @@ e9969453-033e-4fdd-99dc-5212240c8c9b|Skyhawk Arena|554 University Street|Martin|
 8af089c8-7dc5-44a5-917c-fc0bb9040e0c|Curb Event Center|2002 Belmont Blvd|Nashville|TN|USA|37212|5085
 61d49f1f-05d1-4f0a-89d9-c2aaf51812ea|Dunn Center|Robb Ave|Clarksville|TN|USA|37040|9000
 4ff71c66-7ac0-4726-a1b5-9f4706933b72|Ellis Johnson Arena|150 University Blvd|Morehead|KY|USA|40351|6500
-4b6b39a9-d8dc-4af0-b879-03865bd4808a|Vadalabene Center|Hairpin Dr Southern Illinois University E|Edwardsville|IL|USA|62025|4000
+4b6b39a9-d8dc-4af0-b879-03865bd4808a|Sam M. Vadalabene Center|Hairpin Dr Southern Illinois University E|Edwardsville|IL|USA|62025|4000
 730eda92-17aa-479c-aa90-05864f00d132|McBrayer Arena|521 Lancaster Ave|Richmond|KY|USA|40475|6500
 10268640-b52c-4959-ac59-7ec0172561f5|Hooper Eblen Arena|1100 McGee Blvd|Cookeville|TN|USA|38501|9000
 a3e5c367-dc92-4b58-b9be-a3b7de0187f8|Hulman Center|200 North 8th Street|Terre Haute|IN|USA|47809|10200
@@ -32,7 +32,7 @@ ad32e921-33cd-43fd-8057-c50dfd97ccb2|Knapp Center|2601 Forest Ave|Des Moines|IA|
 a77c0fda-7b57-4b36-80f0-6a8d96b7645f|JQH Arena|685 South John Q. Hammonds Pkwy|Springfield|MO|USA|65897|11000
 a5d0d6e1-2690-44ba-9dac-0ca68d33b8cb|Ford Center|1 SE Martin Luther King Jr. Blvd|Evansville|IN|USA|47708|10000
 0ec88fc4-f268-44b2-9ed7-1c74ebbe15af|Charles Koch Arena|1845 Fairmount St|Wichita|KS|USA|67260|10506
-5fa4e0d6-a1e9-4ddc-803d-e75916afa21a|Hilton Coliseum|1700 Center Drive|Ames|IA|USA|50010|14356
+5fa4e0d6-a1e9-4ddc-803d-e75916afa21a|James H. Hilton Coliseum|1700 Center Drive|Ames|IA|USA|50010|14356
 3c6914ce-a224-4a6d-b742-3f18f7aeec64|Frank Erwin Center|1701 Red River Street|Austin|TX|USA|78701|16734
 05b1ffbb-0b0c-4431-b454-e7d70462f5d1|Gallagher-Iba Arena|W Hall of Fame Ave and N Duck St|Stillwater|OK|USA|74078|13611
 225c0c88-bcd8-471e-a7a4-7cc06685add4|Lloyd Noble Center|2900 S Jenkins Ave|Norman|OK|USA|73072|11528
@@ -51,14 +51,14 @@ ad56c582-5504-41b6-b7be-fe26d4ceddbf|Trojan Arena|5000 Veterans Stadium Dr.|Troy
 69391650-8df7-49f0-8128-217a57679085|College Park Center|601 S Pecan St|Arlington|TX|USA|76019|7000
 402880b9-2e4d-43e9-860a-791e54c8abda|E. A. Diddle Arena|1526 Avenue of Champions|Bowling Green|KY|USA|42101|7326
 c1b8f2a0-57a8-4926-b771-ec50ed06ace2|GSU Sports Arena|10 Peachtree Center Ave NE|Atlanta|GA|USA|30303|4500
-9240589b-3f2a-45cb-b592-e6e02f5557a6|Arkansas State University Convocation Center|217 Olympic Drive|Jonesboro|AR|USA|72401|10563
+9240589b-3f2a-45cb-b592-e6e02f5557a6|Convocation Center|217 Olympic Drive|Jonesboro|AR|USA|72401|10563
 686ae21d-b81b-4998-be87-d1ef18392335|Fleisher Center|154 Summit St|Newark|NJ|USA|7102|1500
 a9e8ae08-0f2d-45b5-9bee-ee0f8ed0d166|Rolle Activity Center|McConnell Drive|Flagstaff|AZ|USA|86001|11230
-38a364ae-eb4c-4ace-a2e4-c28f3b1b11f5|Hornet Gym|6000 J Street|Sacramento|CA|USA|95819|1200
+38a364ae-eb4c-4ace-a2e4-c28f3b1b11f5|The Nest|6000 J Street|Sacramento|CA|USA|95819|1200
 96d4a6bc-89bb-440f-8a06-1bfef83504c3|Dee Events Center|Harrison Blvd|Ogden|UT|USA|84408|11500
 cff3a947-02b5-44f0-b8fe-c8b5b22b9f73|Reese Court|Washington Street|Cheney|WA|USA|99004|6000
 8abe4058-b5c2-4ce0-9926-97ac88f6efcc|Holt Arena|550 Memorial Drive|Pocatello|ID|USA|83209|8000
-e14bfb27-a6e5-4405-ad0f-9b742a61932c|Stott Center|930 SW Hall|Portland|OR|USA|97201|2000
+e14bfb27-a6e5-4405-ad0f-9b742a61932c|Peter W Stott Center|930 SW Hall|Portland|OR|USA|97201|2000
 410dd52e-6fd0-4da9-89a6-c9e434a35fe7|Butler-Hancock Sports Pavilion|1862 10th Ave|Greeley|CO|USA|80639|2992
 3213f809-1a69-4d2e-8a39-66a5b4782c0d|Worthington Arena|1 Bobcat Circle|Bozeman|MT|USA|59717|7250
 436b9f40-6358-4e89-aec7-02ce1c308402|Centrum Arena|351 University Blvd|Cedar City|UT|USA|84720|5300
@@ -74,7 +74,7 @@ a8644cd5-3962-481b-8df9-e529e6361d6a|Fifth Third Arena|2700 O'Varsity Way|Cincin
 dd352ce9-3282-4d7b-862f-f406eb61aca6|Louis Brown Athletic Center|83 Rockafeller Road|Piscataway|NJ|USA|8854|8000
 b5f6d7ee-034b-4653-b6da-e0a01ed6f91a|KFC Yum! Center|1 Arena Plaza|Louisville|KY|USA|40202|22500
 5754d0d6-6caf-4083-a1e4-267b2df97f60|XL Center|1 Civic Center Plaza|Hartford|CT|USA|6103|16294
-32433265-e022-4be1-bcd5-5883fe3155e9|John M. Belk Arena|200 Baker Drive|Davidson|NC|USA|28036|5223
+32433265-e022-4be1-bcd5-5883fe3155e9|Belk Arena|200 Baker Drive|Davidson|NC|USA|28036|5223
 0424d202-97b4-4ae3-95ab-308fa98de534|McAlister Field House|171 Moultrie Street|Charleston|SC|USA|29409|6000
 ec253396-69c1-484e-9eaa-29ab0a76beb7|McKenzie Arena|720 East 4th Street|Chattanooga|TN|USA|37403|10928
 695d3bc9-f1db-4a96-9050-5a90073bbca0|Greensboro Coliseum Complex|1921 West Lee Street|Greensboro|NC|USA|27403|23500
@@ -93,9 +93,9 @@ d8e571a8-3eac-41a7-bbc3-bdf08c40d156|Timmons Arena|3300 Poinsett Highway|Greenvi
 e342ae66-5a25-4085-883b-2850da784221|Bison Sports Arena|1300 17th Ave N|Fargo|ND|USA|58102|6000
 6cb58d87-94f0-4093-bc52-baa0fbe8e02a|DakotaDome|414 E Clark Street|Vermillion|SD|USA|57069|10000
 839a82a3-9aec-4cb8-9f26-d4c19b61e7a3|Western Hall|1 University Circle|Macomb|IL|USA|61455|5139
-ee28a38d-1d9e-41db-8fbd-d1fa52e8a296|Walter Pyramid|1250 Bellflower Blvd|Long Beach|CA|USA|90840|5000
+ee28a38d-1d9e-41db-8fbd-d1fa52e8a296|The Pyramid|1250 Bellflower Blvd|Long Beach|CA|USA|90840|5000
 a80809ab-eb56-44fb-857a-2598b43c4c5a|Bren Events Center|100 Bren Event Center Dr|Irvine|CA|USA|92612|4984
-c13d8ed7-809f-43bf-8cfc-606185bc46da|UC Santa Barbara Events Center|552 University Rd|Santa Barbara|CA|USA|93106|5600
+c13d8ed7-809f-43bf-8cfc-606185bc46da|Thunderdome-UC Santa Barbara Events Center||Santa Barbara|CA|USA|93106|5600
 2a3ef518-358e-492b-bd62-aefe6ffeeaec|Mott Gymnasium|South Perimeter Road|San Luis Obispo|CA|USA|93407|3032
 46b89cee-b775-4c80-81b8-5628effbe2b3|UC Riverside Student Recreation Center|900 University Ave|Riverside|CA|USA|92507|3168
 ffd3dede-744e-46a1-b4c7-e5ac40aa9eb1|The Pavilion|232 ARC, 1 Shields Ave|Davis|CA|USA|95616|7600
@@ -103,23 +103,23 @@ ffd3dede-744e-46a1-b4c7-e5ac40aa9eb1|The Pavilion|232 ARC, 1 Shields Ave|Davis|C
 71d77907-2374-4969-9d8c-fc7100d47c28|Matador Gymnasium|18111 Nordhoff Street|Northridge|CA|USA|91330|1600
 2e713b00-8015-42c7-813b-643f41b0d384|Stan Sheriff Center|1355 Lower Campus Dr|Honolulu|HI|USA|96822|10300
 2b451e94-5eee-4fc7-959a-4ef7e5dac561|Don Haskins Center|500 W University Ave|El Paso|TX|USA|79968|12222
-3e7d76a6-5c53-463a-82fd-a35e6395c2bd|The Super Pit|801 North Texas Blvd|Denton|TX|USA|76201|10032
+3e7d76a6-5c53-463a-82fd-a35e6395c2bd|UNT Coliseum|801 North Texas Blvd|Denton|TX|USA|76201|10032
 064ff4b5-c041-4221-9f7b-b23b740d57f7|Reynolds Center|800 S Tucker Dr|Tulsa|OK|USA|74104|8355
 6653af89-47ba-4421-8dbb-154f04c3b25e|Devlin Fieldhouse|McAlister Place at Freret St|New Orleans|LA|USA|70118|3600
-12d526ed-1fbf-4caf-bdf4-f4fceeb95d31|Murphy Center|Middle Tennessee Blvd|Murfreesboro|TN|USA|37132|11520
-a9ed84bc-3680-4247-b4ca-01cd01cd847c|Cam Henderson Center|1 John Marshall Dr|Huntington|WV|USA|25755|9048
+12d526ed-1fbf-4caf-bdf4-f4fceeb95d31|Murphy Athletic Center|Middle Tennessee Blvd|Murfreesboro|TN|USA|37132|11520
+a9ed84bc-3680-4247-b4ca-01cd01cd847c|Henderson Center|1 John Marshall Dr|Huntington|WV|USA|25755|9048
 cbd9a89f-577a-46b7-99e0-b2cb310533e5|Reed Green Coliseum|112 Coliseum Dr|Hattiesburg|MS|USA|39406|8095
 b5a34ed8-2c69-431d-9e6e-9b515e28a9ba|Bartow Arena|617 13th St S|Birmingham|AL|USA|35233|8508
 70570fc0-9b6f-41e8-9ad1-2c6cb70af493|Dale F. Halton Arena|9201 University City Boulevard|Charlotte|NC|USA|28223|9105
 1ab1ee39-1e10-410b-b7fd-2f93c1d86216|Thomas Assembly Center|1650 West Alabama Ave|Ruston|LA|USA|71272|8098
 40f79a47-0962-487c-90ea-96b57df86fa6|UTSA Convocation Center|One UTSA Circle|San Antonio|TX|USA|78249|4080
-30510c1f-8500-48eb-8f90-7cdd70ce55fb|Williams Arena at Minges Coliseum|1 Ficklen Dr|Greenville|NC|USA|27858|8000
+30510c1f-8500-48eb-8f90-7cdd70ce55fb|Minges Coliseum|1 Ficklen Dr|Greenville|NC|USA|27858|8000
 6db7f60d-da7a-46df-8da3-28c8836dffd4|U.S. Century Bank Arena|11200 Southwest 8th St|Miami|FL|USA|33199|5000
 0a6fb297-ee48-47bb-a7a4-335750c3c452|Tudor Field House|6100 Main Street|Houston|TX|USA|77251|5750
 e2ea8c75-958d-4559-8526-37cba6508073|FAU Arena|777 Glades Road|Boca Raton|FL|USA|33431|5000
-22069305-c1fd-4501-88a4-1153ac81bb09|Ted Constant Convocation Center|4320 Hampton Blvd|Norfolk|VA|USA|23529|8639
+22069305-c1fd-4501-88a4-1153ac81bb09|Constant Convocation Center|4320 Hampton Blvd|Norfolk|VA|USA|23529|8639
 41c85b92-c4a6-4967-9d27-579d67cda2eb|Icardo Center|9001 Stockdale Hwy|Bakersfield|CA|USA|93311|3800
-89e1ee55-6768-4c3f-bdc0-c4bb4ed60438|Emil and Patricia Jones Convocation Center|9501 S King Dr|Chicago|IL|USA|60628|7000
+89e1ee55-6768-4c3f-bdc0-c4bb4ed60438|Jones Convocation Center|9501 S King Dr|Chicago|IL|USA|60628|7000
 d3668215-47f0-4f1a-993b-de4e683c28ae|UCCU Center|800 W University Pkwy|Orem|UT|USA|84058|8500
 737ae60d-b84c-4f0b-a310-1f2538258d55|Pan American Center|S Triviz Dr &amp; Payne St|Las Cruces|NM|USA|88003|12482
 1ed647ac-63f1-4dab-bca8-c192d96b33c6|KeyArena|305 Harrison Street|Seattle|WA|USA|98109|17072
@@ -146,20 +146,20 @@ f23ac131-4440-422f-914c-7f39b0c8db48|Davey Whitney Complex|Highway 552|Lorman|MS
 70869d17-505b-40dd-b7da-392fa823e9fe|Dunn-Oliver Acadome|1595 Robert C. Hatch Dr|Montgomery|AL|USA|36104|7400
 f191ce99-dffa-4623-a5fa-326a55bdb1e7|Harrison HPER Complex|14000 Highway 82|Itta Bena|MS|USA|38941|5000
 de074131-0d69-4fff-b8cb-4b006c6c92ac|Fredrick C. Hobdy Assembly Center|1234 Grambling Road|Grambling|LA|USA|71245|7500
-9631f0ff-7dbd-4c3f-8b66-d1e5fe765df4|William Nicks Building|University Dr|Prairie View|TX|USA|77446|6500
+9631f0ff-7dbd-4c3f-8b66-d1e5fe765df4|William Nicks Center|University Dr|Prairie View|TX|USA|77446|6500
 2f12ffa0-432f-4147-810f-1baccff6d116|Elmore Gymnasium|4900 Meridian Street|Normal|AL|USA|35762|6000
 60129c5d-721b-4ab3-9d6e-8a0123ad46b3|F. G. Clark Center|798 Harding Blvd|Baton Rouge|LA|USA|70813|7500
 e28afaa2-23e8-4139-bebd-51f01828b4cb|Williams Assembly Center|1400 J.R. Lynch Street|Jackson|MS|USA|39217|8000
-eb7398c8-d320-48b7-ae56-08fa47bd33f9|H&amp;PE Arena|3100 Cleburne Street|Houston|TX|USA|77004|8100
+eb7398c8-d320-48b7-ae56-08fa47bd33f9|Health &amp; PE Arena|3100 Cleburne Street|Houston|TX|USA|77004|8100
 87898338-017b-4225-a034-43835fd7f6b5|Moore Gymnasium|640 Doctor Mary McLeod Bethune Blvd|Daytona Beach|FL|USA|32114|3000
 70a11e03-dbdd-40ec-8856-9c3c1f07d917|Hampton Convocation Center|100 E Queen St|Hampton|VA|USA|23668|7200
-5e4b2cce-dd8c-4389-a13a-8b9a382387bc|Burr Gymnasium|2397 6th St NW|Washington DC|DC|USA|20059|2700
+5e4b2cce-dd8c-4389-a13a-8b9a382387bc|Burr Gymnasium|2397 6th St NW|Washington|DC|USA|20059|2700
 01f94951-45ef-4a15-bb87-ad020b4717a6|Tiger Arena|3219 College St|Savannah|GA|USA|31404|6000
 8d6c6cbf-919b-4bd4-9ce1-0326f33c1d66|Corbett Sports Center|1601 E Market Street|Greensboro|NC|USA|27411|5700
 f9c9e040-125f-4094-896b-eba89855fcb6|Hill Field House|1700 E Cold Spring Ln|Baltimore|MD|USA|21239|4250
 ef2ed392-fb1b-42b7-9895-0a12f908e63e|Physical Education Complex|2500 W North Ave|Baltimore|MD|USA|21216|4100
 b8227a4f-ecda-4339-8772-d9da08236254|Smith-Hammond-Middleton Memorial Center|300 College Street|Orangeburg|SC|USA|29117|3200
-c6d469de-cf8e-4b38-8213-15b28df665d6|Joseph G. Echols Memorial Hall|700 Park Ave|Norfolk|VA|USA|23504|7000
+c6d469de-cf8e-4b38-8213-15b28df665d6|Echols Hall|700 Park Ave|Norfolk|VA|USA|23504|7000
 f93c463c-1ebd-4232-96b3-60cc9f483539|Al Lawson Center|1800 Wahnish Way|Tallahassee|FL|USA|32310|9639
 ae914cd0-770c-44d3-817d-697556717898|Hytche Athletic Center|11868 College Backbone Rd|Princess Anne|MD|USA|21853|5500
 90a9b5f6-70ef-4cbe-848d-7be05be3cf80|McDougald-McLendon Gymnasium|1801 Fayetteville Street|Durham|NC|USA|27707|3056
@@ -168,7 +168,7 @@ c5e846e9-2860-4c55-8352-c3a4587afe27|McCamish Pavilion|965 Fowler St|Atlanta|GA|
 0acc6624-ac19-4bd8-a789-3b89aa91d1f7|Petersen Events Center|3719 Terrace Street|Pittsburgh|PA|USA|15261|12508
 0b2f6987-6c44-456a-b8f9-69daf8c72909|Comcast Center|University of Maryland, 1 Terrapin Trail|College Park|MD|USA|20742|17950
 40b34ad2-d371-48eb-b6a7-b9bc58257691|Cassell Coliseum|Washington Street &amp; Spring Road|Blacksburg|VA|USA|24061|9847
-0ebba23f-cab2-443c-834f-2f47083803ad|Conte Forum|2601 Beacon St|Chestnut Hill|MA|USA|2467|8606
+0ebba23f-cab2-443c-834f-2f47083803ad|Silvio O. Conte Forum|2601 Beacon St|Chestnut Hill|MA|USA|2467|8606
 abbd0316-b3bc-4660-99bf-65b71f6a6221|Lawrence Joel Veterans Memorial Coliseum|2825 University Pkwy|Winston-Salem|NC|USA|27105|14665
 5f1a51e1-bdd9-43a2-8743-c37f20265346|PNC Arena|1400 Edward Mill Rd|Raleigh|NC|USA|27607|19722
 c43702e3-e8c2-4375-855e-4bbb62177738|John Paul Jones Arena|295 Massie Rd|Charlottesville|VA|USA|22903|14593
@@ -200,7 +200,7 @@ ded3a083-3b90-4ba9-9b2f-412b32dd5739|Christl Arena|600 Thayer Road|West Point|NY
 a1615d9e-c1dd-4ffc-abf1-3357f3111014|Sojka Pavilion|701 Moore Ave|Lewisburg|PA|USA|17837|17837
 2799264b-2168-4d24-b9e9-5ba62045f3ae|Case Gym|285 Babcock Street|Boston|MA|USA|2215|1800
 bb58bce7-ccfc-41d6-96f8-77912e639e09|Cameron Hall|401 N Main Street|Lexington|VA|USA|24450|5020
-65f50512-6cba-45c7-9055-e68f1c8db0d2|HTC Center|104 Founders Drive|Conway|SC|USA|29579|3600
+65f50512-6cba-45c7-9055-e68f1c8db0d2|The HTC Center|104 Founders Drive|Conway|SC|USA|29579|3600
 0ecd3719-8eea-4964-a7a3-085f06eae84e|Vines Center|1971 University Blvd|Lynchburg|VA|USA|24502|8085
 880b6559-47cb-438b-877f-acbbdbf64e00|Willett Hall|201 High Street|Farmville|VA|USA|23909|1807
 7b69a82f-38a9-4976-860b-bda2d1861d5f|John W. Pope Jr. Convocation Center|Campbell University|Buies Creek|NC|USA|27506|3095
@@ -214,7 +214,7 @@ a9b1c631-adad-4b7b-a899-ca8847a31668|Winthrop Coliseum|1162 Eden Terrace|Rock Hi
 752d75a9-1391-4fad-adac-ea4cf6ce7ae8|Calihan Hall|4001 W McNichols Rd|Detroit|MI|USA|48221|8295
 0a244752-a828-4d77-8abb-31c4ed40ad1b|U.S. Cellular Arena|400 W Kilbourn Avenue|Milwaukee|WI|USA|53203|10783
 e5485a6b-50d0-40ab-a0ee-560016270c8b|Resch Center|1901 S Oneida St|Green Bay|WI|USA|54304|9729
-ca663c97-0b2b-415d-9c35-602bee191576|Nutter Center|3640 Colonel Glenn Highway|Dayton|OH|USA|45435|10400
+ca663c97-0b2b-415d-9c35-602bee191576|Ervin J. Nutter Center|3640 Colonel Glenn Highway|Dayton|OH|USA|45435|10400
 5fa7b2f4-dd50-43b5-a91f-f234ed6a82a3|Athletics Center O'rena|2200 N Squirrel Rd|Rochester|MI|USA|48309|4005
 02e0ab6f-a6ce-4a43-8a55-012057670c45|Beeghly Center|One University Plaza|Youngstown|OH|USA|44555|6500
 295e1a3c-40a5-40d6-a95a-888e896598f5|Athletics-Recreation Center|1009 Union St, Valparaiso University|Valparaiso|IN|USA|46383|5000
@@ -246,7 +246,7 @@ a5718f89-a8e8-4fca-8015-4fcd7eb2353a|Bud Walton Arena|1270 West Leroy Pond Dr|Fa
 0ff3674f-55e3-4d2a-bd51-36966ca837e8|Tad Smith Coliseum|Confederate Drive|University|MS|USA|38677|9000
 fb318815-e6ad-4a68-bac1-1e3f64c39f3b|Reed Arena|730 Olson Blvd|College Station|TX|USA|77843|12989
 c75510eb-181a-4213-a68c-2fdfd1525056|Millett Hall|500 East Sycamore Street|Oxford|OH|USA|45056|6400
-9e847e81-5cd1-4740-a96c-e7c0c81f74e1|Eastern Michigan University Convocation Center|799 North Hewitt Road|Ypsilanti|MI|USA|48197|8824
+9e847e81-5cd1-4740-a96c-e7c0c81f74e1|Convocation Center Eastern Michigan University|799 North Hewitt Road|Ypsilanti|MI|USA|48197|8824
 32d6bdb0-2dda-4915-ba43-442c24616ca5|Worthen Arena|1699 W Bethel Ave|Muncie|IN|USA|47306|11500
 5a08df5d-2e1d-4b75-8672-7815ee497a72|Convocation Center Ohio|95 Richfield Ave|Athens|OH|USA|45701|13080
 9770a04e-e7a8-4665-9fff-419191dc5664|Savage Arena|2801 W Bancroft St|Toledo|OH|USA|43606|7300
@@ -255,7 +255,7 @@ ede23d56-aa67-42ab-88a9-b373c37480a4|Memorial Athletic and Convocation Center|10
 6ad08551-2048-4083-8d25-a1fd2a7e6c30|McGuirk Arena|Central Michigan University|Mount Pleasant|MI|USA|48859|5300
 ca06b2d0-adb4-4ce4-9905-558d2ea5787b|James A. Rhodes Arena|373 Carroll St|Akron|OH|USA|44325|5500
 46c56f9d-873c-44db-a004-4ffa5e2a6e8f|Stroh Center|1535 E Wooster Street|Bowling Green|OH|USA|43042|4700
-8ae2e412-05c5-4501-9d57-f44a552f15a7|Alumni Arena|175 Webster Road|Amherst|NY|USA|14221|6100
+8ae2e412-05c5-4501-9d57-f44a552f15a7|Alumni Arena|175 Webster Road|Buffalo|NY|USA|14221|6100
 ca196fec-4fde-4b62-8736-369f40034c41|University Arena|Western Ave|Kalamazoo|MI|USA|49008|5421
 9cfb4bc5-e327-4e7a-bc26-ef57336d45b3|Mackey Arena|900 John R Wooden Dr|West Lafayette|IN|USA|47907|14240
 fd463a7b-f82c-47c3-bd18-334b5fd10c1f|State Farm Center|1800 South 1st Street|Champaign|IL|USA|61820|16618
@@ -271,13 +271,13 @@ eecdd0a2-3fc3-4761-a6da-813f5751aabf|Assembly Hall (Bloomington)|1001 East 17th 
 f72da915-1ddd-41a0-9e19-0b0c7f6f30c5|Williams Arena|1925 SE University Avenue|Minneapolis|MN|USA|55455|14625
 4646ee83-7221-4c4b-8e5a-f88c1f22773a|Alfond Arena|College Avenue|Orono|ME|USA|4473|5712
 4d788fa1-8d4e-48ff-9307-021d51c0ae41|Roy L. Patrick Gymnasium|97 Spear Street|Burlington|VT|USA|5405|3226
-309a22d5-6d59-4c5b-9330-7f1270deed09|Stony Brook University Arena|Center Drive|Stony Brook|NY|USA|11790|4000
+309a22d5-6d59-4c5b-9330-7f1270deed09|Pritchard Gymnasium|Center Drive|Stony Brook|NY|USA|11790|4000
 10fba26a-dbee-43ab-838d-4569751a51cb|SEFCU Arena|1239 Washington Avenue|Guilderland|NY|USA|12206|4538
 6b73a90c-8c09-439e-bae6-3593004d026f|Retriever Activities Center||Cantonsville|MD|USA|21250|4024
 7df9ab11-4444-4754-bde5-75c717a69ee2|Costello Athletic Center|300 Martin Luther King Jr Way|Lowell|MA|USA|1852|6500
 6d99296a-ba04-42ca-b86a-af2bc149b1d6|Lundholm Gymnasium|145 Main St|Durham|NH|USA|3824|3500
 c756de35-f112-4ada-8b8d-ab8166fcf25f|Chase Arena at Reich Family Pavilion|200 Bloomfield Ave|West Hartford|CT|USA|6117|4017
-1b2826b2-20b5-419d-9c15-ea00a933d561|Binghamton University Events Center|4400 Vestal Parkway East|Vestal|NY|USA|13902|5142
+1b2826b2-20b5-419d-9c15-ea00a933d561|Events Center|4400 Vestal Parkway East|Binghampton|NY|USA|13902|5142
 4df99c2a-1592-44f0-927f-026bbff30904|William H. Pitt Center|5151 Park Ave|Fairfield|CT|USA|6825|2000
 254f6182-6d7d-401c-8b29-a95817c6bd9c|Spiro Sports Center|1 Campus Rd|Staten Island|NY|USA|10301|2100
 450d8e7c-55d8-44c6-ac93-f16edd489da1|Knott Arena|16300 Old Emmitsburg Rd|Emmitsburg|MD|USA|21727|3121
@@ -293,14 +293,14 @@ c756de35-f112-4ada-8b8d-ab8166fcf25f|Chase Arena at Reich Family Pavilion|200 Bl
 548bbd5b-32e3-42ef-9095-6861af657296|Newman Arena|Bartels Hall|Ithaca|NY|USA|14853|4472
 1a6fd393-b2fb-4210-8082-83e5bbc9d681|John J. Lee Amphitheater|70 Tower Pkwy|New Haven|CT|USA|6511|2000
 e30178c1-fbfc-47e0-92f7-37855cb3a81b|Levien Gymnasium|3030 Broadway|New York City|NY|USA|10027|3408
-b756945a-1b32-4148-a6ed-f2aea43afec9|Leede Arena|Dartmouth College|Hanover|NH|USA|3755|2100
-bc28056a-d3aa-4b45-b19e-24608db3a675|The Palestra|215 S 33rd St|Philadelphia|PA|USA|19104|8722
+b756945a-1b32-4148-a6ed-f2aea43afec9|Edward Leede Arena|Dartmouth College|Hanover|NH|USA|3755|2100
+bc28056a-d3aa-4b45-b19e-24608db3a675|Palestra|215 S 33rd St|Philadelphia|PA|USA|19104|8722
 68db797a-0074-4717-a569-08e5fd091f0f|Jadwin Gymnasium|Princeton University|Princeton|NJ|USA|8542|6854
 10fa4797-0899-435d-a5c2-ab5f5e13ac75|Bob Carpenter Center|631 S College Ave|Newark|DE|USA|19716|5000
 0d149b57-2a9a-41a6-a334-a44b32f3e94b|Mack Sports Complex - Hofstra Arena|245 N Hofstra Ave|Hempstead|NY|USA|11549|5124
-e4995d36-0d45-427f-b5b5-62ec72243843|James Madison University Convocation Center|895 University Blvd|Harrisonburg|VA|USA|22807|7612
+e4995d36-0d45-427f-b5b5-62ec72243843|Convocation Center James Madison University|895 University Blvd|Harrisonburg|VA|USA|22807|7612
 59c9726b-e1d8-4025-8433-05ecf7fdc01d|Towson Center|7500 Osler Dr|Towson|MD|USA|21252|5250
-365700aa-9e46-4b94-8060-52648d29cfca|TD Bank Arena|66 George Street|Charleston|SC|USA|29424|5100
+365700aa-9e46-4b94-8060-52648d29cfca|TD Arena|66 George Street|Charleston|SC|USA|29424|5100
 fb9efd6f-7057-4445-ac42-b299968f41ba|Matthews Arena|238 Saint Boltolph Street|Boston|MA|USA|2115|6000
 a41b674e-f92b-420b-b9cf-540da9f522df|Kaplan Arena|751 Ukrop Way|Williamsburg|VA|USA|23186|8600
 d5eb4678-13a8-40c7-901e-ca1cdf416d6e|Trask Coliseum|601 S College Rd|Wilmington|NC|USA|28412|5500
@@ -329,21 +329,21 @@ df69eb85-bb1a-4aaf-a951-18451b794a73|Allstate Arena|6920 N Mannheim Road|Rosemou
 2c82a851-e106-4ceb-ac68-dbd411d8dc9e|Reilly Center||St. Bonaventure|NY|USA|14778|5480
 e43e6693-1879-433e-8287-0929d4b9b375|University of Dayton Arena|1801 South Edwin C Moses Boulevard|Dayton|OH|USA|45417|13409
 55b2714f-a468-4f6e-94b3-c3461597d69d|Rose Hill Gymnasium|Fordham University|Bronx|NY|USA|10458|3470
-43178c25-0152-4c14-ac9c-7253d2999fa7|Keaney Gymnasium|1 Lincoln Almond Plaza|Kingston|RI|USA|2881|7657
+43178c25-0152-4c14-ac9c-7253d2999fa7|Thomas M. Ryan Center|1 Lincoln Almond Plaza|Kingston|RI|USA|2881|7657
 e1276102-db24-4188-9558-f249d69526f5|William D. Mullins Center|200 Commonwealth Ave|Amherst|MA|USA|1003|9493
 a04a20be-10b1-4556-bdc1-5874dfbd589e|Robins Center|University of Richmond|Richmond|VA|USA|23173|9071
 d4058f9b-1f61-4dc5-88bd-1da6ef24d343|Tom Gola Arena|1900 West Olney Avenue|Philadelphia|PA|USA|19141|4000
 c1cb6473-0799-4397-aee9-063ec6931bff|Stuart C. Siegel Center|1200 West Broad Street|Richmond|VA|USA|23284|7617
 f5b4c291-b7da-455f-8512-5c9d44248534|Charles E. Smith Athletic Center|600 22nd Street NW|Washington|DC|USA|20052|4338
 74004fda-5a29-4769-99e7-b1c147ba37db|Patriot Center|4500 Patriot Cir|Fairfax|VA|USA|22030|10000
-355c9ec8-0742-4071-87ea-c5e6ddab2a47|Hagan Arena|1300 Cleburne St|Philadelphia|PA|USA|19131|4200
+355c9ec8-0742-4071-87ea-c5e6ddab2a47|Michael J. Hagan '85 Arena|1300 Cleburne St|Philadelphia|PA|USA|19131|4200
 d819616b-1825-4192-af0b-32560ff26899|A.J. Palumbo Center|600 Forbes Avenue|Pittsburgh|PA|USA|15282|4406
 18b201ed-ef8c-4ea2-8cb3-4a48edd14bba|Koessler Athletic Center|1833 Main St|Buffalo|NY|USA|14208|2176
 9df96001-1c74-402a-9f2d-80e5831d6bb0|Alumni Gymnasium|2083 Lawrenceville Rd|Lawrenceville|NJ|USA|8648|1950
 c23f3f79-7a0b-4e33-b87f-fee312a972cf|McCann Center|3399 North Road|Poughkeepsie|NY|USA|12601|3200
 8b1910ef-0f71-4844-89d3-9611227c2a46|Hynes Athletic Center|715 N Ave|New Rochelle|NY|USA|10801|2611
 23e75afd-3b2a-47ae-a65b-b09b2f6804be|Multipurpose Activity Center|400 Cedar Ave|West Long Branch|NJ|USA|7764|4100
-fe52587b-4a52-42dd-9364-c20be83c05d6|TD Bank Sports Center|305 Sherman Ave|Hamden|CT|USA|6511|3570
+fe52587b-4a52-42dd-9364-c20be83c05d6|TD Banknorth SportsCenter|305 Sherman Ave|Hamden|CT|USA|6511|3570
 00fb9be2-49e7-4a66-a7a4-2140d3ce73c3|Draddy Gymnasium|4513 Manhattan College Pkwy|Bronx|NY|USA|10471|2345
 9a191704-05c3-45d8-861b-1e29d15a627e|Webster Bank Arena|600 Main Street|Bridgeport|CT|USA|6604|9000
 ce4a1f4a-e031-4804-bdf6-3b8bb37d02ab|Times Union Center|51 South Pearl St|Albany|NY|USA|12207|15229

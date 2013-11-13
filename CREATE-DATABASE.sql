@@ -1,10 +1,10 @@
 DROP TABLE GameStats;
+DROP TABLE Score;
 DROP TABLE Player;
 DROP TABLE Game;
 DROP TABLE Team;
 DROP TABLE Conference;
 DROP TABLE Venue;
-DROP TABLE Score;
 
 CREATE TABLE Venue (
 	id VARCHAR(100) NOT NULL PRIMARY KEY,
@@ -33,8 +33,8 @@ CREATE TABLE Team (
 
 CREATE TABLE Game (
 	id VARCHAR(100) NOT NULL PRIMARY KEY,
-	home_team_id VARCHAR(100) DEFAULT 'UNKNOWN', --not referencing team id
-	away_team_id VARCHAR(100) DEFAULT 'UNKNOWN', --not referencing team id
+	home_team_id VARCHAR(100) DEFAULT 'UNKNOWN', -- reference
+	away_team_id VARCHAR(100) DEFAULT 'UNKNOWN', -- reference
 	--venue_id VARCHAR(100),
 	scheduled_date VARCHAR(100),
 	scheduled_time VARCHAR(100)

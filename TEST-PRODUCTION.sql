@@ -59,6 +59,16 @@ FROM GameStats
 WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080'
 LIMIT 10;
 
+--score for a specific game
+SELECT *
+FROM Score
+WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080';
+
+--scores for a given date
+SELECT id, home_team_id, away_team_id, home_score, away_score
+FROM Score, Game
+WHERE scheduled_date = '2013-11-08' AND id = game_id;
+
 -- specific team info
 SELECT *
 FROM Team
