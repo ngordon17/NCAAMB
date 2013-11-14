@@ -51,7 +51,7 @@ WHERE id = 'cad077aa-9235-4031-975d-b9301c27bf00';
 --schedule for a given date
 SELECT *
 FROM Game
-WHERE scheduled_date = '2013-11-08';
+WHERE scheduled_datetime::date = '2013-11-08';
 
 --schedule for a given team
 SELECT *
@@ -72,7 +72,7 @@ WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080';
 --scores for a given date
 SELECT id, home_team_id, away_team_id, home_score, away_score
 FROM Score, Game
-WHERE scheduled_date = '2013-11-08' AND id = game_id;
+WHERE scheduled_datetime::date = '2013-11-08' AND id = game_id;
 
 -- specific team info
 SELECT *
