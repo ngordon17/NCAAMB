@@ -36,8 +36,7 @@ CREATE TABLE Game (
 	home_team_id VARCHAR(100) NOT NULL REFERENCES Team(id),
 	away_team_id VARCHAR(100) NOT NULL REFERENCES Team(id),
 	--venue_id VARCHAR(100),
-	scheduled_date VARCHAR(100) NOT NULL,
-	scheduled_time VARCHAR(100) NOT NULL
+	scheduled VARCHAR(100) NOT NULL, —MAKE A DATETIME (has date and time associated with it)
 	--network VARCHAR(100),
 	--internet VARCHAR(100)
 );
