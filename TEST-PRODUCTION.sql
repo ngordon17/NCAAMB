@@ -51,7 +51,7 @@ WHERE id = 'cad077aa-9235-4031-975d-b9301c27bf00';
 --schedule for a given date
 SELECT *
 FROM Game
-WHERE scheduled_date = '2013-11-08';
+WHERE scheduled_datetime::date = '2013-11-08';
 
 --schedule for a given team
 SELECT *
@@ -72,7 +72,7 @@ WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080';
 --scores for a given date
 SELECT id, home_team_id, away_team_id, home_score, away_score
 FROM Score, Game
-WHERE scheduled_date = '2013-11-08' AND id = game_id;
+WHERE scheduled_datetime::date = '2013-11-08' AND id = game_id;
 
 -- specific team info
 SELECT *
@@ -105,6 +105,14 @@ FROM Team, (SELECT Team.id AS tid, COUNT(*) AS wins
             GROUP BY tid) AS wins
 WHERE Team.conference_id = '302c99fe-6b0a-40ec-8ee7-f15a0355b7b5' AND Team.id = wins.tid;
 */
+SELECT Team.id, l.losses
+FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS losses
+             FROM Team, Game, Score
+             WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND home_score < away_score)
+             OR (Team.id = Game.away_team_id AND Game.id = Score.game_id AND away_score < home_score)
+             GROUP BY tid) AS l
+WHERE Team.conference_id = '88368ebb-01fb-44d5-a6c6-3e7d46bb3ab7' AND Team.id = l.tid;
+
 
 -- list of teams in a specific conference ordered by record
 SELECT  Team.id, Team.alias, wins.wins, losses.losses
@@ -118,5 +126,5 @@ FROM Team, (SELECT Team.id AS tid, COUNT(*) AS wins
 			WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND Score.home_score < Score.away_score)
 				  OR (Team.id = Game.away_team_id AND Game.id = Score.game_id AND Score.home_score > Score.away_score)
 			GROUP BY tid) AS losses
-WHERE Team.conference_id = '04d5255d-b2dc-43df-9fa8-d296b0f8ccd7' AND Team.id = wins.tid AND Team.id = losses.tid
+WHERE Team.conference_id = '88368ebb-01fb-44d5-a6c6-3e7d46bb3ab7' AND Team.id = wins.tid AND Team.id = losses.tid
 ORDER BY wins.wins DESC, losses.losses ASC;	

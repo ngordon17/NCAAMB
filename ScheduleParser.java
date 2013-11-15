@@ -77,14 +77,17 @@ public class ScheduleParser {
 		String home_team_id = game.getAttribute("home_team");
 		String away_team_id = game.getAttribute("away_team");
 		if (!div_one_team_ids.contains(home_team_id) || !div_one_team_ids.contains(away_team_id)) return;
+		
 		String scheduled_date = game.getAttribute("scheduled").split("T")[0];
 		String scheduled_time = game.getAttribute("scheduled").split("T")[1];
+		String scheduled_short_time = scheduled_time.substring(0, scheduled_time.indexOf('+'));
+		String date_time = scheduled_date + " " + scheduled_short_time;
 		
 		if (home_team_id == null || away_team_id == null || home_team_id.length() == 0 || away_team_id.length() ==0) {
 			System.err.println("NOTICE: Skipping game " + id + ". Home or Away is null");
 			return;
 		}
-		game_writer.write(id + "|" + home_team_id + "|" + away_team_id + "|" + scheduled_date + "|" + scheduled_time + "\n");
+		game_writer.write(id + "|" + home_team_id + "|" + away_team_id + "|" + date_time + "\n");
 	}
 	
 	public static Element getDocumentElement(File file) throws Exception {
