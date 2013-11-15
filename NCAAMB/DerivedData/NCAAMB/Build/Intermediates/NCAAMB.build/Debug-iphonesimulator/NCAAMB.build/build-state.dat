@@ -1,0 +1,1383 @@
+TNCAAMB
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386
+cCopyStringsFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/en.lproj/InfoPlist.strings NCAAMB/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Images.xcassets
+cProcessInfoPlistFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Info.plist
+cGenerateDSYMFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
+cTouch /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c000000005281643C0000000000000176
+t1384211516
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000524302D100000000000003B5
+t1380123345
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526DDE7100000000000001A0
+t1382932081
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000526DDE7300000000005838D0
+t1382932083
+s5781712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000526DDE7300000000005B82A0
+t1382932083
+s5997216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000526DDE730000000000445870
+t1382932083
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000526DDE730000000000355050
+t1382932083
+s3493968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000526DDE7400000000002F6810
+t1382932084
+s3106832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000526DDE73000000000004B000
+t1382932083
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526DDE75000000000088C680
+t1382932085
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000526DDE750000000000037620
+t1382932085
+s226848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000526DDE7500000000004848F0
+t1382932085
+s4737264
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000526DDE7500000000001290B0
+t1382932085
+s1216688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000526DDE790000000001DB9910
+t1382932089
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000526DDE7B00000000002B9F20
+t1382932091
+s2858784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+c00000000524302F20000000000002338
+t1380123378
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+c00000000526DDE7D000000000008D300
+t1382932093
+s578304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+c00000000524302F3000000000038ACB0
+t1380123379
+s3714224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+c00000000526DD0B200000000000141F0
+t1382928562
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+c00000000524302F30000000000013500
+t1380123379
+s79104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000524302F30000000000033BA0
+t1380123379
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000524302F3000000000001CFB0
+t1380123379
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000524302F3000000000001B2B0
+t1380123379
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+c00000000526DDE7D00000000000632B0
+t1382932093
+s406192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000524302F30000000000008880
+t1380123379
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000526DDE7D0000000000015080
+t1382932093
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000524302F300000000000230E0
+t1380123379
+s143584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000524302F3000000000000E380
+t1380123379
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+c00000000524302F30000000000087200
+t1380123379
+s553472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+c00000000524302F300000000000171A0
+t1380123379
+s94624
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000524302F30000000000039C10
+t1380123379
+s236560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000524302F3000000000000B0B0
+t1380123379
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000524302F40000000000167FE0
+t1380123380
+s1474528
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000526DDE7D00000000000106A0
+t1382932093
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000526DDE7D000000000001CE40
+t1382932093
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000524302F30000000000071040
+t1380123379
+s462912
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000526DDE7D0000000000067A10
+t1382932093
+s424464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000524302F3000000000001BAD0
+t1380123379
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+c00000000526DDE7D0000000000088BA0
+t1382932093
+s560032
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000524303020000000000000AC9
+t1380123394
+s2761
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c00000000526DDEC90000000000005004
+t1382932169
+s20484
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.o
+t1384485929
+s65224
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o
+t1384490103
+s53580
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o
+t1384485929
+s43504
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.o
+t1384485929
+s43536
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.o
+t1384485929
+s43588
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeViewController.o
+c0000000052856BDA000000000000AA88
+t1384475610
+s43656
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/NCAAMB.LinkFileList
+c000000005285A5270000000000000545
+t1384490279
+s1349
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLColumn.o
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnectionInfo.o
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLManager.o
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLPreparedStatement.o
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.o
+t1384485929
+s43552
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o
+t1384485929
+s43764
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamViewController.o
+c000000005285721C000000000000AA88
+t1384477212
+s43656
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.o
+t1384485929
+s3648
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/assetcatalog_dependencies.txt
+t1384475611
+s427
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/assetcatalog_generated_info.plist
+t1384475611
+s525
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bvitstdxplsejrcsldioaabyfokr/NCAAMB-Prefix.pch.pch
+t1384481473
+s114360
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.pch
+t1384485929
+s114420
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch.pch
+t1384475610
+s108100
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
+t1384490279
+s306
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM
+t1384490279
+s102
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Base.lproj/Main.storyboardc
+t1384478231
+s510
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist
+t1384490279
+s1013
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
+t1384490279
+s27440
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/PkgInfo
+t1384490279
+s8
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/en.lproj/InfoPlist.strings
+t1384475610
+s42
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.h
+c000000005285699B000000000000011D
+t1384475035
+s285
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m
+c000000005285699B00000000000007DF
+t1384475035
+s2015
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard
+c00000000528576150000000000006A4E
+t1384478229
+s27214
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.h
+c000000005285906900000000000004A7
+t1384484969
+s1191
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m
+c000000005285A45C0000000000000315
+t1384490076
+s789
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.h
+c000000005285759300000000000000FF
+t1384478099
+s255
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m
+c00000000528575930000000000000219
+t1384478099
+s537
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.h
+c00000000528575910000000000000103
+t1384478097
+s259
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m
+c00000000528575930000000000000221
+t1384478099
+s545
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.h
+c00000000528575FC00000000000000E4
+t1384478204
+s228
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m
+c00000000528575F400000000000001F5
+t1384478196
+s501
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.h
+c0000000052856BD800000000000000E8
+t1384475608
+s232
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.m
+c0000000052856A250000000000000201
+t1384475173
+s513
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Images.xcassets
+c000000005285699B0000000000000088
+t1384475035
+s136
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Info.plist
+c000000005285699B00000000000004CC
+t1384475035
+s1228
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch
+c000000005285699B0000000000000158
+t1384475035
+s344
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.h
+c000000005285A40000000000000001A7
+t1384489984
+s423
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m
+c000000005285A45C0000000000000370
+t1384490076
+s880
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.h
+c00000000528575930000000000000105
+t1384478099
+s261
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m
+c00000000528575430000000000000225
+t1384478019
+s549
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.h
+c000000005285732900000000000000F2
+t1384477481
+s242
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m
+c00000000528573370000000000000217
+t1384477495
+s535
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.m
+c00000000528571B60000000000000205
+t1384477110
+s517
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/en.lproj/InfoPlist.strings
+c000000005285699B000000000000002D
+t1384475035
+s45
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m
+c000000005285699B0000000000000159
+t1384475035
+s345
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit.framework/Headers/PGSQLColumn.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit.framework/Headers/PGSQLConnection.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit.framework/Headers/PGSQLField.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit.framework/Headers/PGSQLKit.h
+c000000004CACB91E00000000000000C9
+t1286387998
+s201
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit.framework/Headers/PGSQLLogin.h
+c00000000528598F70000000000000602
+t1384487159
+s1538
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit.framework/Headers/PGSQLRecord.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit.framework/Headers/PGSQLRecordset.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/Info.plist
+c000000004B7EAD21000000000000030A
+t1266593057
+s778
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m
+c000000004E8BB0930000000000000314
+t1317777555
+s788
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m
+c000000004A8D60D500000000000003CE
+t1250779349
+s974
+
+N/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m
+c000000004A42943A000000000000016C
+t1245877306
+s364
+
+N/usr/lib/libSystem.B.dylib
+c00000000526DD0A1000000000000E6D0
+t1382928545
+s59088
+
+N/usr/lib/system/libcache.dylib
+c00000000526DD0B20000000000012A00
+t1382928562
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c00000000526DD092000000000002E320
+t1382928530
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000526DD0A10000000000021860
+t1382928545
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c00000000526DD0B1000000000001B620
+t1382928561
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c00000000526DD0B100000000000BD920
+t1382928561
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c00000000526DD0B200000000000141F0
+t1382928562
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000526DD0B2000000000000A120
+t1382928562
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c00000000526DD0B2000000000001D550
+t1382928562
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c00000000526DD0B00000000000014EE0
+t1382928560
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c00000000526DD0B40000000000010380
+t1382928564
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c00000000526DD0B4000000000000C4C0
+t1382928564
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c00000000526DD0B200000000000357A0
+t1382928562
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000526DD0B2000000000000C070
+t1382928562
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000526DD0A10000000000168C00
+t1382928545
+s1477632
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000526DD0B10000000000010630
+t1382928561
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000526DD0B3000000000001DF10
+t1382928563
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000526DD0A10000000000075B00
+t1382928545
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c00000000526DD0A1000000000007CC70
+t1382928545
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c00000000526DD0A100000000000766C0
+t1382928545
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000526DD0B20000000000044DC0
+t1382928562
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000526DD0A10000000000021FA0
+t1382928545
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000526DD0B2000000000002D900
+t1382928562
+s186624
+
+N/usr/lib/system/libsystem_pthread.dylib
+c00000000526DD0B2000000000001E570
+t1382928562
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000526DD0A8000000000000CC70
+t1382928552
+s52336
+
+N/usr/lib/system/libunc.dylib
+c00000000526DD0AC000000000000C3F0
+t1382928556
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c00000000526DD0B200000000000199F0
+t1382928562
+s104944
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLField.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLLogin.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.m
+r0
+
+CBuild AST from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3752beacdc35b841^28b6beacdc35b841^---0#1#1#--18"Check dependencies36"BBF25DDB-C7E9-42AD-A52A-FF7611689317-
+
+CCompileAssetCatalog /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Images.xcassets
+s406168410.716170
+e406168411.574962
+r1
+xCompileAssetCatalog
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/LaunchImage-700-568h@2x.png
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Assets.car
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"CompileAssetCatalog DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app NCAAMB/Images.xcassets109"CompileAssetCatalog DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app NCAAMB/Images.xcassetsf96ab75aa335b841^2b31935ba335b841^-455"/* com.apple.actool.compilation-results *//Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/LaunchImage-700-568h@2x.png/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Assets.car/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@69"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Images.xcassets/0000000000000000^1206"CompileAssetCatalog DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app NCAAMB/Images.xcassets    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Images.xcassets36"1A46C2DD-3F03-4FF4-8229-291C3BE4C684-
+b359014C1-4D9F-42B2-AFA0-44B8C8CDB3FA
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406178729.577541
+e406178729.684965
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m218"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.o NCAAMB/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler51f993a9cb35b841^a75aafa9cb35b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m0000000000000000^3974"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.o NCAAMB/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.o36"FC298F81-BC52-4C77-8AA0-2B75EBF2BD70-
+b872A2253-8793-4D04-9D34-F23FE97FC169
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406182902.362665
+e406182903.822808
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m256"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6ef95cf6db35b841^079ad3f7db35b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m0000000000000000^4088"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o36"054FEDF7-219A-47DF-949C-45258E35B339-
+bC7116335-34D5-4978-9363-1F35DA90E32F
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406178729.288503
+e406178729.584727
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m242"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o NCAAMB/DailyScheduleController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere63d4aa9cb35b841^46b495a9cb35b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m0000000000000000^4046"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o NCAAMB/DailyScheduleController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o36"C158310C-C9A4-4034-9156-438DEFB133A7-
+b872A2253-8793-4D04-9D34-F23FE97FC169
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406178729.287175
+e406178729.576677
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m246"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.o NCAAMB/DailyScoreboardController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5da349a9cb35b841^7ea993a9cb35b841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m0000000000000000^4058"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.o NCAAMB/DailyScoreboardController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/DailyScoreboardController.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.o36"D4F0A018-507E-46B0-BA60-91C2538971DD-
+b872A2253-8793-4D04-9D34-F23FE97FC169
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406178729.286834
+e406178729.577353
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m224"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.o NCAAMB/HomeController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerec8a49a9cb35b841^86ca93a9cb35b841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m0000000000000000^3992"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.o NCAAMB/HomeController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.o36"566EE6D2-98CA-43BF-A62E-2B4ACD5F6FC4-
+b872A2253-8793-4D04-9D34-F23FE97FC169
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeViewController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406168410.290588
+e406168410.595321
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeViewController.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.m232"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeViewController.o NCAAMB/HomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler249c4a5aa335b841^8c67985aa335b841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.m0000000000000000^3902"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeViewController.o NCAAMB/HomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeViewController.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeViewController.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeViewController.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeViewController.o36"D3DFFE69-E73E-46F9-8931-69BFCC6C8731-
+b359014C1-4D9F-42B2-AFA0-44B8C8CDB3FA
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLColumn.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406182902.365520
+e406182903.527370
+r0
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLColumn.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/pqtouch/include/libpq-fe.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/pqtouch/include/postgres_ext.h
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:19:27: warning: 'initWithCString:' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]
+o        name = [[NSString alloc] initWithCString:PQfname(result, columnIndex)];
+o                                 ^
+oIn module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:361:1: note: method 'initWithCString:' declared here
+o- (id)initWithCString:(const char *)bytes NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);  
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:16:5: error: the result of a delegate init call must be immediately returned or assigned to 'self'
+o    [super init];
+o    ^~~~~~~~~~~~
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:29:8: error: 'release' is unavailable: not available in automatic reference counting mode
+o        [name release];
+o              ^
+oIn module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:
+oIn module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:
+oIn module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:
+oIn module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:38:1: note: declaration has been explicitly marked unavailable here
+o- (oneway void)release OBJC_ARC_UNAVAILABLE;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:29:8: error: ARC forbids explicit message send of 'release'
+o        [name release];
+o         ~~~~ ^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:30:9: error: ARC forbids explicit message send of 'dealloc'
+o        [super dealloc];
+o         ~~~~~ ^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:35:19: error: 'retain' is unavailable: not available in automatic reference counting mode
+o    return [[name retain] autorelease];
+o                  ^
+oIn module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:
+oIn module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:
+oIn module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:
+oIn module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:37:1: note: declaration has been explicitly marked unavailable here
+o- (id)retain OBJC_ARC_UNAVAILABLE;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:35:19: error: ARC forbids explicit message send of 'retain'
+o    return [[name retain] autorelease];
+o             ~~~~ ^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:35:27: error: 'autorelease' is unavailable: not available in automatic reference counting mode
+o    return [[name retain] autorelease];
+o                          ^
+oIn module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:
+oIn module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:
+oIn module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:
+oIn module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:39:1: note: declaration has been explicitly marked unavailable here
+o- (id)autorelease OBJC_ARC_UNAVAILABLE;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:35:27: error: ARC forbids explicit message send of 'autorelease'
+o    return [[name retain] autorelease];
+o            ~~~~~~~~~~~~~ ^
+o1 warning and 8 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m220"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLColumn.o PGSQLKit/PGSQLColumn.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd9d05df6db35b841^d87dbbf7db35b841^-5778"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:19:27: warning: 'initWithCString:' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]        name = [[NSString alloc] initWithCString:PQfname(result, columnIndex)];                                 ^In module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:361:1: note: method 'initWithCString:' declared here- (id)initWithCString:(const char *)bytes NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);  ^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:16:5: error: the result of a delegate init call must be immediately returned or assigned to 'self'    [super init];    ^~~~~~~~~~~~/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:29:8: error: 'release' is unavailable: not available in automatic reference counting mode        [name release];              ^In module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:In module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:In module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:In module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:38:1: note: declaration has been explicitly marked unavailable here- (oneway void)release OBJC_ARC_UNAVAILABLE;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:29:8: error: ARC forbids explicit message send of 'release'        [name release];         ~~~~ ^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:30:9: error: ARC forbids explicit message send of 'dealloc'        [super dealloc];         ~~~~~ ^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:35:19: error: 'retain' is unavailable: not available in automatic reference counting mode    return [[name retain] autorelease];                  ^In module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:In module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:In module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:In module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:37:1: note: declaration has been explicitly marked unavailable here- (id)retain OBJC_ARC_UNAVAILABLE;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:35:19: error: ARC forbids explicit message send of 'retain'    return [[name retain] autorelease];             ~~~~ ^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:35:27: error: 'autorelease' is unavailable: not available in automatic reference counting mode    return [[name retain] autorelease];                          ^In module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:In module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:In module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:In module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:39:1: note: declaration has been explicitly marked unavailable here- (id)autorelease OBJC_ARC_UNAVAILABLE;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m:35:27: error: ARC forbids explicit message send of 'autorelease'    return [[name retain] autorelease];            ~~~~~~~~~~~~~ ^1 warning and 8 errors generated.9(36%IDEClangDiagnosticActivityLogMessage2@61"'initWithCString:' is deprecated: first deprecated in iOS 2.0-406182903#18446744073709551615#0#1(2@39"Method 'initWithCString:' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@188"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h0000000000000000^360#0#360#0#25072#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^18#26#18#26#352#0#12"Deprecations--2@85"The result of a delegate init call must be immediately returned or assigned to 'self'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^15#4#15#4#288#0#16"ARC Restrictions1(3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^15#4#15#16#288#11#-2@76"'release' is unavailable: not available in automatic reference counting mode-406182903#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@150"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h0000000000000000^37#0#37#0#823#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^28#7#28#7#558#0#14"Semantic Issue--2@46"ARC forbids explicit message send of 'release'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^28#7#28#7#558#0#16"ARC Restrictions1(3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^28#2#28#6#553#0#-2@46"ARC forbids explicit message send of 'dealloc'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^29#8#29#8#576#0#16"ARC Restrictions1(3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^29#2#29#7#570#0#-2@75"'retain' is unavailable: not available in automatic reference counting mode-406182903#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@150"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h0000000000000000^36#0#36#0#788#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^34#18#34#18#628#0#14"Semantic Issue--2@45"ARC forbids explicit message send of 'retain'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^34#18#34#18#628#0#16"ARC Restrictions1(3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^34#13#34#17#623#0#-2@80"'autorelease' is unavailable: not available in automatic reference counting mode-406182903#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@150"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h0000000000000000^38#0#38#0#868#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^34#26#34#26#636#0#14"Semantic Issue--2@50"ARC forbids explicit message send of 'autorelease'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^34#26#34#26#636#0#16"ARC Restrictions1(3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^34#12#34#25#622#12#-0#0#1#-19%DVTDocumentLocation4@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m0000000000000000^3978"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLColumn.o PGSQLKit/PGSQLColumn.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLColumn.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLColumn.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLColumn.o36"CC3F9598-BAE8-41EE-A0FF-2097860EF364-
+bC7116335-34D5-4978-9363-1F35DA90E32F
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnection.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnectionInfo.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406182903.322429
+e406182903.495122
+r0
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnectionInfo.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLField.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBField.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBRecord.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBRecordset.h
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:9:
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.h:10:
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h:54:
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h:58:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h:48:23: warning: extra tokens at end of #import directive [-Wextra-tokens]
+o#import "PGSQLField.h";
+o                      ^
+o                      //
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:18:16: error: 'retain' is unavailable: not available in automatic reference counting mode
+o        [pgConnection retain];
+o                      ^
+oIn module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:
+oIn module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:
+oIn module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:
+oIn module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:37:1: note: declaration has been explicitly marked unavailable here
+o- (id)retain OBJC_ARC_UNAVAILABLE;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:18:16: error: ARC forbids explicit message send of 'retain'
+o        [pgConnection retain];
+o         ~~~~~~~~~~~~ ^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:30:8: error: 'release' is unavailable: not available in automatic reference counting mode
+o        [cmd  release];
+o              ^
+oIn module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:
+oIn module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:
+oIn module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:
+oIn module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:38:1: note: declaration has been explicitly marked unavailable here
+o- (oneway void)release OBJC_ARC_UNAVAILABLE;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:30:8: error: ARC forbids explicit message send of 'release'
+o        [cmd  release];
+o         ~~~  ^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:15:2: error: the result of a delegate init call must be immediately returned or assigned to 'self'
+o        [super init];
+o        ^~~~~~~~~~~~
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:37:16: error: 'release' is unavailable: not available in automatic reference counting mode
+o        [pgConnection release];
+o                      ^
+oIn module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:
+oIn module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
+oIn module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:
+oIn module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:
+oIn module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:38:1: note: declaration has been explicitly marked unavailable here
+o- (oneway void)release OBJC_ARC_UNAVAILABLE;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:37:16: error: ARC forbids explicit message send of 'release'
+o        [pgConnection release];
+o         ~~~~~~~~~~~~ ^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:39:9: error: ARC forbids explicit message send of 'dealloc'
+o        [super dealloc];
+o         ~~~~~ ^
+o1 warning and 8 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m236"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnectionInfo.o PGSQLKit/PGSQLConnectionInfo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler36af52f7db35b841^ecbf7ef7db35b841^-5693"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:9:In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.h:10:In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h:54:In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h:58:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h:48:23: warning: extra tokens at end of #import directive [-Wextra-tokens]#import "PGSQLField.h";                      ^                      ///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:18:16: error: 'retain' is unavailable: not available in automatic reference counting mode        [pgConnection retain];                      ^In module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:In module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:In module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:In module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:37:1: note: declaration has been explicitly marked unavailable here- (id)retain OBJC_ARC_UNAVAILABLE;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:18:16: error: ARC forbids explicit message send of 'retain'        [pgConnection retain];         ~~~~~~~~~~~~ ^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:30:8: error: 'release' is unavailable: not available in automatic reference counting mode        [cmd  release];              ^In module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:In module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:In module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:In module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:38:1: note: declaration has been explicitly marked unavailable here- (oneway void)release OBJC_ARC_UNAVAILABLE;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:30:8: error: ARC forbids explicit message send of 'release'        [cmd  release];         ~~~  ^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:15:2: error: the result of a delegate init call must be immediately returned or assigned to 'self'        [super init];        ^~~~~~~~~~~~/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:37:16: error: 'release' is unavailable: not available in automatic reference counting mode        [pgConnection release];                      ^In module 'Foundation' imported from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h:9:In module 'CoreFoundation' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In module 'Dispatch' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:15:In module 'os' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/dispatch/dispatch.h:48:In module 'ObjectiveC' imported from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/os/object.h:74:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h:38:1: note: declaration has been explicitly marked unavailable here- (oneway void)release OBJC_ARC_UNAVAILABLE;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:37:16: error: ARC forbids explicit message send of 'release'        [pgConnection release];         ~~~~~~~~~~~~ ^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:39:9: error: ARC forbids explicit message send of 'dealloc'        [super dealloc];         ~~~~~ ^1 warning and 8 errors generated.9(36%IDEClangDiagnosticActivityLogMessage2@40"Extra tokens at end of #import directive-406182903#18446744073709551615#0#4(2@94"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m:9:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^8#8#8#8#162#0#21"Apple LLVM 5.0 Notice--2@95"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.h:10:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.h0000000000000000^9#8#9#8#189#0#21"Apple LLVM 5.0 Notice--2@91"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h:54:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h0000000000000000^53#8#53#8#2354#0#21"Apple LLVM 5.0 Notice--2@90"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h:58:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@71"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h0000000000000000^57#8#57#8#2328#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h0000000000000000^47#22#47#22#1877#0#29"Lexical or Preprocessor Issue1(3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h0000000000000000^47#22#47#22#1877#0#-2@75"'retain' is unavailable: not available in automatic reference counting mode-406182903#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@150"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h0000000000000000^36#0#36#0#788#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^17#15#17#15#340#0#14"Semantic Issue--2@45"ARC forbids explicit message send of 'retain'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^17#15#17#15#340#0#16"ARC Restrictions1(3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^17#2#17#14#327#0#-2@76"'release' is unavailable: not available in automatic reference counting mode-406182903#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@150"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h0000000000000000^37#0#37#0#823#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^29#7#29#7#773#0#14"Semantic Issue--2@46"ARC forbids explicit message send of 'release'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^29#7#29#7#773#0#16"ARC Restrictions1(3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^29#2#29#5#768#0#-2@85"The result of a delegate init call must be immediately returned or assigned to 'self'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^14#1#14#1#281#0#16"ARC Restrictions1(3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^14#1#14#13#281#11#-2@76"'release' is unavailable: not available in automatic reference counting mode-406182903#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@150"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/objc/NSObject.h0000000000000000^37#0#37#0#823#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^36#15#36#15#834#0#14"Semantic Issue--2@46"ARC forbids explicit message send of 'release'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^36#15#36#15#834#0#16"ARC Restrictions1(3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^36#2#36#14#821#0#-2@46"ARC forbids explicit message send of 'dealloc'-406182903#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^38#8#38#8#854#0#16"ARC Restrictions1(3@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^38#2#38#7#848#0#-0#0#1#-19%DVTDocumentLocation4@76"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m0000000000000000^4026"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnectionInfo.o PGSQLKit/PGSQLConnectionInfo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnectionInfo.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnectionInfo.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLConnectionInfo.o36"0B1BEB95-A089-4B1D-A000-AD1B3F3F229C-
+bC7116335-34D5-4978-9363-1F35DA90E32F
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLField.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLLogin.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLLogin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLManager.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406182902.364679
+e406182903.606891
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLManager.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLColumn.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBColumn.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLField.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBField.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBRecord.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/GenDBRecordset.h
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnectionInfo.h
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m:9:
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.h:10:
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h:54:
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h:58:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h:48:23: warning: extra tokens at end of #import directive [-Wextra-tokens]
+o#import "PGSQLField.h";
+o                      ^
+o                      //
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m220"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLManager.o NCAAMB/PGSQLManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler36955df6db35b841^1e89bbf7db35b841^-586"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m:9:In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.h:10:In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h:54:In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h:58:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h:48:23: warning: extra tokens at end of #import directive [-Wextra-tokens]#import "PGSQLField.h";                      ^                      //1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@40"Extra tokens at end of #import directive-406182903#18446744073709551615#0#4(2@85"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m:9:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@67"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m0000000000000000^8#8#8#8#153#0#21"Apple LLVM 5.0 Notice--2@86"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.h:10:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.h0000000000000000^9#8#9#8#187#0#21"Apple LLVM 5.0 Notice--2@91"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h:54:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLConnection.h0000000000000000^53#8#53#8#2354#0#21"Apple LLVM 5.0 Notice--2@90"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h:58:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@71"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.h0000000000000000^57#8#57#8#2328#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h0000000000000000^47#22#47#22#1877#0#29"Lexical or Preprocessor Issue1(3@68"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.h0000000000000000^47#22#47#22#1877#0#-0#0#1#-19%DVTDocumentLocation4@67"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m0000000000000000^3980"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLManager.o NCAAMB/PGSQLManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLManager.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLManager.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PGSQLManager.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLManager.o36"5CC6A06F-229C-47B4-B02F-FE993ABD3375-
+bC7116335-34D5-4978-9363-1F35DA90E32F
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLPreparedStatement.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406182902.364205
+e406182903.322114
+r0
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLPreparedStatement.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:21:3: error: expected a type
+o-(PGSQLRecordset *)open;
+o  ^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'prepare' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:18:1: note: method 'prepare' declared here
+o-(BOOL)prepare;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'exec' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:20:1: note: method 'exec' declared here
+o-(BOOL)exec;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'open' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:21:1: note: method 'open' declared here
+o-(PGSQLRecordset *)open;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'execAsync' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:22:1: note: method 'execAsync' declared here
+o-(void)execAsync;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'openAsync' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:23:1: note: method 'openAsync' declared here
+o-(void)openAsync;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'statementName' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:25:1: note: method 'statementName' declared here
+o-(NSString *)statementName;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'setStatementName:' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:26:1: note: method 'setStatementName:' declared here
+o-(void)setStatementName:(NSString *)value;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'paramterByIndex:' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:28:1: note: method 'paramterByIndex:' declared here
+o-(void *)paramterByIndex:(int)index;
+o^
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'setParameter:forIndex:ofType:' not found [-Wincomplete-implementation]
+o@implementation PGSQLPreparedStatement
+o                ^
+oIn file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:
+o/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:29:1: note: method 'setParameter:forIndex:ofType:' declared here
+o-(void)setParameter:(void *)value forIndex:(int)index ofType:(int)SQL_TYPE;
+o^
+o9 warnings and 1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m242"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLPreparedStatement.o PGSQLKit/PGSQLPreparedStatement.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2f515df6db35b841^f37452f7db35b841^-4533"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:21:3: error: expected a type-(PGSQLRecordset *)open;  ^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'prepare' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:18:1: note: method 'prepare' declared here-(BOOL)prepare;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'exec' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:20:1: note: method 'exec' declared here-(BOOL)exec;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'open' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:21:1: note: method 'open' declared here-(PGSQLRecordset *)open;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'execAsync' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:22:1: note: method 'execAsync' declared here-(void)execAsync;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'openAsync' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:23:1: note: method 'openAsync' declared here-(void)openAsync;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'statementName' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:25:1: note: method 'statementName' declared here-(NSString *)statementName;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'setStatementName:' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:26:1: note: method 'setStatementName:' declared here-(void)setStatementName:(NSString *)value;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'paramterByIndex:' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:28:1: note: method 'paramterByIndex:' declared here-(void *)paramterByIndex:(int)index;^/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:12:17: warning: method definition for 'setParameter:forIndex:ofType:' not found [-Wincomplete-implementation]@implementation PGSQLPreparedStatement                ^In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h:29:1: note: method 'setParameter:forIndex:ofType:' declared here-(void)setParameter:(void *)value forIndex:(int)index ofType:(int)SQL_TYPE;^9 warnings and 1 error generated.10(36%IDEClangDiagnosticActivityLogMessage2@15"Expected a type-406182903#18446744073709551615#0#1(2@97"In file included from /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m:9:-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^8#8#8#8#165#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^20#2#20#2#339#0#11"Parse Issue--2@41"Method definition for 'prepare' not found-406182903#18446744073709551615#0#1(2@30"Method 'prepare' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^17#0#17#0#307#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--2@38"Method definition for 'exec' not found-406182903#18446744073709551615#0#1(2@27"Method 'exec' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^19#0#19#0#324#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--2@38"Method definition for 'open' not found-406182903#18446744073709551615#0#1(2@27"Method 'open' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^20#0#20#0#337#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--2@43"Method definition for 'execAsync' not found-406182903#18446744073709551615#0#1(2@32"Method 'execAsync' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^21#0#21#0#362#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--2@43"Method definition for 'openAsync' not found-406182903#18446744073709551615#0#1(2@32"Method 'openAsync' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^22#0#22#0#380#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--2@47"Method definition for 'statementName' not found-406182903#18446744073709551615#0#1(2@36"Method 'statementName' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^24#0#24#0#399#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--2@51"Method definition for 'setStatementName:' not found-406182903#18446744073709551615#0#1(2@40"Method 'setStatementName:' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^25#0#25#0#427#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--2@50"Method definition for 'paramterByIndex:' not found-406182903#18446744073709551615#0#1(2@39"Method 'paramterByIndex:' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^27#0#27#0#471#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--2@63"Method definition for 'setParameter:forIndex:ofType:' not found-406182903#18446744073709551615#0#1(2@52"Method 'setParameter:forIndex:ofType:' declared here-406182903#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.h0000000000000000^28#0#28#0#508#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^11#16#11#16#210#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m0000000000000000^4044"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLPreparedStatement.o PGSQLKit/PGSQLPreparedStatement.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLPreparedStatement.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLPreparedStatement.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLPreparedStatement.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLPreparedStatement.o36"5596372C-8CA1-4985-B23B-1D81872D91E6-
+bC7116335-34D5-4978-9363-1F35DA90E32F
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLRecord.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecord.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PGSQLRecordset.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/PGSQLRecordset.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406178729.587680
+e406178729.675318
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m248"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.o NCAAMB/PlayerNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8db696a9cb35b841^09e2aca9cb35b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m0000000000000000^4064"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.o NCAAMB/PlayerNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerNavigationController.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.o36"C4E29950-8056-40E0-8BD7-8752145B68B2-
+b872A2253-8793-4D04-9D34-F23FE97FC169
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406178729.287587
+e406178729.576970
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m244"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o NCAAMB/TeamNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1fbd49a9cb35b841^6fb893a9cb35b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m0000000000000000^4052"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o NCAAMB/TeamNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o36"DCBBAA4E-3645-4CAA-93E7-C2D432AE6852-
+b872A2253-8793-4D04-9D34-F23FE97FC169
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamViewController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406170011.740325
+e406170012.111310
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamViewController.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.m232"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamViewController.o NCAAMB/TeamViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf697bd9ba935b841^027f1c9ca935b841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.m0000000000000000^3902"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamViewController.o NCAAMB/TeamViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamViewController.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamViewController.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/TeamViewController.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamViewController.o36"5A765E8A-BB9E-4BB3-B1A1-8425F90B0AE5-
+bE333A8D7-DF8B-4593-9CAB-E1912A5070C5
+
+CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406178729.577995
+e406178729.617773
+r1
+xCompileC
+xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.o
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m204"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.o NCAAMB/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerca3694a9cb35b841^f52a9ea9cb35b841^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m0000000000000000^3932"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.o NCAAMB/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -include /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.dia -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/main.m -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.o36"787E76A6-A702-4829-A35C-8357C80715D8-
+b872A2253-8793-4D04-9D34-F23FE97FC169
+
+CCompileStoryboard /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard
+s406171029.756042
+e406171031.654981
+r1
+xCompileStoryboard
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CompileStoryboard NCAAMB/Base.lproj/Main.storyboard51"CompileStoryboard NCAAMB/Base.lproj/Main.storyboard2ba3c195ad35b841^4bada797ad35b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard0000000000000000^855"CompileStoryboard NCAAMB/Base.lproj/Main.storyboard    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Base.lproj/Main.storyboardc /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard36"1EBA11B7-862D-4E67-B519-554C524E113A-
+b725B5565-7E02-4F96-9B90-3D8CEA4FD992
+
+CCopyPlistFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist PGSQLKit/Info.plist
+s406182902.308774
+e406182902.340457
+r1
+xCopyPlistFile
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist
+xPGSQLKit/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy PGSQLKit/Info.plist111"CopyPlistFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist PGSQLKit/Info.plist6c224ff6db35b841^242b57f6db35b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/Info.plist0000000000000000^531"CopyPlistFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist PGSQLKit/Info.plist    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app -- PGSQLKit/Info.plist36"5D521D67-B930-48DB-8274-6716A8EF5F9D-
+bC7116335-34D5-4978-9363-1F35DA90E32F
+
+CCopyStringsFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/English.lproj/InfoPlist.strings PGSQLKit/English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/en.lproj/InfoPlist.strings NCAAMB/en.lproj/InfoPlist.strings
+s406168410.715300
+e406168410.717004
+r1
+xCopyStringsFile
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/en.lproj/InfoPlist.strings
+xNCAAMB/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy NCAAMB/en.lproj/InfoPlist.strings143"CopyStringsFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/en.lproj/InfoPlist.strings NCAAMB/en.lproj/InfoPlist.strings8a3eb75aa335b841^088eb75aa335b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/en.lproj/InfoPlist.strings0000000000000000^627"CopyStringsFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/en.lproj/InfoPlist.strings NCAAMB/en.lproj/InfoPlist.strings    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/en.lproj -- NCAAMB/en.lproj/InfoPlist.strings36"64C788B6-45DB-4263-8060-3D9307EBED12-
+b359014C1-4D9F-42B2-AFA0-44B8C8CDB3FA
+
+CCpResource PGSQLKit/icon_query_tool.icns DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/icon_query_tool.icns
+r0
+
+CGenerateDSYMFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
+s406183079.444631
+e406183079.503921
+r1
+xGenerateDSYMFile
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generate /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM162"GenerateDSYMFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB76df71a7dc35b841^5c0181a7dc35b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM/0000000000000000^731"GenerateDSYMFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM36"54AB40DB-FC32-459C-8F22-A9837FCB7052-
+bC3E06065-7542-48E9-BE37-E905900FB636
+
+CLd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386
+s406183079.138727
+e406183079.423503
+r1
+xLd
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
+xnormal
+xi386
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/NCAAMB.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/HomeController.o
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScoreboardController.o
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/AppDelegate.o
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/main.o
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/PlayerNavigationController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB88"Ld DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386b09223a7dc35b841^166b6ca7dc35b841^---0#0#1#--1607"Ld DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -filelist /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/NCAAMB.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/NCAAMB_dependency_info.dat -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB36"6EFACFE0-E8E9-4736-8004-B4BD77CADA5D-
+bC3E06065-7542-48E9-BE37-E905900FB636
+
+CProcessInfoPlistFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Info.plist
+s406183079.424832
+e406183079.444166
+r1
+xProcessInfoPlistFile
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Process /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Info.plist123"ProcessInfoPlistFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist NCAAMB/NCAAMB-Info.plist29cf6ca7dc35b841^74b571a7dc35b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Info.plist0000000000000000^949"ProcessInfoPlistFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist NCAAMB/NCAAMB-Info.plist    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Info.plist -genpkginfo /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/assetcatalog_generated_info.plist -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist36"055860AF-1035-4E3E-BCC8-DAEB44BB7675-
+bC3E06065-7542-48E9-BE37-E905900FB636
+
+CProcessPCH /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bvitstdxplsejrcsldioaabyfokr/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406174272.718269
+e406174273.134643
+r1
+xProcessPCH
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bvitstdxplsejrcsldioaabyfokr/NCAAMB-Prefix.pch.pch
+xNCAAMB/NCAAMB-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile NCAAMB/NCAAMB-Prefix.pch226"ProcessPCH DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bvitstdxplsejrcsldioaabyfokr/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler460bb840ba35b841^857a2241ba35b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch0000000000000000^3787"ProcessPCH DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bvitstdxplsejrcsldioaabyfokr/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bvitstdxplsejrcsldioaabyfokr/NCAAMB-Prefix.pch.dia -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bvitstdxplsejrcsldioaabyfokr/NCAAMB-Prefix.pch.d -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bvitstdxplsejrcsldioaabyfokr/NCAAMB-Prefix.pch.pch36"1B93683A-FDD5-4CB5-A918-5AF2C8484AFB-
+b054093A8-EFD2-4A72-A396-E6EC39F51C79
+
+CProcessPCH /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406178728.879125
+e406178729.254093
+r1
+xProcessPCH
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.pch
+xNCAAMB/NCAAMB-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile NCAAMB/NCAAMB-Prefix.pch226"ProcessPCH DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7023e1a8cb35b841^b30c41a9cb35b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch0000000000000000^3828"ProcessPCH DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.dia -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.d -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-dnwdpsehovidmxhkuwjrhqxoczvk/NCAAMB-Prefix.pch.pch36"20AE2BF7-D980-4F25-87BF-2972DE309BBA-
+b872A2253-8793-4D04-9D34-F23FE97FC169
+
+CProcessPCH /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406168408.284631
+e406168410.289716
+r1
+xProcessPCH
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch.pch
+xNCAAMB/NCAAMB-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile NCAAMB/NCAAMB-Prefix.pch226"ProcessPCH DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler48fe4858a335b841^802a4a5aa335b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch0000000000000000^3714"ProcessPCH DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch.dia -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch.d -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/NCAAMB-Prefix.pch -o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-embbimmwsujaxwasuwhlepvdysht/NCAAMB-Prefix.pch.pch36"F45CE46A-66B4-4936-9077-2312056ED5D8-
+b359014C1-4D9F-42B2-AFA0-44B8C8CDB3FA
+
+CProcessPCH /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Index/PrecompiledHeaders/NCAAMB-Prefix-bjrrnmkihjnkimeqvwcbsdvbrqyw_ast/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Index/PrecompiledHeaders/NCAAMB-Prefix-cmejmxslsyshrbdzyxbzejneubxp_ast/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Index/PrecompiledHeaders/NCAAMB-Prefix-gtcwpwrwiilurkechvnwnansjgrm_ast/NCAAMB-Prefix.pch.pch NCAAMB/NCAAMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CStripNIB /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/English.lproj/PGSQL\ Login.nib
+r0
+
+CTouch /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
+s406171031.655824
+e406171031.659915
+r1
+xTouch
+x/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app72"Touch DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.appa2eea797ad35b841^c7f0a897ad35b841^---0#0#1#--442"Touch DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app    cd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app36"4B4CCB58-E05F-4086-8A02-C8EA63FCD778-
+b725B5565-7E02-4F96-9B90-3D8CEA4FD992
+
