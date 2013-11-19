@@ -1,2 +1,3 @@
-dependencies: /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m \
-  /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/AppDelegate.h
+dependencies: \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/AppDelegate.m \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/AppDelegate.h

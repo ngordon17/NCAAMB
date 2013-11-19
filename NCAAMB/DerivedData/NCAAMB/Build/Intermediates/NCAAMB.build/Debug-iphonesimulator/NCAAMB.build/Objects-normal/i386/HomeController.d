@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.m \
-  /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/HomeController.h
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/HomeController.m \
+  /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/HomeController.h

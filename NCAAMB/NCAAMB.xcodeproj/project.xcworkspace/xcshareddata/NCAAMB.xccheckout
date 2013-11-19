@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9D6BC04A-4BFC-4FD8-94F9-40985C1498D8</string>
+	<string>666A759B-6BD3-41D9-8FF2-429A7F4FCD1D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>NCAAMB</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0B222BF0-D09D-4CFE-8E7A-F791A109EEF2</key>
-		<string>https://github.com/ngordon17/NCAAMB</string>
+		<key>3A2C3313-EC74-449E-9B12-D332448F9E54</key>
+		<string>https://github.com/ngordon17/NCAAMB.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>NCAAMB/NCAAMB.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0B222BF0-D09D-4CFE-8E7A-F791A109EEF2</key>
+		<key>3A2C3313-EC74-449E-9B12-D332448F9E54</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ngordon17/NCAAMB</string>
+	<string>https://github.com/ngordon17/NCAAMB.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0B222BF0-D09D-4CFE-8E7A-F791A109EEF2</string>
+	<string>3A2C3313-EC74-449E-9B12-D332448F9E54</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0B222BF0-D09D-4CFE-8E7A-F791A109EEF2</string>
+			<string>3A2C3313-EC74-449E-9B12-D332448F9E54</string>
 			<key>IDESourceControlWCCName</key>
 			<string>NCAAMB</string>
 		</dict>

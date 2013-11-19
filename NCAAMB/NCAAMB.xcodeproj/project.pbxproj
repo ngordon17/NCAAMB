@@ -38,6 +38,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FB4BAFD4183ADB3100206DD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		6C9B18E01835A8FC0048648D /* TeamNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamNavigationController.h; sourceTree = "<group>"; };
 		6C9B18E11835A8FC0048648D /* TeamNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamNavigationController.m; sourceTree = "<group>"; };
@@ -251,6 +263,7 @@
 				6CA268181835A11B0048835C /* Sources */,
 				6CA268191835A11B0048835C /* Frameworks */,
 				6CA2681A1835A11B0048835C /* Resources */,
+				FB4BAFD4183ADB3100206DD8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -288,6 +301,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Nicholas Gordon";
 				TargetAttributes = {
+					6CA2681B1835A11B0048835C = {
+						DevelopmentTeam = N46GU33WC6;
+					};
 					6CA2683C1835A11B0048835C = {
 						TestTargetID = 6CA2681B1835A11B0048835C;
 					};
@@ -473,15 +489,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005",
 					/Users/yankeenjg/Desktop/NCAAMB/NCAAMB,
+					"/Users/dalin/Desktop/School/Duke/Senior\\ Fall/CS\\ 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NCAAMB/NCAAMB-Prefix.pch";
 				INFOPLIST_FILE = "NCAAMB/NCAAMB-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -491,15 +511,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005",
 					/Users/yankeenjg/Desktop/NCAAMB/NCAAMB,
+					"/Users/dalin/Desktop/School/Duke/Senior\\ Fall/CS\\ 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NCAAMB/NCAAMB-Prefix.pch";
 				INFOPLIST_FILE = "NCAAMB/NCAAMB-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
