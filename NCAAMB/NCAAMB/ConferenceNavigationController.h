@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ServiceConnector.h"
 
-@interface ConferenceNavigationController : UITableViewController
+@interface ConferenceNavigationController : UITableViewController <ServiceConnectorDelegate>
 
 @property(nonatomic, retain) NSArray* ConferenceData;
 @property(nonatomic, weak) IBOutlet UITableView* CNCTableView;
@@ -34,5 +35,6 @@
  */
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 
+-(void)getDown;
 
 @end

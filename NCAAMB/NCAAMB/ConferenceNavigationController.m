@@ -12,10 +12,10 @@
 
 
 -(void) retrieveConferenceData {
-    
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    [self getDown];
     return -1;
 }
 
@@ -23,6 +23,11 @@
     return nil;
 }
 
+- (void)getDown {
+    ServiceConnector *serviceConnector = [[ServiceConnector alloc] init];
+    serviceConnector.delegate = self;
+    [serviceConnector getTest];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,4 +39,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - ServiceConnectorDelegate -
+-(void)requestReturnedData:(NSData *)data {
+    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
+}
 @end

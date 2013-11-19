@@ -26,6 +26,7 @@
 		6CA268411835A11B0048835C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA268231835A11B0048835C /* UIKit.framework */; };
 		6CA268491835A11B0048835C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CA268471835A11B0048835C /* InfoPlist.strings */; };
 		6CA2684B1835A11B0048835C /* NCAAMBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2684A1835A11B0048835C /* NCAAMBTests.m */; };
+		FB07D953183B372C00266FBE /* ServiceConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = FB07D952183B372C00266FBE /* ServiceConnector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		6CA268461835A11B0048835C /* NCAAMBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NCAAMBTests-Info.plist"; sourceTree = "<group>"; };
 		6CA268481835A11B0048835C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CA2684A1835A11B0048835C /* NCAAMBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAAMBTests.m; sourceTree = "<group>"; };
+		FB07D951183B372C00266FBE /* ServiceConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceConnector.h; sourceTree = "<group>"; };
+		FB07D952183B372C00266FBE /* ServiceConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceConnector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +213,7 @@
 		6CA268251835A11B0048835C /* NCAAMB */ = {
 			isa = PBXGroup;
 			children = (
+				FB07D950183B371600266FBE /* Connection */,
 				6C9B18F01835AAFE0048648D /* Conference */,
 				6C9B18F51835AB740048648D /* Delegate */,
 				6C9B18F11835AB080048648D /* Home */,
@@ -251,6 +255,15 @@
 				6CA268471835A11B0048835C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB07D950183B371600266FBE /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				FB07D951183B372C00266FBE /* ServiceConnector.h */,
+				FB07D952183B372C00266FBE /* ServiceConnector.m */,
+			);
+			name = Connection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +371,7 @@
 				6CA268361835A11B0048835C /* HomeController.m in Sources */,
 				6C9B18EE1835AAE90048648D /* DailyScoreboardController.m in Sources */,
 				6C9B18E21835A8FC0048648D /* TeamNavigationController.m in Sources */,
+				FB07D953183B372C00266FBE /* ServiceConnector.m in Sources */,
 				6C9B18EB1835AADA0048648D /* DailyScheduleController.m in Sources */,
 				6C9B18E81835AAD00048648D /* ConferenceNavigationController.m in Sources */,
 				6CA268301835A11B0048835C /* AppDelegate.m in Sources */,
