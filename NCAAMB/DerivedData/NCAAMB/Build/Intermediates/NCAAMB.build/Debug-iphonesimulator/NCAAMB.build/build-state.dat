@@ -230,8 +230,8 @@ t1384817741
 s65308
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o
-t1384842386
-s58436
+t1384883043
+s72652
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/DailyScheduleController.o
 t1384817741
@@ -255,8 +255,8 @@ t1384817741
 s43632
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o
-t1384842065
-s16440
+t1384882309
+s18548
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o
 t1384817741
@@ -279,15 +279,15 @@ t1384817741
 s109472
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
-t1384842386
+t1384883043
 s306
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM
-t1384842282
+t1384882795
 s102
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Base.lproj/Main.storyboardc
-t1384815973
+t1384880431
 s510
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Info.plist
@@ -295,8 +295,8 @@ t1384815973
 s1013
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
-t1384842386
-s38596
+t1384883043
+s45180
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/PkgInfo
 t1384815973
@@ -317,19 +317,19 @@ t1384815973
 s2015
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard
-c00000000528A9D650000000000006A4E
-t1384815973
+c00000000528B992E0000000000006A4E
+t1384880430
 s27214
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.h
-c00000000528B041900000000000004EF
-t1384842265
-s1263
+c00000000528B9C180000000000000522
+t1384881176
+s1314
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m
-c00000000528B04900000000000000463
-t1384842384
-s1123
+c00000000528BA3600000000000000C86
+t1384883040
+s3206
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/DailyScheduleController.h
 c00000000528A9D6500000000000000FF
@@ -392,9 +392,9 @@ t1384841287
 s463
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m
-c00000000528B02480000000000000584
-t1384841800
-s1412
+c00000000528BA03200000000000005E9
+t1384882226
+s1513
 
 N/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.h
 c00000000528A9D6500000000000000F2
@@ -768,8 +768,8 @@ t1382482845
 s776480
 
 N/usr/lib/system/libdyld.dylib
-c00000000526DD0B200000000000141F0
-t1382928562
+c000000005267039E00000000000141F0
+t1382482846
 s82416
 
 N/usr/lib/system/libkeymgr.dylib
@@ -958,7 +958,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese94569123c3bb841^98a569123c3bb841^---0#1#1#--18"Check dependencies36"A3712939-FE62-426B-9B02-03D9451BC3C6-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese5d09ee3da3bb841^b64b9fe3da3bb841^---0#1#1#--18"Check dependencies36"86CD489C-9898-4335-B056-494D5A1991E0-
 
 CCompileAssetCatalog /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/Images.xcassets
 r0
@@ -1011,8 +1011,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile
 b872A2253-8793-4D04-9D34-F23FE97FC169
 
 CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s406535186.413172
-e406535186.471779
+s406575843.622540
+e406575843.686583
 r1
 xCompileC
 xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o
@@ -1024,12 +1024,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m
 d/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.h
 d/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.h
-o/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m:44:18: warning: unused variable 'parser' [-Wunused-variable]
-o    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
-o                 ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m256"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3be169123c3bb841^7ac878123c3bb841^-274"/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m:44:18: warning: unused variable 'parser' [-Wunused-variable]    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];                 ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@24"Unused variable 'parser'-406535186#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file:///Users/dalin/Desktop/School/Duke/Senior%20Fall/CS%20316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m0000000000000000^43#17#43#17#1067#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@116"file:///Users/dalin/Desktop/School/Duke/Senior%20Fall/CS%20316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m0000000000000000^4625"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -include /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bdypldghpzeqywbgxublqejapfqg/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.d --serialize-diagnostics /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.dia -c /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m -o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o36"FC43620B-82AD-4E3E-B058-ED21AA3B1BA1-
-b62C2F8E8-901E-49AE-A477-9475B9669792
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m256"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5c779fe3da3bb841^22c6afe3da3bb841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/dalin/Desktop/School/Duke/Senior%20Fall/CS%20316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m0000000000000000^4625"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -include /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bdypldghpzeqywbgxublqejapfqg/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.d --serialize-diagnostics /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.dia -c /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m -o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o36"2C911D41-F48B-4B08-9833-13108C8B2DDE-
+b4162FE02-988C-406A-9027-A2CD41E36D98
 
 CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ConferenceNavigationController.o /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/ConferenceNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s406182902.362665
@@ -1483,8 +1479,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile
 b872A2253-8793-4D04-9D34-F23FE97FC169
 
 CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s406534865.918625
-e406534865.965392
+s406575109.870750
+e406575109.909049
 r1
 xCompileC
 xDerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o
@@ -1495,8 +1491,8 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m
 d/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m228"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o NCAAMB/ServiceConnector.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere145ebd13a3bb841^b325f7d13a3bb841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/dalin/Desktop/School/Duke/Senior%20Fall/CS%20316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m0000000000000000^4541"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o NCAAMB/ServiceConnector.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -include /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bdypldghpzeqywbgxublqejapfqg/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.d --serialize-diagnostics /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.dia -c /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m -o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o36"CA940A69-FDFE-4F78-A4F1-14044345B8D8-
-bB02CB396-5104-41C9-AC62-36BBB123BB2C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m228"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o NCAAMB/ServiceConnector.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerce00df05d83bb841^67b9e805d83bb841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/dalin/Desktop/School/Duke/Senior%20Fall/CS%20316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m0000000000000000^4541"CompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o NCAAMB/ServiceConnector.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-generated-files.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-own-target-headers.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-all-target-headers.hmap -iquote /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/NCAAMB-project-headers.hmap -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources/i386 -I/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/DerivedSources -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -include /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/PrecompiledHeaders/NCAAMB-Prefix-bdypldghpzeqywbgxublqejapfqg/NCAAMB-Prefix.pch -MMD -MT dependencies -MF /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.d --serialize-diagnostics /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.dia -c /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/ServiceConnector.m -o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/ServiceConnector.o36"80EA3792-2AD6-4E1D-AC2C-DA4423D2F012-
+bCB99B864-935B-4DFA-8F55-D33C6C30A5AD
 
 CCompileC DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/TeamNavigationController.o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/TeamNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s406510541.238381
@@ -1579,7 +1575,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile
 b872A2253-8793-4D04-9D34-F23FE97FC169
 
 CCompileStoryboard /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard
-r0
+s406573230.354671
+e406573231.897242
+r1
+xCompileStoryboard
+x/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard
+o2013-11-19 12:00:30.961 Interface Builder Cocoa Touch Tool[55326:303] CFPreferences: user home directory at file:///Users/dalin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o2013-11-19 12:00:31.732 Interface Builder Cocoa Touch Tool[55329:303] CFPreferences: user home directory at file:///Users/dalin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CompileStoryboard NCAAMB/Base.lproj/Main.storyboard51"CompileStoryboard NCAAMB/Base.lproj/Main.storyboard49d95aaed03bb841^2db2e5afd03bb841^-460"2013-11-19 12:00:30.961 Interface Builder Cocoa Touch Tool[55326:303] CFPreferences: user home directory at file:///Users/dalin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2013-11-19 12:00:31.732 Interface Builder Cocoa Touch Tool[55329:303] CFPreferences: user home directory at file:///Users/dalin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@110"file:///Users/dalin/Desktop/School/Duke/Senior%20Fall/CS%20316/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard0000000000000000^942"CompileStoryboard NCAAMB/Base.lproj/Main.storyboard    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/Base.lproj/Main.storyboardc /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard36"56684F89-0117-4B9D-95F3-9A8C7FA08563-
+bAE4B306A-6C98-4C6B-BE3D-FACB4B69EB94
 
 CCompileStoryboard /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/Base.lproj/Main.storyboard
 s406171029.756042
@@ -1620,14 +1624,14 @@ CCpResource PGSQLKit/icon_query_tool.icns DerivedData/NCAAMB/Build/Products/Debu
 r0
 
 CGenerateDSYMFile /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
-s406535186.498828
-e406535186.516684
+s406575843.714644
+e406575843.734380
 r1
 xGenerateDSYMFile
 x/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM
 x/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Generate /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM162"GenerateDSYMFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMBe0bd7f123c3bb841^cc4584123c3bb841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Users/dalin/Desktop/School/Duke/Senior%20Fall/CS%20316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM/0000000000000000^818"GenerateDSYMFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB -o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM36"3A15980E-6B3A-49D6-A055-4B3440919592-
-b62C2F8E8-901E-49AE-A477-9475B9669792
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Generate /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM162"GenerateDSYMFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB44fdb6e3da3bb841^5001bce3da3bb841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Users/dalin/Desktop/School/Duke/Senior%20Fall/CS%20316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM/0000000000000000^818"GenerateDSYMFile DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB -o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM36"16600A1D-9894-4D94-B0FE-DC5846AEEE8F-
+b4162FE02-988C-406A-9027-A2CD41E36D98
 
 CGenerateDSYMFile /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app.dSYM /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
 s406183079.444631
@@ -1640,8 +1644,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Genera
 bC3E06065-7542-48E9-BE37-E905900FB636
 
 CLd /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386
-s406535186.473165
-e406535186.497657
+s406575843.688100
+e406575843.713427
 r1
 xLd
 x/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB
@@ -1672,6 +1676,7 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -1693,7 +1698,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
@@ -1723,8 +1727,8 @@ d/usr/lib/system/libunwind.dylib
 old: warning: directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'
 old: warning: directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB'
 old: warning: directory not found for option '-F/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB88"Ld DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386842e79123c3bb841^90677f123c3bb841^-352"ld: warning: directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'ld: warning: directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB'ld: warning: directory not found for option '-F/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'3(21%IDEActivityLogMessage2@105"Directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'-406535186#0#119#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@73"Directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB'-406535186#119#87#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@132"Directory not found for option '-F/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'-406535186#206#146#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--1883"Ld DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -filelist /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/NCAAMB.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/NCAAMB_dependency_info.dat -o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB36"FF96917B-76E8-4A97-8D40-44C5E56C88C9-
-b62C2F8E8-901E-49AE-A477-9475B9669792
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB88"Ld DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i3864436b0e3da3bb841^ada3b6e3da3bb841^-352"ld: warning: directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'ld: warning: directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB'ld: warning: directory not found for option '-F/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'3(21%IDEActivityLogMessage2@105"Directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'-406575843#0#119#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@73"Directory not found for option '-F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB'-406575843#119#87#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@132"Directory not found for option '-F/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005'-406575843#206#146#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--1883"Ld DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -F/Users/yankeenjg/Desktop/NCAAMB/NCAAMB -F/Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/release-postgresql-kit-alpha005 -filelist /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/NCAAMB.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/NCAAMB.build/Debug-iphonesimulator/NCAAMB.build/Objects-normal/i386/NCAAMB_dependency_info.dat -o /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB36"32765F35-71FC-4245-BE44-04D07BFE4B65-
+b4162FE02-988C-406A-9027-A2CD41E36D98
 
 CLd /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app/NCAAMB normal i386
 s406183079.138727
@@ -1904,13 +1908,13 @@ CStripNIB /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/PGSQLKit/English.lproj/PGSQL\ L
 r0
 
 CTouch /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
-s406533841.698202
-e406533841.702427
+s406573231.916185
+e406573231.920764
 r1
 xTouch
 x/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Touch /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app72"Touch DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.appa3c8b2d1363bb841^95d2b3d1363bb841^---0#0#1#--500"Touch DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app36"B157D332-3DE6-4828-8597-2E080550A855-
-bC98FB2EA-0A6A-4509-81AA-995749A3A947
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Touch /Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app72"Touch DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.appb396eaafd03bb841^6bb9ebafd03bb841^---0#0#1#--500"Touch DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app    cd "/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dalin/Desktop/School/Duke/Senior\ Fall/CS\ 316/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app36"F4B19C68-0D4E-4A7B-920C-B5B9C06A495F-
+bAE4B306A-6C98-4C6B-BE3D-FACB4B69EB94
 
 CTouch /Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Products/Debug-iphonesimulator/NCAAMB.app
 s406171031.655824

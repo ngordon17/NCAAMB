@@ -9,15 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "ServiceConnector.h"
 
-@interface ConferenceNavigationController : UITableViewController <ServiceConnectorDelegate>
+@interface ConferenceNavigationController : UITableViewController <UITableViewDataSource, ServiceConnectorDelegate, NSXMLParserDelegate>
 
-@property(nonatomic, retain) NSArray* ConferenceData;
+@property(nonatomic, retain) NSMutableArray* conferenceData;
 @property(nonatomic, weak) IBOutlet UITableView* CNCTableView;
-
-/**
- * Retrieve the names of all conferences
- */
--(void) retrieveConferenceData;
 
 /**
  * Retrieve the number of cells that must be created in the table
