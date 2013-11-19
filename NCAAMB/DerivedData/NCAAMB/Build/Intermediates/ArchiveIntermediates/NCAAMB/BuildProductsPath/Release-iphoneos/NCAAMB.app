@@ -1,1 +1,0 @@
-/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/DerivedData/NCAAMB/Build/Intermediates/ArchiveIntermediates/NCAAMB/InstallationBuildProductsLocation/Applications/NCAAMB.app
