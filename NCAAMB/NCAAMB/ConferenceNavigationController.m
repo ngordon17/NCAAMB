@@ -7,18 +7,12 @@
 //
 
 #import "ConferenceNavigationController.h"
-#if TARGET_OS_IPHONE
-#import <PGClientKit_ios/PGClientKit.h>
-#else
-#import <PGClientKit/PGClientKit.h>
-#endif
-
 
 @implementation ConferenceNavigationController
 
 
 -(void) retrieveConferenceData {
-    PGConnection* db = [[PGConnection alloc] init];
+    
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -32,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
