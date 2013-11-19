@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C65F6AE183B41B500EE2499 /* libpq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F6AD183B41B500EE2499 /* libpq.framework */; };
 		6C9B18E21835A8FC0048648D /* TeamNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B18E11835A8FC0048648D /* TeamNavigationController.m */; };
 		6C9B18E51835AAC60048648D /* PlayerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B18E41835AAC60048648D /* PlayerNavigationController.m */; };
 		6C9B18E81835AAD00048648D /* ConferenceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B18E71835AAD00048648D /* ConferenceNavigationController.m */; };
 		6C9B18EB1835AADA0048648D /* DailyScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B18EA1835AADA0048648D /* DailyScheduleController.m */; };
 		6C9B18EE1835AAE90048648D /* DailyScoreboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B18ED1835AAE90048648D /* DailyScoreboardController.m */; };
 		6CA268201835A11B0048835C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA2681F1835A11B0048835C /* Foundation.framework */; };
-		6CA268221835A11B0048835C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA268211835A11B0048835C /* CoreGraphics.framework */; };
+		6CA268221835A11B0048835C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA268211835A11B0048835C /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		6CA268241835A11B0048835C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA268231835A11B0048835C /* UIKit.framework */; };
 		6CA2682A1835A11B0048835C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CA268281835A11B0048835C /* InfoPlist.strings */; };
 		6CA2682C1835A11B0048835C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2682B1835A11B0048835C /* main.m */; };
@@ -26,6 +27,7 @@
 		6CA268411835A11B0048835C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA268231835A11B0048835C /* UIKit.framework */; };
 		6CA268491835A11B0048835C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CA268471835A11B0048835C /* InfoPlist.strings */; };
 		6CA2684B1835A11B0048835C /* NCAAMBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2684A1835A11B0048835C /* NCAAMBTests.m */; };
+		6CB1B2FA183713F400D7697E /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1B2F9183713F400D7697E /* DBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C65F6AD183B41B500EE2499 /* libpq.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libpq.framework; sourceTree = "<group>"; };
 		6C9B18E01835A8FC0048648D /* TeamNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamNavigationController.h; sourceTree = "<group>"; };
 		6C9B18E11835A8FC0048648D /* TeamNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamNavigationController.m; sourceTree = "<group>"; };
 		6C9B18E31835AAC60048648D /* PlayerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerNavigationController.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 		6CA268461835A11B0048835C /* NCAAMBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NCAAMBTests-Info.plist"; sourceTree = "<group>"; };
 		6CA268481835A11B0048835C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CA2684A1835A11B0048835C /* NCAAMBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAAMBTests.m; sourceTree = "<group>"; };
+		6CB1B2F8183713F400D7697E /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		6CB1B2F9183713F400D7697E /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,7 @@
 				6CA268221835A11B0048835C /* CoreGraphics.framework in Frameworks */,
 				6CA268241835A11B0048835C /* UIKit.framework in Frameworks */,
 				6CA268201835A11B0048835C /* Foundation.framework in Frameworks */,
+				6C65F6AE183B41B500EE2499 /* libpq.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +193,7 @@
 		6CA2681E1835A11B0048835C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C65F6AD183B41B500EE2499 /* libpq.framework */,
 				6CA2681F1835A11B0048835C /* Foundation.framework */,
 				6CA268211835A11B0048835C /* CoreGraphics.framework */,
 				6CA268231835A11B0048835C /* UIKit.framework */,
@@ -198,6 +205,7 @@
 		6CA268251835A11B0048835C /* NCAAMB */ = {
 			isa = PBXGroup;
 			children = (
+				6CB1B2F71837127D00D7697E /* PGSQL */,
 				6C9B18F01835AAFE0048648D /* Conference */,
 				6C9B18F51835AB740048648D /* Delegate */,
 				6C9B18F11835AB080048648D /* Home */,
@@ -239,6 +247,15 @@
 				6CA268471835A11B0048835C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CB1B2F71837127D00D7697E /* PGSQL */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1B2F8183713F400D7697E /* DBManager.h */,
+				6CB1B2F9183713F400D7697E /* DBManager.m */,
+			);
+			name = PGSQL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +305,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Nicholas Gordon";
 				TargetAttributes = {
+					6CA2681B1835A11B0048835C = {
+						DevelopmentTeam = HNACG3848H;
+					};
 					6CA2683C1835A11B0048835C = {
 						TestTargetID = 6CA2681B1835A11B0048835C;
 					};
@@ -342,6 +362,7 @@
 				6CA268361835A11B0048835C /* HomeController.m in Sources */,
 				6C9B18EE1835AAE90048648D /* DailyScoreboardController.m in Sources */,
 				6C9B18E21835A8FC0048648D /* TeamNavigationController.m in Sources */,
+				6CB1B2FA183713F400D7697E /* DBManager.m in Sources */,
 				6C9B18EB1835AADA0048648D /* DailyScheduleController.m in Sources */,
 				6C9B18E81835AAD00048648D /* ConferenceNavigationController.m in Sources */,
 				6CA268301835A11B0048835C /* AppDelegate.m in Sources */,
@@ -471,8 +492,11 @@
 		6CA2684F1835A11B0048835C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005",
@@ -481,7 +505,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NCAAMB/NCAAMB-Prefix.pch";
 				INFOPLIST_FILE = "NCAAMB/NCAAMB-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yankeenjg/Desktop/NCAAMB/NCAAMB,
+				);
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -489,8 +522,11 @@
 		6CA268501835A11B0048835C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/release-postgresql-kit-alpha005",
@@ -499,7 +535,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NCAAMB/NCAAMB-Prefix.pch";
 				INFOPLIST_FILE = "NCAAMB/NCAAMB-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yankeenjg/Desktop/NCAAMB/NCAAMB,
+				);
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
