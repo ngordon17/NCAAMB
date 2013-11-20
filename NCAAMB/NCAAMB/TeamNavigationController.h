@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBRequest.h"
+#import "DBResult.h"
 
 @interface TeamNavigationController : UITableViewController
+
+@property (nonatomic, retain) NSArray* data;
 
 @end

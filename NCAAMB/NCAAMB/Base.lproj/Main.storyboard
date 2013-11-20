@@ -187,10 +187,10 @@
             </objects>
             <point key="canvasLocation" x="1005" y="1103"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Team Navigation Controller-->
         <scene sceneID="6gZ-7w-hzD">
             <objects>
-                <tableViewController id="cg4-nQ-qoO" sceneMemberID="viewController">
+                <tableViewController id="cg4-nQ-qoO" customClass="TeamNavigationController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="B2R-Vt-xFz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
