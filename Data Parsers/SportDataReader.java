@@ -12,7 +12,7 @@ public class SportDataReader {
 		"gkpz93nzrgmerdnznrfggefm", "vdyyhmukpw2r2pepgf7azvqn", "3ycygyaqcytzb49z99uvtb9p", "ame4gk9kcgf3q9uaavgq8zer",
 		"msfaz8qr42k74xzhk9xx2awx", "kqe6mbgdzu7kchtnmcvm6sgc"};
 	private static int API_KEY_INDEX = 0;
-	private static String API_KEY = "hrk659wjj5nydjjx6mueq2m6";
+	private static String API_KEY = "vknf9t57hm9jtscqxa3ak3dd";
 	private static final String VERSION = "3";
 	private static final String ACCESS_LEVEL = "t";
 	
