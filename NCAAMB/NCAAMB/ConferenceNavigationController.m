@@ -10,14 +10,13 @@
 
 @implementation ConferenceNavigationController
 
-@synthesize conferenceData;
+@synthesize data;
 
-
-- (void)viewDidLoad {
-    
-    self.conferenceData = [[NSMutableArray alloc] init];
-    [self getDown];
-    NSLog(@"Number: %lu", (unsigned long)self.conferenceData.count);
+-(void) viewDidLoad {
+    DBRequest* dataRequest = [[DBRequest alloc] init:@"http://dukedb-dma13.cloudapp.net/ncaamb/conferences.php"];
+    DBResult* result = [dataRequest exec];
+    data = [result getResult];
+    NSLog(@"Conference Result Size: %d", data.count);
     [super viewDidLoad];
 }
 
@@ -26,33 +25,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Table View Delegate
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return conferenceData.count;
+    return data.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     if (cell == nil) {cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
-    cell.textLabel.text = [conferenceData objectAtIndex:indexPath.row];
+    cell.textLabel.text = [[data objectAtIndex:indexPath.row] valueForKey:@"name"];
     return cell;
 }
-
-- (void)getDown {
-    ServiceConnector *serviceConnector = [[ServiceConnector alloc] init];
-    serviceConnector.delegate = self;
-    [serviceConnector getTest:@"http://dukedb-dma13.cloudapp.net/ncaamb/conferences.php"];
-}
-
-
-
-
-#pragma mark - ServiceConnectorDelegate -
--(void)requestReturnedData:(NSData *)data {
-    XMLParser *parser = [[XMLParser alloc] initWithData:data];
-    NSMutableDictionary* dict = [parser parse];
-    self.conferenceData = [dict valueForKey:@"name"];
-    [self.tableView reloadData];
-}
-
 
 @end

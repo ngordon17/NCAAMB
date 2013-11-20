@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C4A32F8183C9DFE00D2D80F /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A32F7183C9DFE00D2D80F /* XMLParser.m */; };
+		6C4A32FE183D5D6900D2D80F /* DBResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A32FD183D5D6900D2D80F /* DBResult.m */; };
+		6C4A3301183D686F00D2D80F /* DBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A3300183D686F00D2D80F /* DBRequest.m */; };
 		6C65F71D183BE57C00EE2499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F71C183BE57C00EE2499 /* Foundation.framework */; };
 		6C65F71F183BE57C00EE2499 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F71E183BE57C00EE2499 /* CoreGraphics.framework */; };
 		6C65F721183BE57C00EE2499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F720183BE57C00EE2499 /* UIKit.framework */; };
@@ -28,7 +29,6 @@
 		6C65F76A183BE7DD00EE2499 /* PlayerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F769183BE7DD00EE2499 /* PlayerNavigationController.m */; };
 		6C65F76D183BE7E300EE2499 /* TeamNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76C183BE7E300EE2499 /* TeamNavigationController.m */; };
 		6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */; };
-		6C65F773183BE83E00EE2499 /* ServiceConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F772183BE83E00EE2499 /* ServiceConnector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C4A32F6183C9DFE00D2D80F /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
-		6C4A32F7183C9DFE00D2D80F /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		6C4A32FC183D5D6900D2D80F /* DBResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBResult.h; sourceTree = "<group>"; };
+		6C4A32FD183D5D6900D2D80F /* DBResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBResult.m; sourceTree = "<group>"; };
+		6C4A32FF183D686F00D2D80F /* DBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRequest.h; sourceTree = "<group>"; };
+		6C4A3300183D686F00D2D80F /* DBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRequest.m; sourceTree = "<group>"; };
 		6C65F719183BE57C00EE2499 /* NCAAMB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCAAMB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C65F71C183BE57C00EE2499 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C65F71E183BE57C00EE2499 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,8 +76,6 @@
 		6C65F76C183BE7E300EE2499 /* TeamNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamNavigationController.m; sourceTree = "<group>"; };
 		6C65F76E183BE7EC00EE2499 /* DailyScoreboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyScoreboardController.h; sourceTree = "<group>"; };
 		6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyScoreboardController.m; sourceTree = "<group>"; };
-		6C65F771183BE83E00EE2499 /* ServiceConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceConnector.h; sourceTree = "<group>"; };
-		6C65F772183BE83E00EE2499 /* ServiceConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceConnector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C4A32F5183C9DBD00D2D80F /* XML Parsers */ = {
+		6C4A32F5183C9DBD00D2D80F /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				6C4A32F6183C9DFE00D2D80F /* XMLParser.h */,
-				6C4A32F7183C9DFE00D2D80F /* XMLParser.m */,
+				6C4A32FC183D5D6900D2D80F /* DBResult.h */,
+				6C4A32FD183D5D6900D2D80F /* DBResult.m */,
+				6C4A32FF183D686F00D2D80F /* DBRequest.h */,
+				6C4A3300183D686F00D2D80F /* DBRequest.m */,
 			);
-			name = "XML Parsers";
+			name = Database;
 			sourceTree = "<group>";
 		};
 		6C65F710183BE57C00EE2499 = {
@@ -146,8 +148,7 @@
 		6C65F722183BE57C00EE2499 /* NCAAMB */ = {
 			isa = PBXGroup;
 			children = (
-				6C4A32F5183C9DBD00D2D80F /* XML Parsers */,
-				6C65F759183BE60700EE2499 /* DB Service */,
+				6C4A32F5183C9DBD00D2D80F /* Database */,
 				6C65F758183BE5FC00EE2499 /* Storyboard */,
 				6C65F757183BE5F700EE2499 /* Home */,
 				6C65F753183BE5A600EE2499 /* Player Navigation */,
@@ -262,15 +263,6 @@
 			name = Storyboard;
 			sourceTree = "<group>";
 		};
-		6C65F759183BE60700EE2499 /* DB Service */ = {
-			isa = PBXGroup;
-			children = (
-				6C65F771183BE83E00EE2499 /* ServiceConnector.h */,
-				6C65F772183BE83E00EE2499 /* ServiceConnector.m */,
-			);
-			name = "DB Service";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -372,9 +364,9 @@
 				6C65F761183BE64C00EE2499 /* HomeController.m in Sources */,
 				6C65F76A183BE7DD00EE2499 /* PlayerNavigationController.m in Sources */,
 				6C65F767183BE7D600EE2499 /* ConferenceNavigationController.m in Sources */,
-				6C4A32F8183C9DFE00D2D80F /* XMLParser.m in Sources */,
-				6C65F773183BE83E00EE2499 /* ServiceConnector.m in Sources */,
+				6C4A32FE183D5D6900D2D80F /* DBResult.m in Sources */,
 				6C65F72D183BE57C00EE2499 /* AppDelegate.m in Sources */,
+				6C4A3301183D686F00D2D80F /* DBRequest.m in Sources */,
 				6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */,
 				6C65F764183BE7CF00EE2499 /* DailyScheduleController.m in Sources */,
 				6C65F729183BE57C00EE2499 /* main.m in Sources */,

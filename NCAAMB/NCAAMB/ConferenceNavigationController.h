@@ -7,29 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ServiceConnector.h"
-#import "XMLParser.h"
+#import "DBResult.h"
+#import "DBRequest.h"
 
-@interface ConferenceNavigationController : UITableViewController <UITableViewDataSource, ServiceConnectorDelegate>
+@interface ConferenceNavigationController : UITableViewController
 
-@property(nonatomic, retain) NSMutableArray* conferenceData;
+@property(nonatomic, retain) NSArray* data;
 
-/**
- * Retrieve the number of cells that must be created in the table
- * @param tableView: the table view in question
- * @param numberOfRowsInSection: number of rows for a given section of the view
- * @return number of cells to create in the table i.e. number of conferences
- */
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
-
-/**
- * Create table cells to serve as buttons to go to specific conference views.
- * @param tableView: the table view in question
- * @param cellForrowAtIndexPath: index path for the newly created cell
- * @return UITableViewCell representing a conference
- */
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
-
--(void)getDown;
 
 @end
