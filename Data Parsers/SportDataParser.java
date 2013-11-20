@@ -80,7 +80,7 @@ public class SportDataParser {
 		Element root = getDocumentElement(file);
 		
 		String name = root.getAttribute("name");
-		String alias = root.getAttribute("alias");
+		String alias = root.getAttribute("market");
 		String venue_id = ((Element) root.getElementsByTagName("venue").item(0)).getAttribute("id");
 		
 		Element hierarchy = ((Element) root.getElementsByTagName("hierarchy").item(0));
