@@ -13,11 +13,16 @@
   }
   
   try {
-    $st = $dbh->query('SELECT name FROM Conference ORDER BY name');
+    $st = $dbh->query('SELECT *
+                       FROM Game
+                       WHERE scheduled_datetime::date = \'' . $_GET["game_date"] . '\'');
     if (($myrow = $st->fetch())) {
       do {
-        $result = $xml->addChild('conference');
-        $result->addAttribute('name', $myrow['name']);
+        $result = $xml->addChild('result');
+        $result->addAttribute('id', $myrow['id']);
+        $result->addAttribute('home_team_id', $myrow['home_team_id']);
+        $result->addAttribute('away_team_id', $myrow['away_team_id']);
+        $result->addAttribute('scheduled_datetime', $myrow['scheduled_datetime']);
       } while ($myrow = $st->fetch());
     } else {
       echo "There is no drinker in the database.";

@@ -13,11 +13,15 @@
   }
   
   try {
-    $st = $dbh->query('SELECT name FROM Conference ORDER BY name');
+    $st = $dbh->query('SELECT id, name, alias
+                       FROM Team
+                       ORDER BY name');
     if (($myrow = $st->fetch())) {
       do {
-        $result = $xml->addChild('conference');
+        $result = $xml->addChild('result');
+        $result->addAttribute('id', $myrow['id']);
         $result->addAttribute('name', $myrow['name']);
+        $result->addAttribute('alias', $myrow['alias']);
       } while ($myrow = $st->fetch());
     } else {
       echo "There is no drinker in the database.";

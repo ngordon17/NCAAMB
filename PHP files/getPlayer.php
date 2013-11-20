@@ -13,11 +13,22 @@
   }
   
   try {
-    $st = $dbh->query('SELECT name FROM Conference ORDER BY name');
+    $st = $dbh->query('SELECT *
+                       FROM Player
+                       WHERE id = \'' . $_GET["player_id"] . '\'');
     if (($myrow = $st->fetch())) {
       do {
-        $result = $xml->addChild('conference');
-        $result->addAttribute('name', $myrow['name']);
+        $result = $xml->addChild('result');
+        $result->addAttribute('id', $myrow['id']);
+        $result->addAttribute('first_name', $myrow['first_name']);
+        $result->addAttribute('last_name', $myrow['last_name']);
+        $result->addAttribute('team_id', $myrow['team_id']);
+        $result->addAttribute('height', $myrow['height']);
+        $result->addAttribute('weight', $myrow['weight']);
+        $result->addAttribute('jersey_number', $myrow['jersey_number']);
+        $result->addAttribute('year', $myrow['year']);
+        $result->addAttribute('position', $myrow['position']);
+        $result->addAttribute('birthplace', $myrow['birthplace']);
       } while ($myrow = $st->fetch());
     } else {
       echo "There is no drinker in the database.";
