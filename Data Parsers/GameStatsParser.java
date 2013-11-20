@@ -64,13 +64,15 @@ public class GameStatsParser {
 				if (minutes.contains(":")) {
 					minutes = minutes.split(":")[0];
 				}
+				else if (minutes.equals(""))
+					minutes = "0";
 				String three_point_attempts = stats.getAttribute("three_points_att");
 				String three_point_makes = stats.getAttribute("three_points_made");
 				String two_point_attempts = stats.getAttribute("two_points_att");
 				String two_point_makes = stats.getAttribute("two_points_made");
 				String field_goal_attempts = stats.getAttribute("field_goals_att");
 				String field_goal_makes = stats.getAttribute("field_goals_made");
-				String free_throw_attempts = stats.getAttribute("free_throw_att");
+				String free_throw_attempts = stats.getAttribute("free_throws_att");
 				String free_throw_makes = stats.getAttribute("free_throws_made");
 				String offensive_rebounds = stats.getAttribute("offensive_rebounds");
 				String defensive_rebounds = stats.getAttribute("defensive_rebounds");
