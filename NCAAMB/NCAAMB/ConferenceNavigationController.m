@@ -39,6 +39,7 @@
     [super viewDidLoad];
     self.conferenceData = [[NSMutableArray alloc] init];
     [self getDown];
+    NSLog(@"Number: %lu", (unsigned long)self.conferenceData.count);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,58 +49,11 @@
 
 #pragma mark - ServiceConnectorDelegate -
 -(void)requestReturnedData:(NSData *)data {
-    if (data == nil) NSLog(@"null");
-    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
-    [parser setDelegate:self];
-    [parser parse];
+    XMLParser *parser = [[XMLParser alloc] initWithData:data];
+    NSMutableDictionary* dict = [parser parse];
+    self.conferenceData = [dict valueForKey:@"name"];
+    
     [self.tableView reloadData];
-    NSLog(@"DONE PARSING");
-    NSLog(@"Num Conferences: %lu", (unsigned long) self.conferenceData.count);
-}
-
--(void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
-    //NSLog(@"Text: %@", string);
-    [self.conferenceData addObject:string];
-}
-
--(void)parserDidStartDocument:(NSXMLParser *)parser {
-    //NSLog(@"didStartDocument");
-}
-
--(void)parserDidEndDocument:(NSXMLParser *)parser {
-    //NSLog(@"didEndDocument");
-}
-
--(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
-    //NSLog(@"didStartElement: %@", elementName);
-    
-    if (namespaceURI != nil)
-        NSLog(@"namespace: %@", namespaceURI);
-    
-    if (qName != nil)
-        NSLog(@"qualifiedName: %@", qName);
-    
-    //print all attributes for this element
-    NSEnumerator *attributes = [attributeDict keyEnumerator];
-    NSString *key, *value;
-    
-    while((key = [attributes nextObject]) != nil) {
-        value = [attributeDict objectForKey:key];
-        NSLog(@"attribute: %@ = %@", key, value);
-    }
-}
-
--(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
-    //NSLog(@"didEndElement: %@", elementName);
-}
-
-// error handling
--(void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
-    NSLog(@"XMLParser error: %@", [parseError localizedDescription]);
-}
-
--(void)parser:(NSXMLParser *)parser validationErrorOccurred:(NSError *)validationError {
-    NSLog(@"XMLParser error: %@", [validationError localizedDescription]);
 }
 
 

@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "ServiceConnector.h"
+#import "XMLParser.h"
 
-@interface ConferenceNavigationController : UITableViewController <UITableViewDataSource, ServiceConnectorDelegate, NSXMLParserDelegate>
+@interface ConferenceNavigationController : UITableViewController <UITableViewDataSource, ServiceConnectorDelegate>
 
 @property(nonatomic, retain) NSMutableArray* conferenceData;
 @property(nonatomic, weak) IBOutlet UITableView* CNCTableView;
