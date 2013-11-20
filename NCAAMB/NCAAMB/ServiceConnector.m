@@ -11,9 +11,9 @@
 @implementation ServiceConnector
 NSData *receivedData;
 
--(void)getTest {
+-(void)getTest:(NSString *)url {
     //build up the request that is to be sent to the server
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://dukedb-dma13.cloudapp.net/ncaamb/conferences.php"]];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:url]];
     [request setHTTPMethod:@"GET"];
     
     //initialize an NSURLConnection with the request
@@ -36,7 +36,7 @@ NSData *receivedData;
 
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSLog(@"Request Complete,recieved %d bytes of data",receivedData.length);
+        NSLog(@"Request Complete,recieved %lu bytes of data",(unsigned long)receivedData.length);
         [self.delegate requestReturnedData:receivedData];
     });
 }

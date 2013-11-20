@@ -18,6 +18,6 @@
 
 @property (strong, nonatomic) id <ServiceConnectorDelegate> delegate;
 
--(void)getTest;
+-(void)getTest:(NSString *)url;
 
 @end

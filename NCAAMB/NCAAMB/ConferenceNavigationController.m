@@ -32,14 +32,13 @@
 - (void)getDown {
     ServiceConnector *serviceConnector = [[ServiceConnector alloc] init];
     serviceConnector.delegate = self;
-    [serviceConnector getTest];
+    [serviceConnector getTest:@"http://dukedb-dma13.cloudapp.net/ncaamb/conferences.php"];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.conferenceData = [[NSMutableArray alloc] init];
     [self getDown];
-    NSLog(@"Number: %lu", (unsigned long)self.conferenceData.count);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,6 +48,7 @@
 
 #pragma mark - ServiceConnectorDelegate -
 -(void)requestReturnedData:(NSData *)data {
+    if (data == nil) NSLog(@"null");
     NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
     [parser setDelegate:self];
     [parser parse];

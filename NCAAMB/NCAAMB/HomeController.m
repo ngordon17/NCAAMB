@@ -7,7 +7,7 @@
 //
 
 #import "HomeController.h"
-#import "DBManager.h"
+#import "ServiceConnector.h"
 
 @interface HomeController ()
 
@@ -18,8 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    DBManager* test = [[DBManager alloc] init];
-    [test initConnection];
+    ServiceConnector* test = [[ServiceConnector alloc] init];
+    //[test initConnection];
     
     
 	// Do any additional setup after loading the view, typically from a nib.
