@@ -13,7 +13,6 @@
 @interface ConferenceNavigationController : UITableViewController <UITableViewDataSource, ServiceConnectorDelegate>
 
 @property(nonatomic, retain) NSMutableArray* conferenceData;
-@property(nonatomic, weak) IBOutlet UITableView* CNCTableView;
 
 /**
  * Retrieve the number of cells that must be created in the table

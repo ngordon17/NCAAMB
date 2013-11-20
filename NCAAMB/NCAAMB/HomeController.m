@@ -17,11 +17,7 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    ServiceConnector* test = [[ServiceConnector alloc] init];
-    //[test initConnection];
-    
-    
+    [super viewDidLoad];    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
