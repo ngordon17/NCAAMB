@@ -15,6 +15,8 @@
 
 -(DBResult *) init: (NSData *) xml_data {
     data = xml_data;
+    
+   // NSLog(@"DATA LENGTH: %u", [data length]);
     result = [[NSMutableArray alloc] init];
     [self parse];
     return self;
@@ -55,16 +57,6 @@
 -(void)parserDidStartDocument:(NSXMLParser *)parser {}
 
 -(void)parserDidEndDocument:(NSXMLParser *)parser {}
-
-
-
-
-
-
-
-
-
-
 
 
 @end

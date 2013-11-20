@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DBResult.h"
+#import "DBRequest.h"
 
 @interface PlayerNavigationController : UITableViewController
+
+@property(nonatomic, retain) NSArray* data;
 
 @end

@@ -8,9 +8,6 @@
 
 #import "TeamNavigationController.h"
 
-@interface TeamNavigationController ()
-
-@end
 
 @implementation TeamNavigationController
 
@@ -40,7 +37,7 @@
     if (cell == nil) {cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
     
     NSDictionary* row = [data objectAtIndex:indexPath.row];
-    cell.textLabel.text = [[row valueForKey:@"alias"] stringByAppendingString:[row valueForKey:@"name"]];
+    cell.textLabel.text = [[[row valueForKey:@"alias"] stringByAppendingString:@" "] stringByAppendingString:[row valueForKey:@"name"]];
     return cell;
 }
 
