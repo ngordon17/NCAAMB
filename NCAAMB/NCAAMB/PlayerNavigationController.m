@@ -16,7 +16,7 @@
     DBRequest* dataRequest = [[DBRequest alloc] init:@"http://dukedb-dma13.cloudapp.net/ncaamb/players.php"];
     DBResult* result = [dataRequest exec];
     data = [result getResult];
-    NSLog(@"Conference Result Size: %d", data.count);
+    NSLog(@"Player Result Size: %d", data.count);
     [super viewDidLoad];
 }
 
