@@ -63,7 +63,6 @@ public class ScheduleParser {
 			if (Integer.parseInt(date[0]) < Integer.parseInt(gd[0])) {continue;}
 			else if (Integer.parseInt(date[0]) == Integer.parseInt(gd[0]) && Integer.parseInt(date[1]) < Integer.parseInt(gd[1])) {continue;}
 			else if (Integer.parseInt(date[0]) == Integer.parseInt(gd[0]) && Integer.parseInt(date[1]) == Integer.parseInt(gd[1]) && Integer.parseInt(date[2]) < Integer.parseInt(gd[2])) {continue;}
-			System.out.println("hi");
 			
 			if (home_team_id == null || away_team_id == null || home_team_id.length() == 0 || away_team_id.length() == 0) {continue;}
 			game_ids.add(game.getAttribute("id"));

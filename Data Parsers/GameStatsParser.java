@@ -90,8 +90,8 @@ public class GameStatsParser {
 				 + "|" + assists + "|" + turnovers + "|" + steals + "|" + blocks + "|" + personal_fouls + "|" + technical_fouls + "|" + flagrant_fouls + "|" + points + "\n");
 			}	
 		}
-		if (scores[0] == null) scores[0] = "";
-		if (scores[1] == null) scores[1] = "";
+		if (scores[0] == null) return;
+		if (scores[1] == null) return;
 		score_writer.write(game_id + "|" + scores[0] + "|" + scores[1] + "\n");
 
 	}
