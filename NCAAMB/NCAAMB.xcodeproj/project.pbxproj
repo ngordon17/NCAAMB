@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2064DE183D8174001B2AAD /* ConferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2064DD183D8174001B2AAD /* ConferenceViewController.m */; };
 		6C4A32FE183D5D6900D2D80F /* DBResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A32FD183D5D6900D2D80F /* DBResult.m */; };
 		6C4A3301183D686F00D2D80F /* DBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A3300183D686F00D2D80F /* DBRequest.m */; };
 		6C65F71D183BE57C00EE2499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F71C183BE57C00EE2499 /* Foundation.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C2064DC183D8174001B2AAD /* ConferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConferenceViewController.h; sourceTree = "<group>"; };
+		6C2064DD183D8174001B2AAD /* ConferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConferenceViewController.m; sourceTree = "<group>"; };
 		6C4A32FC183D5D6900D2D80F /* DBResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBResult.h; sourceTree = "<group>"; };
 		6C4A32FD183D5D6900D2D80F /* DBResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBResult.m; sourceTree = "<group>"; };
 		6C4A32FF183D686F00D2D80F /* DBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRequest.h; sourceTree = "<group>"; };
@@ -103,6 +106,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2064DB183D815B001B2AAD /* Conference Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6C65F765183BE7D600EE2499 /* ConferenceNavigationController.h */,
+				6C65F766183BE7D600EE2499 /* ConferenceNavigationController.m */,
+			);
+			name = "Conference Navigation";
+			sourceTree = "<group>";
+		};
+		6C2064DF183D8178001B2AAD /* Conference View */ = {
+			isa = PBXGroup;
+			children = (
+				6C2064DC183D8174001B2AAD /* ConferenceViewController.h */,
+				6C2064DD183D8174001B2AAD /* ConferenceViewController.m */,
+			);
+			name = "Conference View";
+			sourceTree = "<group>";
+		};
 		6C4A32F5183C9DBD00D2D80F /* Database */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +176,7 @@
 				6C65F754183BE5B300EE2499 /* Team Navigation */,
 				6C65F755183BE5B800EE2499 /* Daily Schedule */,
 				6C65F756183BE5BF00EE2499 /* Daily Scoreboard */,
-				6C65F752183BE59F00EE2499 /* Conference Navigation */,
+				6C65F752183BE59F00EE2499 /* Conference */,
 				6C65F751183BE59A00EE2499 /* Delegate */,
 				6C65F734183BE57C00EE2499 /* Images.xcassets */,
 				6C65F723183BE57C00EE2499 /* Supporting Files */,
@@ -201,13 +222,13 @@
 			name = Delegate;
 			sourceTree = "<group>";
 		};
-		6C65F752183BE59F00EE2499 /* Conference Navigation */ = {
+		6C65F752183BE59F00EE2499 /* Conference */ = {
 			isa = PBXGroup;
 			children = (
-				6C65F765183BE7D600EE2499 /* ConferenceNavigationController.h */,
-				6C65F766183BE7D600EE2499 /* ConferenceNavigationController.m */,
+				6C2064DF183D8178001B2AAD /* Conference View */,
+				6C2064DB183D815B001B2AAD /* Conference Navigation */,
 			);
-			name = "Conference Navigation";
+			name = Conference;
 			sourceTree = "<group>";
 		};
 		6C65F753183BE5A600EE2499 /* Player Navigation */ = {
@@ -366,6 +387,7 @@
 				6C65F767183BE7D600EE2499 /* ConferenceNavigationController.m in Sources */,
 				6C4A32FE183D5D6900D2D80F /* DBResult.m in Sources */,
 				6C65F72D183BE57C00EE2499 /* AppDelegate.m in Sources */,
+				6C2064DE183D8174001B2AAD /* ConferenceViewController.m in Sources */,
 				6C4A3301183D686F00D2D80F /* DBRequest.m in Sources */,
 				6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */,
 				6C65F764183BE7CF00EE2499 /* DailyScheduleController.m in Sources */,

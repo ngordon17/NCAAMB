@@ -8,22 +8,34 @@
 
 #import "PlayerNavigationController.h"
 
-@interface PlayerNavigationController ()
-
-@end
-
 @implementation PlayerNavigationController
 
-- (void)viewDidLoad
-{
+@synthesize data;
+
+-(void) viewDidLoad {
+    DBRequest* dataRequest = [[DBRequest alloc] init:@"http://dukedb-dma13.cloudapp.net/ncaamb/players.php"];
+    DBResult* result = [dataRequest exec];
+    data = [result getResult];
+    NSLog(@"Player Result Size: %d", data.count);
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Table View Delegate
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return data.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    if (cell == nil) {cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
+    cell.textLabel.text = [[data objectAtIndex:indexPath.row] valueForKey:@"name"];
+    return cell;
 }
 
 @end

@@ -10,13 +10,11 @@
 
 @interface DBResult : NSObject <NSXMLParserDelegate>
 
-
 @property(nonatomic, strong) NSMutableArray* result;
 @property(nonatomic, strong) NSData* data;
 
 -(DBResult *) init: (NSData *) xml_data;
 -(void) parse;
 -(NSArray *) getResult;
-
 
 @end
