@@ -13,10 +13,11 @@
   }
   
   try {
-    $st = $dbh->query('SELECT name FROM Conference ORDER BY name');
+    $st = $dbh->query('SELECT id, name FROM Conference ORDER BY name');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('conference');
+        $result->addAttribute('conference_id', $myrow['id']);
         $result->addAttribute('name', $myrow['name']);
       } while ($myrow = $st->fetch());
     } else {
