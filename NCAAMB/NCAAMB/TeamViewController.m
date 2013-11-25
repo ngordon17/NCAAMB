@@ -46,7 +46,8 @@
     cell.away_record.text = [@"" stringByAppendingFormat:@"%@-%@", [row valueForKey:@"away_team_wins"], [row valueForKey:@"away_teams_losses"]];
     cell.away_score.text = [row valueForKey:@"away_score"];
     
-    cell.scheduled.text = [row valueForKey:@"scheduled_datetime"];
+    cell.scheduled_date.text = [[[row valueForKey:@"scheduled_datetime"] componentsSeparatedByString:@" "] objectAtIndex:0];
+    cell.scheduled_time.text = [[[row valueForKey:@"scheduled_datetime"] componentsSeparatedByString:@" "] objectAtIndex:1];
     
     return cell;
 }
