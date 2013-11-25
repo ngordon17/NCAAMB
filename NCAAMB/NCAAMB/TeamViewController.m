@@ -8,10 +8,6 @@
 
 #import "TeamViewController.h"
 
-@interface TeamViewController ()
-
-@end
-
 @implementation TeamViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

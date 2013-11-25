@@ -11,6 +11,7 @@
 		6C4A32FE183D5D6900D2D80F /* DBResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A32FD183D5D6900D2D80F /* DBResult.m */; };
 		6C4A3301183D686F00D2D80F /* DBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A3300183D686F00D2D80F /* DBRequest.m */; };
 		6C64775C1842802D00528A6D /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C64775B1842802D00528A6D /* TeamViewController.m */; };
+		6C64775F1842E5FE00528A6D /* StandingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C64775E1842E5FE00528A6D /* StandingViewCell.m */; };
 		6C65F71D183BE57C00EE2499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F71C183BE57C00EE2499 /* Foundation.framework */; };
 		6C65F71F183BE57C00EE2499 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F71E183BE57C00EE2499 /* CoreGraphics.framework */; };
 		6C65F721183BE57C00EE2499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F720183BE57C00EE2499 /* UIKit.framework */; };
@@ -52,6 +53,8 @@
 		6C4A3300183D686F00D2D80F /* DBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRequest.m; sourceTree = "<group>"; };
 		6C64775A1842802D00528A6D /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
 		6C64775B1842802D00528A6D /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		6C64775D1842E5FE00528A6D /* StandingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingViewCell.h; sourceTree = "<group>"; };
+		6C64775E1842E5FE00528A6D /* StandingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingViewCell.m; sourceTree = "<group>"; };
 		6C65F719183BE57C00EE2499 /* NCAAMB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCAAMB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C65F71C183BE57C00EE2499 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C65F71E183BE57C00EE2499 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -248,6 +251,8 @@
 			children = (
 				6C2064DF183D8178001B2AAD /* View */,
 				6C2064DB183D815B001B2AAD /* Navigation */,
+				6C64775D1842E5FE00528A6D /* StandingViewCell.h */,
+				6C64775E1842E5FE00528A6D /* StandingViewCell.m */,
 			);
 			name = Conference;
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 				6C64775C1842802D00528A6D /* TeamViewController.m in Sources */,
 				6C65F761183BE64C00EE2499 /* HomeController.m in Sources */,
 				6C65F76A183BE7DD00EE2499 /* PlayerNavigationController.m in Sources */,
+				6C64775F1842E5FE00528A6D /* StandingViewCell.m in Sources */,
 				6C65F767183BE7D600EE2499 /* ConferenceNavigationController.m in Sources */,
 				6C4A32FE183D5D6900D2D80F /* DBResult.m in Sources */,
 				6C65F72D183BE57C00EE2499 /* AppDelegate.m in Sources */,
