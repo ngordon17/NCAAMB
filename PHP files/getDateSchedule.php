@@ -17,9 +17,8 @@
        COALESCE(s.home_score, 0) AS hscore, COALESCE(s.away_score, 0) AS ascore, g.scheduled_datetime
        FROM (SELECT Game.id AS gid, home_team_id, t1.alias AS home_team_alias, t1.name AS home_team_name, away_team_id, 
        t2.alias AS away_team_alias, t2.name AS away_team_name, scheduled_datetime
-       FROM Game, Team t1, Team t2
-       WHERE (home_team_id = \'' . $_GET["team_id"] . '\' OR away_team_id = \'' . $_GET["team_id"] . '\') 
-       AND t1.id = home_team_id AND t2.id = away_team_id) AS g
+       FROM Game, Team t1, Team t2  
+       WHERE scheduled_datetime::date = \'' . $_GET["date"] . '\' AND t1.id = home_team_id AND t2.id = away_team_id) AS g
        LEFT OUTER JOIN
        (SELECT game_id AS gid, home_score, away_score
        FROM Score) AS s

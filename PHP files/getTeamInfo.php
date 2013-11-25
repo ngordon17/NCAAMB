@@ -13,9 +13,9 @@
   }
   
   try {
-    $st = $dbh->query('SELECT *
-                       FROM Team
-                       WHERE id = \'' . $_GET["team_id"] . '\'');
+    $st = $dbh->query('SELECT Team.*, Venue.name AS vname
+                       FROM Team, Venue
+                       WHERE Team.id = \'' . $_GET["team_id"] . '\' AND Team.venue_id = Venue.id');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');
@@ -23,6 +23,7 @@
         $result->addAttribute('name', $myrow['name']);
         $result->addAttribute('alias', $myrow['alias']);
         $result->addAttribute('venue_id', $myrow['venue_id']);
+        $result->addAttribute('venue_name', $myrow['vname']);
         $result->addAttribute('conference_id', $myrow['conference_id']);
       } while ($myrow = $st->fetch());
     } else {

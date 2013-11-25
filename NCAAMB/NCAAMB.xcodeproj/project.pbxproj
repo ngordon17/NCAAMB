@@ -26,13 +26,13 @@
 		6C65F73E183BE57C00EE2499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F720183BE57C00EE2499 /* UIKit.framework */; };
 		6C65F746183BE57C00EE2499 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C65F744183BE57C00EE2499 /* InfoPlist.strings */; };
 		6C65F748183BE57C00EE2499 /* NCAAMBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F747183BE57C00EE2499 /* NCAAMBTests.m */; };
-		6C65F75B183BE61A00EE2499 /* libpq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F75A183BE61A00EE2499 /* libpq.framework */; };
 		6C65F761183BE64C00EE2499 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F760183BE64C00EE2499 /* HomeController.m */; };
 		6C65F764183BE7CF00EE2499 /* DailyScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F763183BE7CF00EE2499 /* DailyScheduleController.m */; };
 		6C65F767183BE7D600EE2499 /* ConferenceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F766183BE7D600EE2499 /* ConferenceNavigationController.m */; };
 		6C65F76A183BE7DD00EE2499 /* PlayerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F769183BE7DD00EE2499 /* PlayerNavigationController.m */; };
 		6C65F76D183BE7E300EE2499 /* TeamNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76C183BE7E300EE2499 /* TeamNavigationController.m */; };
 		6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */; };
+		FB5DBF2C1842EE900063B83C /* libpq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F75A183BE61A00EE2499 /* libpq.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,10 +95,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5DBF2C1842EE900063B83C /* libpq.framework in Frameworks */,
 				6C65F71F183BE57C00EE2499 /* CoreGraphics.framework in Frameworks */,
 				6C65F721183BE57C00EE2499 /* UIKit.framework in Frameworks */,
 				6C65F71D183BE57C00EE2499 /* Foundation.framework in Frameworks */,
-				6C65F75B183BE61A00EE2499 /* libpq.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +579,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/yankeenjg/Desktop/NCAAMB/NCAAMB,
+					/Users/dalin/Desktop/School/Duke/Senior,
+					Fall/CS,
+					316/NCAAMB/NCAAMB,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NCAAMB/NCAAMB-Prefix.pch";
@@ -596,6 +599,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/yankeenjg/Desktop/NCAAMB/NCAAMB,
+					/Users/dalin/Desktop/School/Duke/Senior,
+					Fall/CS,
+					316/NCAAMB/NCAAMB,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NCAAMB/NCAAMB-Prefix.pch";

@@ -13,9 +13,9 @@
   }
   
   try {
-    $st = $dbh->query('SELECT *
-                       FROM Player
-                       WHERE id = \'' . $_GET["player_id"] . '\'');
+    $st = $dbh->query('SELECT Player.*, Team.alias, Team.name
+                       FROM Player, Team
+                       WHERE Player.id = \'' . $_GET["player_id"] . '\' AND Player.team_id = Team.id;');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');
@@ -23,6 +23,8 @@
         $result->addAttribute('first_name', $myrow['first_name']);
         $result->addAttribute('last_name', $myrow['last_name']);
         $result->addAttribute('team_id', $myrow['team_id']);
+        $result->addAttribute('team_alias', $myrow['alias']);
+        $result->addAttribute('team_name', $myrow['name']);
         $result->addAttribute('height', $myrow['height']);
         $result->addAttribute('weight', $myrow['weight']);
         $result->addAttribute('jersey_number', $myrow['jersey_number']);
