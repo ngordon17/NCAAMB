@@ -14,7 +14,7 @@
 @synthesize data;
 
 -(void) viewDidLoad {
-    DBRequest* dataRequest = [[DBRequest alloc] init:@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamSchedule.php?team_id=290a5130-836d-45e6-824f-28704d6ba246"];
+    DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamSchedule.php?team_id=" stringByAppendingString:self.teamID]];
     DBResult* result = [dataRequest exec];
     data = [result getResult];
     NSLog(@"Team Result Size: %d", data.count);

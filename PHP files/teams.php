@@ -15,7 +15,7 @@
   try {
     $st = $dbh->query('SELECT id, name, alias
                        FROM Team
-                       ORDER BY name');
+                       ORDER BY alias');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');

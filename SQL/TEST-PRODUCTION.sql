@@ -34,7 +34,7 @@ ORDER BY name;
 --list of teams for Teams page
 SELECT id, name, alias
 FROM Team
-ORDER BY name
+ORDER BY alias
 LIMIT 10;
 
 --list of players for main Players page
