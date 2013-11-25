@@ -27,7 +27,7 @@ FROM Score
 LIMIT 10;
 
 -- list of conferences for main Conferences page
-SELECT name
+SELECT id, name
 FROM Conference
 ORDER BY name;
 
@@ -44,9 +44,9 @@ ORDER BY last_name, first_name
 LIMIT 10;
 
 --general info for specific player
-SELECT *
-FROM Player
-WHERE id = 'cad077aa-9235-4031-975d-b9301c27bf00';
+SELECT Player.*, Team.alias, Team.name
+FROM Player, Team
+WHERE Player.id = 'cad077aa-9235-4031-975d-b9301c27bf00' AND Player.team_id = Team.id;
 
 --schedule for a given date
 SELECT g.gid, g.home_team_id, g.home_team_alias, g.home_team_name, g.away_team_id, g.away_team_alias, g.away_team_name, 

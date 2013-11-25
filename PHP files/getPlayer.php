@@ -13,9 +13,9 @@
   }
   
   try {
-    $st = $dbh->query('SELECT *
-                       FROM Player
-                       WHERE id = \'' . $_GET["player_id"] . '\'');
+    $st = $dbh->query('SELECT Player.*, Team.alias, Team.name
+                       FROM Player, Team
+                       WHERE Player.id = \'' . $_GET["player_id"] . '\' AND Player.team_id = Team.id;');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');

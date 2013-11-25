@@ -11,7 +11,7 @@
     print "Error connecting to the database: " . $e->getMessage() . "<br/>";
     die();
   }
-  
+   
   try {
     $st = $dbh->query('SELECT GameStats.*, Player.first_name, Player.last_name
                        FROM GameStats, Player
