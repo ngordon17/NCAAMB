@@ -58,7 +58,8 @@ WHERE scheduled_datetime::date = '2013-11-08' AND t1.id = home_team_id AND t2.id
 LEFT OUTER JOIN
 (SELECT game_id AS gid, home_score, away_score
 FROM Score) AS s
-ON g.gid = s.gid;
+ON g.gid = s.gid
+ORDER BY scheduled_datetime;
 
 --schedule for a given team
 SELECT g.gid, g.home_team_id, g.home_team_alias, g.home_team_name, g.away_team_id, g.away_team_alias, g.away_team_name, 
@@ -71,7 +72,8 @@ WHERE (home_team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f' OR away_team_id = '
 LEFT OUTER JOIN
 (SELECT game_id AS gid, home_score, away_score
 FROM Score) AS s
-ON g.gid = s.gid;
+ON g.gid = s.gid
+ORDER BY scheduled_datetime;
 
 --box score for a given game
 SELECT GameStats.*, Player.first_name, Player.last_name
