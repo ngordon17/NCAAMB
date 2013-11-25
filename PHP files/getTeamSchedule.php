@@ -27,16 +27,16 @@
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');
-        $result->addAttribute('id', $myrow['g.gid']);
-        $result->addAttribute('home_team_id', $myrow['g.home_team_id']);
-        $result->addAttribute('home_team_alias', $myrow['g.home_team_alias']);
-        $result->addAttribute('home_team_name', $myrow['g.home_team_name']);
-        $result->addAttribute('away_team_id', $myrow['g.away_team_id']);
-        $result->addAttribute('away_team_alias', $myrow['g.away_team_alias']);
-        $result->addAttribute('away_team_name', $myrow['g.away_team_name']);
+        $result->addAttribute('id', $myrow['gid']);
+        $result->addAttribute('home_team_id', $myrow['home_team_id']);
+        $result->addAttribute('home_team_alias', $myrow['home_team_alias']);
+        $result->addAttribute('home_team_name', $myrow['home_team_name']);
+        $result->addAttribute('away_team_id', $myrow['away_team_id']);
+        $result->addAttribute('away_team_alias', $myrow['away_team_alias']);
+        $result->addAttribute('away_team_name', $myrow['away_team_name']);
         $result->addAttribute('home_score', $myrow['hscore']);
         $result->addAttribute('away_score', $myrow['ascore']);
-        $result->addAttribute('scheduled_datetime', $myrow['g.scheduled_datetime']);
+        $result->addAttribute('scheduled_datetime', $myrow['scheduled_datetime']);
       } while ($myrow = $st->fetch());
     } else {
       echo "There is no drinker in the database.";
