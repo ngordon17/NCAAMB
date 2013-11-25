@@ -16,7 +16,8 @@
 @property(nonatomic, strong) IBOutlet UILabel *away_team_name;
 @property(nonatomic, strong) IBOutlet UILabel *away_record;
 @property(nonatomic, strong) IBOutlet UILabel *away_score;
-@property(nonatomic, strong) IBOutlet UILabel *scheduled;
+@property(nonatomic, strong) IBOutlet UILabel *scheduled_date;
+@property(nonatomic, strong) IBOutlet UILabel *scheduled_time;
 
 
 @end
