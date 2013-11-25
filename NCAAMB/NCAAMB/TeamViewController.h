@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBRequest.h"
+#import "DBResult.h"
+#import "ScheduleViewCell.h"
 
 @interface TeamViewController : UITableViewController
+
+@property (nonatomic, retain) NSArray* data;
 
 @end
