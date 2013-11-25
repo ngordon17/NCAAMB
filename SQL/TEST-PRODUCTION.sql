@@ -112,8 +112,8 @@ FROM GameStats
 WHERE player_id = 'c90c543f-1c4c-4d76-afd3-feda9ea83c3c' AND minutes <> 0;
 
 -- list of teams in a specific conference ordered by record
-SELECT COALESCE(windb.id, lossdb.id), COALESCE(windb.win, 0) AS win, COALESCE(lossdb.loss, 0) AS loss
-FROM (SELECT Team.id AS id, w.wins AS win
+SELECT COALESCE(windb.id, lossdb.id), COALESCE(windb.alias, lossdb.alias), COALESCE(windb.name, lossdb.name), COALESCE(windb.win, 0) AS win, COALESCE(lossdb.loss, 0) AS loss
+FROM (SELECT Team.id AS id, Team.alias AS alias, Team.name AS name, w.wins AS win
 FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS wins
              FROM Team, Game, Score
              WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND home_score > away_score)
@@ -121,7 +121,7 @@ FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS wins
              GROUP BY tid) AS w
 WHERE Team.conference_id = '88368ebb-01fb-44d5-a6c6-3e7d46bb3ab7' AND Team.id = w.tid) AS windb
 FULL OUTER JOIN
-(SELECT Team.id AS id, l.losses AS loss
+(SELECT Team.id AS id, Team.alias AS alias, Team.name AS name, l.losses AS loss
 FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS losses
              FROM Team, Game, Score
              WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND home_score < away_score)
