@@ -49,14 +49,23 @@ FROM Player
 WHERE id = 'cad077aa-9235-4031-975d-b9301c27bf00';
 
 --schedule for a given date
-SELECT *
-FROM Game
-WHERE scheduled_datetime::date = '2013-11-08';
+SELECT Game.id, home_team_id, t1.alias AS home_team_alias, t1.name AS home_team_name, away_team_id, 
+       t2.alias AS away_team_alias, t2.name AS away_team_name, scheduled_datetime
+FROM Game, Team t1, Team t2  
+WHERE scheduled_datetime::date = '2013-11-08' AND t1.id = home_team_id AND t2.id = away_team_id;
 
 --schedule for a given team
-SELECT *
-FROM Game
-WHERE home_team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f' OR away_team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f';
+SELECT g.gid, g.home_team_id, g.home_team_alias, g.home_team_name, g.away_team_id, g.away_team_alias, g.away_team_name, 
+       COALESCE(s.home_score, 0), COALESCE(s.away_score, 0), g.scheduled_datetime
+FROM (SELECT Game.id AS gid, home_team_id, t1.alias AS home_team_alias, t1.name AS home_team_name, away_team_id, 
+       t2.alias AS away_team_alias, t2.name AS away_team_name, scheduled_datetime
+FROM Game, Team t1, Team t2
+WHERE (home_team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f' OR away_team_id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f') 
+       AND t1.id = home_team_id AND t2.id = away_team_id) AS g
+LEFT OUTER JOIN
+(SELECT game_id AS gid, home_score, away_score
+FROM Score) AS s
+ON g.gid = s.gid;
 
 --box score for a given game
 SELECT *
