@@ -27,7 +27,6 @@
 		6C65F746183BE57C00EE2499 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C65F744183BE57C00EE2499 /* InfoPlist.strings */; };
 		6C65F748183BE57C00EE2499 /* NCAAMBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F747183BE57C00EE2499 /* NCAAMBTests.m */; };
 		6C65F761183BE64C00EE2499 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F760183BE64C00EE2499 /* HomeController.m */; };
-		6C65F764183BE7CF00EE2499 /* DailyScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F763183BE7CF00EE2499 /* DailyScheduleController.m */; };
 		6C65F767183BE7D600EE2499 /* ConferenceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F766183BE7D600EE2499 /* ConferenceNavigationController.m */; };
 		6C65F76A183BE7DD00EE2499 /* PlayerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F769183BE7DD00EE2499 /* PlayerNavigationController.m */; };
 		6C65F76D183BE7E300EE2499 /* TeamNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76C183BE7E300EE2499 /* TeamNavigationController.m */; };
@@ -78,8 +77,6 @@
 		6C65F75A183BE61A00EE2499 /* libpq.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libpq.framework; sourceTree = "<group>"; };
 		6C65F75F183BE64C00EE2499 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		6C65F760183BE64C00EE2499 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
-		6C65F762183BE7CF00EE2499 /* DailyScheduleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyScheduleController.h; sourceTree = "<group>"; };
-		6C65F763183BE7CF00EE2499 /* DailyScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyScheduleController.m; sourceTree = "<group>"; };
 		6C65F765183BE7D600EE2499 /* ConferenceNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConferenceNavigationController.h; sourceTree = "<group>"; };
 		6C65F766183BE7D600EE2499 /* ConferenceNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConferenceNavigationController.m; sourceTree = "<group>"; };
 		6C65F768183BE7DD00EE2499 /* PlayerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerNavigationController.h; sourceTree = "<group>"; };
@@ -229,7 +226,6 @@
 				6C65F757183BE5F700EE2499 /* Home */,
 				6C65F753183BE5A600EE2499 /* Player Navigation */,
 				6C65F754183BE5B300EE2499 /* Team */,
-				6C65F755183BE5B800EE2499 /* Daily Schedule */,
 				6C65F756183BE5BF00EE2499 /* Daily Scoreboard */,
 				6C65F752183BE59F00EE2499 /* Conference */,
 				6C65F751183BE59A00EE2499 /* Delegate */,
@@ -302,15 +298,6 @@
 				6C6477581842801000528A6D /* Navigation */,
 			);
 			name = Team;
-			sourceTree = "<group>";
-		};
-		6C65F755183BE5B800EE2499 /* Daily Schedule */ = {
-			isa = PBXGroup;
-			children = (
-				6C65F762183BE7CF00EE2499 /* DailyScheduleController.h */,
-				6C65F763183BE7CF00EE2499 /* DailyScheduleController.m */,
-			);
-			name = "Daily Schedule";
 			sourceTree = "<group>";
 		};
 		6C65F756183BE5BF00EE2499 /* Daily Scoreboard */ = {
@@ -448,7 +435,6 @@
 				6C2064DE183D8174001B2AAD /* ConferenceViewController.m in Sources */,
 				6C4A3301183D686F00D2D80F /* DBRequest.m in Sources */,
 				6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */,
-				6C65F764183BE7CF00EE2499 /* DailyScheduleController.m in Sources */,
 				6C65F729183BE57C00EE2499 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

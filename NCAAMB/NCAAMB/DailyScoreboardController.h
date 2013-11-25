@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DBResult.h"
 #import "DBRequest.h"
+#import "ScheduleViewCell.h"
 
 @interface DailyScoreboardController : UITableViewController
 
