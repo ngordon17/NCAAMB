@@ -289,7 +289,7 @@
                                     <outlet property="conference_record" destination="vKh-Tq-9Gh" id="G6x-vq-mXm"/>
                                     <outlet property="overall_record" destination="RQd-xT-gXc" id="XDl-Uz-DyY"/>
                                     <outlet property="team_name" destination="wb9-hN-7su" id="8Yp-qo-DHM"/>
-                                    <segue destination="ftv-yQ-CAq" kind="push" id="dtX-5H-Stm"/>
+                                    <segue destination="ftv-yQ-CAq" kind="push" identifier="Get Team Schedule" id="dtX-5H-Stm"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -429,6 +429,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="dHg-Nn-30k"/>
+        <segue reference="dtX-5H-Stm"/>
     </inferredMetricsTieBreakers>
 </document>

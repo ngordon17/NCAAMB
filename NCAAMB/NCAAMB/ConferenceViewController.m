@@ -7,10 +7,21 @@
 //
 
 #import "ConferenceViewController.h"
+#import "TeamViewController.h"
 
 @implementation ConferenceViewController
 
 @synthesize data;
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"Get Team Schedule"]) {
+        if ([segue.destinationViewController isKindOfClass:[TeamViewController class]]) {
+            TeamViewController *teamController = (TeamViewController *)segue.destinationViewController;
+            NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+            teamController.teamID = [[data objectAtIndex:indexPath.row] valueForKey:@"team_id"];
+        }
+    }
+}
 
 -(void) viewDidLoad {
     DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamStandings.php?conference_id=" stringByAppendingString:self.conferenceID]];
