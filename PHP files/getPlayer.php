@@ -23,6 +23,8 @@
         $result->addAttribute('first_name', $myrow['first_name']);
         $result->addAttribute('last_name', $myrow['last_name']);
         $result->addAttribute('team_id', $myrow['team_id']);
+        $result->addAttribute('team_alias', $myrow['alias']);
+        $result->addAttribute('team_name', $myrow['name']);
         $result->addAttribute('height', $myrow['height']);
         $result->addAttribute('weight', $myrow['weight']);
         $result->addAttribute('jersey_number', $myrow['jersey_number']);
