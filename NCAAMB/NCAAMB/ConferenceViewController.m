@@ -27,6 +27,8 @@
     DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamStandings.php?conference_id=" stringByAppendingString:self.conferenceID]];
     DBResult* result = [dataRequest exec];
     data = [result getResult];
+    NSLog(@"Name: %@", self.conferenceName);
+    self.navigationItem.title = self.conferenceName;
     NSLog(@"Team Result Size: %d", data.count);
     [super viewDidLoad];
 }

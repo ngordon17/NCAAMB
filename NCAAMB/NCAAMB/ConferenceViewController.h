@@ -14,6 +14,7 @@
 @interface ConferenceViewController : UITableViewController
 
 @property (nonatomic, strong) NSString* conferenceID;
+@property (nonatomic, strong) NSString* conferenceName;
 @property (nonatomic, retain) NSArray* data;
 
 @end

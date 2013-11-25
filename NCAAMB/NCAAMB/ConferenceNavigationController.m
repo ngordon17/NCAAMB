@@ -19,6 +19,7 @@
             ConferenceViewController *conferenceController = (ConferenceViewController *)segue.destinationViewController;
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
             conferenceController.conferenceID = [[data objectAtIndex:indexPath.row] valueForKey:@"conference_id"];
+            conferenceController.conferenceName = [[data objectAtIndex:indexPath.row] valueForKey:@"name"];
         }
     }
 }
