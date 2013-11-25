@@ -36,10 +36,15 @@
     if (cell == nil) {cell = [[StandingViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
     
     NSDictionary* row = [data objectAtIndex:indexPath.row];
-    cell.team_name.text = [row valueForKey:@"team_id"];
-    cell.conference_record.text = [[[row valueForKey:@"num_wins"] stringByAppendingString:@"-"]stringByAppendingString:[row valueForKey:@"num_losses"]];
-    cell.overall_record.text = [[[row valueForKey:@"num_wins"] stringByAppendingString:@"-"]stringByAppendingString:[row valueForKey:@"num_losses"]];
+    
+    cell.team_name.text = [@"" stringByAppendingFormat:@"%@ %@", [row valueForKey:@"team_alias"], [row valueForKey:@"team_name"]];
+    cell.conference_record.text = [@"" stringByAppendingFormat:@"%@-%@", [row valueForKey:@"num_wins"], [row valueForKey:@"num_losses"]];
+    cell.overall_record.text = [@"" stringByAppendingFormat:@"%@-%@", [row valueForKey:@"num_wins"], [row valueForKey:@"num_losses"]];
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 60;
 }
 
 @end
