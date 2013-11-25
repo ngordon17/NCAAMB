@@ -22,7 +22,8 @@
        LEFT OUTER JOIN
        (SELECT game_id AS gid, home_score, away_score
        FROM Score) AS s
-       ON g.gid = s.gid;');
+       ON g.gid = s.gid
+       ORDER BY scheduled_datetime;');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');

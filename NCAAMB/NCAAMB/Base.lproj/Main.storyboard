@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2mg-68-lst">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2mg-68-lst">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Home Controller - Home-->
@@ -129,7 +129,7 @@
             </objects>
             <point key="canvasLocation" x="-452" y="399"/>
         </scene>
-        <!--Daily Scoreboard Controller-->
+        <!--Daily Scoreboard Controller - Scoreboard-->
         <scene sceneID="Grm-ea-qUj">
             <objects>
                 <tableViewController id="iqt-Mt-vog" customClass="DailyScoreboardController" sceneMemberID="viewController">
@@ -152,13 +152,13 @@
                             <outlet property="delegate" destination="iqt-Mt-vog" id="jMH-0p-csn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="US8-aF-4YH"/>
+                    <navigationItem key="navigationItem" title="Scoreboard" id="US8-aF-4YH"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7sQ-TY-EeR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="441"/>
         </scene>
-        <!--Player Navigation Controller-->
+        <!--Player Navigation Controller - Players-->
         <scene sceneID="WPI-Xz-YIR">
             <objects>
                 <tableViewController id="BwP-Cr-9j9" customClass="PlayerNavigationController" sceneMemberID="viewController">
@@ -181,13 +181,13 @@
                             <outlet property="delegate" destination="BwP-Cr-9j9" id="z31-Fi-apP"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="m4t-sk-ftI"/>
+                    <navigationItem key="navigationItem" title="Players" id="m4t-sk-ftI"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5H-oJ-tvA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="121" y="1103"/>
         </scene>
-        <!--Team Navigation Controller-->
+        <!--Team Navigation Controller - Teams-->
         <scene sceneID="6gZ-7w-hzD">
             <objects>
                 <tableViewController id="cg4-nQ-qoO" customClass="TeamNavigationController" sceneMemberID="viewController">
@@ -204,7 +204,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ftv-yQ-CAq" kind="push" id="dHg-Nn-30k"/>
+                                    <segue destination="ftv-yQ-CAq" kind="push" identifier="Get Team Schedule" id="dHg-Nn-30k"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -213,13 +213,13 @@
                             <outlet property="delegate" destination="cg4-nQ-qoO" id="U8f-CL-kyD"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="weF-wZ-AaF"/>
+                    <navigationItem key="navigationItem" title="Teams" id="weF-wZ-AaF"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KQ1-q2-oCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="104" y="1784"/>
         </scene>
-        <!--Daily Schedule Controller-->
+        <!--Daily Schedule Controller - Schedule-->
         <scene sceneID="DpV-nN-gGZ">
             <objects>
                 <tableViewController id="RLj-8C-Pln" customClass="DailyScheduleController" sceneMemberID="viewController">
@@ -242,7 +242,7 @@
                             <outlet property="delegate" destination="RLj-8C-Pln" id="BUd-MN-xuV"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Lj8-Mg-gE6"/>
+                    <navigationItem key="navigationItem" title="Schedule" id="Lj8-Mg-gE6"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7hn-kt-Cn6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -289,7 +289,7 @@
                                     <outlet property="conference_record" destination="vKh-Tq-9Gh" id="G6x-vq-mXm"/>
                                     <outlet property="overall_record" destination="RQd-xT-gXc" id="XDl-Uz-DyY"/>
                                     <outlet property="team_name" destination="wb9-hN-7su" id="8Yp-qo-DHM"/>
-                                    <segue destination="ftv-yQ-CAq" kind="push" id="dtX-5H-Stm"/>
+                                    <segue destination="ftv-yQ-CAq" kind="push" identifier="Get Team Schedule" id="dtX-5H-Stm"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -372,7 +372,7 @@
             </objects>
             <point key="canvasLocation" x="801" y="1784"/>
         </scene>
-        <!--Conference Navigation Controller-->
+        <!--Conference Navigation Controller - Conferences-->
         <scene sceneID="QWr-4y-FDF">
             <objects>
                 <tableViewController id="yge-6U-Wm7" customClass="ConferenceNavigationController" sceneMemberID="viewController">
@@ -389,7 +389,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="w3n-70-Znr" kind="push" id="Aq3-Ig-f6J"/>
+                                    <segue destination="w3n-70-Znr" kind="push" identifier="Get Team Standings" id="Aq3-Ig-f6J"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -398,7 +398,7 @@
                             <outlet property="delegate" destination="yge-6U-Wm7" id="4dV-bG-Ats"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="nJt-Bl-pX7"/>
+                    <navigationItem key="navigationItem" title="Conferences" id="nJt-Bl-pX7"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suF-nd-itd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
