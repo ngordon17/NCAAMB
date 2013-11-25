@@ -12,9 +12,10 @@
 @implementation TeamViewController
 
 @synthesize data;
+@synthesize teamID;
 
 -(void) viewDidLoad {
-    DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamSchedule.php?team_id=" stringByAppendingString:self.teamID]];
+    DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamSchedule.php?team_id=" stringByAppendingString:teamID]];
     DBResult* result = [dataRequest exec];
     data = [result getResult];
     NSLog(@"Team Result Size: %d", data.count);
