@@ -74,9 +74,9 @@ FROM Score) AS s
 ON g.gid = s.gid;
 
 --box score for a given game
-SELECT *
-FROM GameStats
-WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080'
+SELECT GameStats.*, Player.first_name, Player.last_name
+FROM GameStats, Player
+WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080' AND GameStats.player_id = player.id
 LIMIT 10;
 
 --score for a specific game

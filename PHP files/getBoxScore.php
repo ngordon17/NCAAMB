@@ -13,14 +13,16 @@
   }
   
   try {
-    $st = $dbh->query('SELECT *
-                       FROM GameStats
-                       WHERE game_id = \'' . $_GET["game_id"] . '\'');
+    $st = $dbh->query('SELECT GameStats.*, Player.first_name, Player.last_name
+                       FROM GameStats, Player
+                       WHERE game_id = \'' . $_GET["game_id"] . '\' AND GameStats.player_id = player.id
+                       LIMIT 10;');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');
         $result->addAttribute('game_id', $myrow['game_id']);
         $result->addAttribute('player_id', $myrow['player_id']);
+        $result->addAttribute('player_name', $myrow['first_name']. " " . $myrow['last_name']);
         $result->addAttribute('minutes', $myrow['minutes']);
         $result->addAttribute('three_point_attempts', $myrow['three_point_attempts']);
         $result->addAttribute('three_point_makes', $myrow['three_point_makes']);
