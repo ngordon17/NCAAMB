@@ -39,8 +39,6 @@
     NSDictionary* row = [data objectAtIndex:indexPath.row];
     
     cell.home_team_name.text = [@"" stringByAppendingFormat:@"%@ %@", [row valueForKey:@"home_team_alias"], [row valueForKey:@"home_team_name"]];
-    //cell.home_team_name.text = @"JOE";
-    NSLog(@"%@",[@"" stringByAppendingFormat:@"%@ %@", [row valueForKey:@"home_team_alias"], [row valueForKey:@"home_team_name"]]);
     cell.home_record.text = [@"" stringByAppendingFormat:@"%@-%@", [row valueForKey:@"home_team_wins"], [row valueForKey:@"home_teams_losses"]];
     cell.home_score.text = [row valueForKey:@"home_score"];
     
@@ -48,7 +46,7 @@
     cell.away_record.text = [@"" stringByAppendingFormat:@"%@-%@", [row valueForKey:@"away_team_wins"], [row valueForKey:@"away_teams_losses"]];
     cell.away_score.text = [row valueForKey:@"away_score"];
     
-    cell.scheduled.text = [row valueForKey:@"scheduled"];
+    cell.scheduled.text = [row valueForKey:@"scheduled_datetime"];
     
     return cell;
 }
