@@ -7,10 +7,21 @@
 //
 
 #import "ConferenceNavigationController.h"
+#import "ConferenceViewController.h"
 
 @implementation ConferenceNavigationController
 
 @synthesize data;
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"Get Team Standings"]) {
+        if ([segue.destinationViewController isKindOfClass:[ConferenceViewController class]]) {
+            ConferenceViewController *conferenceController = (ConferenceViewController *)segue.destinationViewController;
+            NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+            conferenceController.conferenceID = [[data objectAtIndex:indexPath.row] valueForKey:@"conference_id"];
+        }
+    }
+}
 
 -(void) viewDidLoad {
     DBRequest* dataRequest = [[DBRequest alloc] init:@"http://dukedb-dma13.cloudapp.net/ncaamb/conferences.php"];

@@ -13,7 +13,7 @@
 @synthesize data;
 
 -(void) viewDidLoad {
-    DBRequest* dataRequest = [[DBRequest alloc] init:@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamStandings.php?conference_id=b11c69c8-e2cc-4a36-bd3b-80cdf91fef57"];
+    DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamStandings.php?conference_id=" stringByAppendingString:self.conferenceID]];
     DBResult* result = [dataRequest exec];
     data = [result getResult];
     NSLog(@"Team Result Size: %d", data.count);
