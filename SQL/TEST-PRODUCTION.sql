@@ -90,9 +90,9 @@ FROM Score, Game
 WHERE scheduled_datetime::date = '2013-11-08' AND id = game_id;
 
 -- specific team info
-SELECT *
-FROM Team
-WHERE id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f';
+SELECT Team.*, Venue.name
+FROM Team, Venue
+WHERE Team.id = 'faeb1160-5d15-4f26-99fc-c441cf21fc7f' AND Team.venue_id = Venue.id;
 
 --list of players for a team, will also be used for specific team info
 SELECT *
