@@ -359,8 +359,8 @@ WHERE player_id = 'c90c543f-1c4c-4d76-afd3-feda9ea83c3c' AND minutes <> 0;
 (1 row)
 
 -- list of teams in a specific conference ordered by record
-SELECT COALESCE(windb.id, lossdb.id), COALESCE(windb.win, 0) AS win, COALESCE(lossdb.loss, 0) AS loss
-FROM (SELECT Team.id AS id, w.wins AS win
+SELECT COALESCE(windb.id, lossdb.id), COALESCE(windb.alias, lossdb.alias), COALESCE(windb.name, lossdb.name), COALESCE(windb.win, 0) AS win, COALESCE(lossdb.loss, 0) AS loss
+FROM (SELECT Team.id AS id, Team.alias AS alias, Team.name AS name, w.wins AS win
 FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS wins
              FROM Team, Game, Score
              WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND home_score > away_score)
@@ -368,7 +368,7 @@ FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS wins
              GROUP BY tid) AS w
 WHERE Team.conference_id = '88368ebb-01fb-44d5-a6c6-3e7d46bb3ab7' AND Team.id = w.tid) AS windb
 FULL OUTER JOIN
-(SELECT Team.id AS id, l.losses AS loss
+(SELECT Team.id AS id, Team.alias AS alias, Team.name AS name, l.losses AS loss
 FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS losses
              FROM Team, Game, Score
              WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND home_score < away_score)
@@ -377,22 +377,22 @@ FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS losses
 WHERE Team.conference_id = '88368ebb-01fb-44d5-a6c6-3e7d46bb3ab7' AND Team.id = l.tid) AS lossdb
 ON windb.id = lossdb.id
 ORDER BY win DESC, loss ASC;
-               coalesce               | win | loss 
---------------------------------------+-----+------
- 0f63a6f5-bda7-4fd9-9271-8d33f555ca19 |   2 |    0
- 8cd24de1-2be8-4b77-bcfa-47be0495a5f4 |   2 |    0
- d3c8a767-b6fc-45d4-a5f2-18406f2993f1 |   2 |    0
- dcf5c2e7-c227-4c20-af26-715d5f859412 |   2 |    0
- 80962f09-8821-48b6-8cf0-0cf0eea56aa8 |   2 |    0
- 4fbebf0a-e117-4a0c-8f15-c247535a2a1b |   2 |    0
- 24051034-96bb-4f78-a3a6-312f3258780f |   2 |    0
- 7aec5187-cb1b-45e5-8f7d-406d766cdc73 |   2 |    1
- e9ca48b2-00ba-41c0-a02b-6885a2da1ff1 |   1 |    0
- faeb1160-5d15-4f26-99fc-c441cf21fc7f |   1 |    1
- 2778d005-cc14-4e58-9bf2-3fc37bffb62f |   1 |    1
- 324ccccc-575b-4b82-acb0-fbb8e68da13b |   1 |    1
- 52df1e19-b142-4a76-a439-ad68455d0581 |   1 |    1
- 56913910-87f7-4ad7-ae3b-5cd9fb218fd9 |   1 |    1
- 4b3ff02c-e0ba-435b-a565-6075bc491684 |   0 |    3
+               coalesce               |       coalesce       |    coalesce    | win | loss 
+--------------------------------------+----------------------+----------------+-----+------
+ 0f63a6f5-bda7-4fd9-9271-8d33f555ca19 | Georgia Tech         | Yellow Jackets |   2 |    0
+ 8cd24de1-2be8-4b77-bcfa-47be0495a5f4 | Syracuse             | Orange         |   2 |    0
+ d3c8a767-b6fc-45d4-a5f2-18406f2993f1 | Florida State        | Seminoles      |   2 |    0
+ dcf5c2e7-c227-4c20-af26-715d5f859412 | Clemson              | Tigers         |   2 |    0
+ 80962f09-8821-48b6-8cf0-0cf0eea56aa8 | Notre Dame           | Fighting Irish |   2 |    0
+ 4fbebf0a-e117-4a0c-8f15-c247535a2a1b | Wake Forest          | Demon Deacons  |   2 |    0
+ 24051034-96bb-4f78-a3a6-312f3258780f | Pittsburgh           | Panthers       |   2 |    0
+ 7aec5187-cb1b-45e5-8f7d-406d766cdc73 | Miami (FL)           | Hurricanes     |   2 |    1
+ e9ca48b2-00ba-41c0-a02b-6885a2da1ff1 | North Carolina       | Tar Heels      |   1 |    0
+ faeb1160-5d15-4f26-99fc-c441cf21fc7f | Duke                 | Blue Devils    |   1 |    1
+ 2778d005-cc14-4e58-9bf2-3fc37bffb62f | Maryland             | Terrapins      |   1 |    1
+ 324ccccc-575b-4b82-acb0-fbb8e68da13b | Virginia Tech        | Hokies         |   1 |    1
+ 52df1e19-b142-4a76-a439-ad68455d0581 | North Carolina State | Wolfpack       |   1 |    1
+ 56913910-87f7-4ad7-ae3b-5cd9fb218fd9 | Virginia             | Cavaliers      |   1 |    1
+ 4b3ff02c-e0ba-435b-a565-6075bc491684 | Boston College       | Eagles         |   0 |    3
 (15 rows)
 
