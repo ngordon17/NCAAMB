@@ -7,10 +7,21 @@
 //
 
 #import "PlayerNavigationController.h"
+#import "PlayerViewController.h"
 
 @implementation PlayerNavigationController
 
 @synthesize data;
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"Get Player Bio"]) {
+        if ([segue.destinationViewController isKindOfClass:[PlayerViewController class]]) {
+            PlayerViewController *playerController = (PlayerViewController *)segue.destinationViewController;
+            NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+            playerController.playerID = [[data objectAtIndex:indexPath.row] valueForKey:@"id"];
+        }
+    }
+}
 
 -(void) viewDidLoad {
     DBRequest* dataRequest = [[DBRequest alloc] init:@"http://dukedb-dma13.cloudapp.net/ncaamb/players.php"];

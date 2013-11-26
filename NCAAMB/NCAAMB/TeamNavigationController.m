@@ -45,7 +45,8 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    if (cell == nil) {cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
+    if (cell == nil) {cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
+    
     
     NSDictionary* row = [data objectAtIndex:indexPath.row];
     cell.textLabel.text = [[[row valueForKey:@"alias"] stringByAppendingString:@" "] stringByAppendingString:[row valueForKey:@"name"]];

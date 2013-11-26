@@ -31,6 +31,9 @@
 		6C65F76A183BE7DD00EE2499 /* PlayerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F769183BE7DD00EE2499 /* PlayerNavigationController.m */; };
 		6C65F76D183BE7E300EE2499 /* TeamNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76C183BE7E300EE2499 /* TeamNavigationController.m */; };
 		6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */; };
+		6C66868218443DBD00068F3B /* PlayerStatsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66868118443DBD00068F3B /* PlayerStatsViewCell.m */; };
+		6CB8AE431843EA2B00DD3DC1 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */; };
+		6CB8AE481844226C00DD3DC1 /* PlayerViewHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB8AE471844226C00DD3DC1 /* PlayerViewHTML.html */; };
 		FB966ECD18439C6B00BBE3D6 /* libpq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F75A183BE61A00EE2499 /* libpq.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +88,11 @@
 		6C65F76C183BE7E300EE2499 /* TeamNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamNavigationController.m; sourceTree = "<group>"; };
 		6C65F76E183BE7EC00EE2499 /* DailyScoreboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyScoreboardController.h; sourceTree = "<group>"; };
 		6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyScoreboardController.m; sourceTree = "<group>"; };
+		6C66868018443DBD00068F3B /* PlayerStatsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatsViewCell.h; sourceTree = "<group>"; };
+		6C66868118443DBD00068F3B /* PlayerStatsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStatsViewCell.m; sourceTree = "<group>"; };
+		6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		6CB8AE471844226C00DD3DC1 /* PlayerViewHTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = PlayerViewHTML.html; path = ../../../PlayerViewHTML.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +170,7 @@
 		6C6477601842EE2300528A6D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				6C66867F18443D9C00068F3B /* Player */,
 				6C6477621842EE4000528A6D /* Schedule */,
 				6C6477611842EE3200528A6D /* Standings */,
 			);
@@ -220,11 +229,12 @@
 		6C65F722183BE57C00EE2499 /* NCAAMB */ = {
 			isa = PBXGroup;
 			children = (
+				6CB8AE461843FA3D00DD3DC1 /* HTML */,
 				6C6477601842EE2300528A6D /* Cells */,
 				6C4A32F5183C9DBD00D2D80F /* Database */,
 				6C65F758183BE5FC00EE2499 /* Storyboard */,
 				6C65F757183BE5F700EE2499 /* Home */,
-				6C65F753183BE5A600EE2499 /* Player Navigation */,
+				6C65F753183BE5A600EE2499 /* Player */,
 				6C65F754183BE5B300EE2499 /* Team */,
 				6C65F756183BE5BF00EE2499 /* Daily Scoreboard */,
 				6C65F752183BE59F00EE2499 /* Conference */,
@@ -282,13 +292,13 @@
 			name = Conference;
 			sourceTree = "<group>";
 		};
-		6C65F753183BE5A600EE2499 /* Player Navigation */ = {
+		6C65F753183BE5A600EE2499 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				6C65F768183BE7DD00EE2499 /* PlayerNavigationController.h */,
-				6C65F769183BE7DD00EE2499 /* PlayerNavigationController.m */,
+				6CB8AE3D1843E04B00DD3DC1 /* View */,
+				6CB8AE3C1843E03E00DD3DC1 /* Navigation */,
 			);
-			name = "Player Navigation";
+			name = Player;
 			sourceTree = "<group>";
 		};
 		6C65F754183BE5B300EE2499 /* Team */ = {
@@ -324,6 +334,41 @@
 				6C65F72E183BE57C00EE2499 /* Main.storyboard */,
 			);
 			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		6C66867F18443D9C00068F3B /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6C66868018443DBD00068F3B /* PlayerStatsViewCell.h */,
+				6C66868118443DBD00068F3B /* PlayerStatsViewCell.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		6CB8AE3C1843E03E00DD3DC1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6C65F768183BE7DD00EE2499 /* PlayerNavigationController.h */,
+				6C65F769183BE7DD00EE2499 /* PlayerNavigationController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		6CB8AE3D1843E04B00DD3DC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */,
+				6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6CB8AE461843FA3D00DD3DC1 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				6CB8AE471844226C00DD3DC1 /* PlayerViewHTML.html */,
+			);
+			name = HTML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +450,7 @@
 				6C65F735183BE57C00EE2499 /* Images.xcassets in Resources */,
 				6C65F727183BE57C00EE2499 /* InfoPlist.strings in Resources */,
 				6C65F730183BE57C00EE2499 /* Main.storyboard in Resources */,
+				6CB8AE481844226C00DD3DC1 /* PlayerViewHTML.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +476,8 @@
 				6C64775F1842E5FE00528A6D /* StandingViewCell.m in Sources */,
 				6C65F767183BE7D600EE2499 /* ConferenceNavigationController.m in Sources */,
 				6C4A32FE183D5D6900D2D80F /* DBResult.m in Sources */,
+				6C66868218443DBD00068F3B /* PlayerStatsViewCell.m in Sources */,
+				6CB8AE431843EA2B00DD3DC1 /* PlayerViewController.m in Sources */,
 				6C6477651842EE5C00528A6D /* ScheduleViewCell.m in Sources */,
 				6C65F72D183BE57C00EE2499 /* AppDelegate.m in Sources */,
 				6C2064DE183D8174001B2AAD /* ConferenceViewController.m in Sources */,
