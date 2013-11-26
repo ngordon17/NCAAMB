@@ -10,11 +10,13 @@
 #import "DBRequest.h"
 #import "DBResult.h"
 #import "PlayerStatsViewCell.h"
+#import "PlayerStatsTableSection.h"
 
 @interface PlayerViewController : UIViewController <UIWebViewDelegate, UITableViewDelegate, UITableViewDataSource>
 
 @property(nonatomic, retain) IBOutlet UIWebView* header;
 @property(nonatomic, retain) IBOutlet UITableView* stats;
+@property(nonatomic, retain) NSArray* tableSections;
 @property(nonatomic, strong) NSArray* data;
 @property(nonatomic, strong) NSString* playerID;
 

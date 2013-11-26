@@ -32,8 +32,9 @@
 		6C65F76D183BE7E300EE2499 /* TeamNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76C183BE7E300EE2499 /* TeamNavigationController.m */; };
 		6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */; };
 		6C66868218443DBD00068F3B /* PlayerStatsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66868118443DBD00068F3B /* PlayerStatsViewCell.m */; };
+		6C6686851844761100068F3B /* PlayerStatsTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6686841844761100068F3B /* PlayerStatsTableSection.m */; };
+		6C6686871844797700068F3B /* PlayerViewHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C6686861844797700068F3B /* PlayerViewHTML.html */; };
 		6CB8AE431843EA2B00DD3DC1 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */; };
-		6CB8AE481844226C00DD3DC1 /* PlayerViewHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB8AE471844226C00DD3DC1 /* PlayerViewHTML.html */; };
 		FB966ECD18439C6B00BBE3D6 /* libpq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F75A183BE61A00EE2499 /* libpq.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,9 +91,11 @@
 		6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyScoreboardController.m; sourceTree = "<group>"; };
 		6C66868018443DBD00068F3B /* PlayerStatsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatsViewCell.h; sourceTree = "<group>"; };
 		6C66868118443DBD00068F3B /* PlayerStatsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStatsViewCell.m; sourceTree = "<group>"; };
+		6C6686831844761100068F3B /* PlayerStatsTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatsTableSection.h; sourceTree = "<group>"; };
+		6C6686841844761100068F3B /* PlayerStatsTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStatsTableSection.m; sourceTree = "<group>"; };
+		6C6686861844797700068F3B /* PlayerViewHTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PlayerViewHTML.html; sourceTree = "<group>"; };
 		6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
-		6CB8AE471844226C00DD3DC1 /* PlayerViewHTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = PlayerViewHTML.html; path = ../../../PlayerViewHTML.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +362,8 @@
 			children = (
 				6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */,
 				6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */,
+				6C6686831844761100068F3B /* PlayerStatsTableSection.h */,
+				6C6686841844761100068F3B /* PlayerStatsTableSection.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -366,7 +371,7 @@
 		6CB8AE461843FA3D00DD3DC1 /* HTML */ = {
 			isa = PBXGroup;
 			children = (
-				6CB8AE471844226C00DD3DC1 /* PlayerViewHTML.html */,
+				6C6686861844797700068F3B /* PlayerViewHTML.html */,
 			);
 			name = HTML;
 			sourceTree = "<group>";
@@ -450,7 +455,7 @@
 				6C65F735183BE57C00EE2499 /* Images.xcassets in Resources */,
 				6C65F727183BE57C00EE2499 /* InfoPlist.strings in Resources */,
 				6C65F730183BE57C00EE2499 /* Main.storyboard in Resources */,
-				6CB8AE481844226C00DD3DC1 /* PlayerViewHTML.html in Resources */,
+				6C6686871844797700068F3B /* PlayerViewHTML.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +487,7 @@
 				6C65F72D183BE57C00EE2499 /* AppDelegate.m in Sources */,
 				6C2064DE183D8174001B2AAD /* ConferenceViewController.m in Sources */,
 				6C4A3301183D686F00D2D80F /* DBRequest.m in Sources */,
+				6C6686851844761100068F3B /* PlayerStatsTableSection.m in Sources */,
 				6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */,
 				6C65F729183BE57C00EE2499 /* main.m in Sources */,
 			);

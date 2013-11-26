@@ -15,7 +15,7 @@
 @synthesize header;
 @synthesize stats;
 @synthesize playerID;
-
+@synthesize tableSections;
 
 
 - (void)viewDidLoad {
@@ -36,7 +36,7 @@
 
 - (void) initHeader {
     NSDictionary* player_bio = [data objectAtIndex:0];
-    NSString *htmlFile = @"/Users/yankeenjg/Desktop/PlayerViewHTML.html";
+    NSString *htmlFile = @"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerViewHTML.html";
     NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_PLAYER_NAME" withString:[@"" stringByAppendingFormat:@"%@ %@", [player_bio valueForKey:@"first_name"], [player_bio valueForKey:@"last_name"]]];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_NUMBER_POSITION" withString:[@"" stringByAppendingFormat:@"%@ %@", [player_bio valueForKey:@"jersey_number"], [player_bio valueForKey:@"position"]]];
@@ -74,22 +74,34 @@
 #pragma mark - UITableView
 
 -(void) initStats {
+    PlayerStatsTableSection* section1 = [[PlayerStatsTableSection alloc] init];
+    [section1 setRows: data];
+    [section1 setHeader:@"Season Averages"];
+    PlayerStatsTableSection* section2 = [[PlayerStatsTableSection alloc] init];
+    [section2 setRows: data];
+    [section2 setHeader:@"Season Totals"];
+    PlayerStatsTableSection* section3 = [[PlayerStatsTableSection alloc] init];
+    [section3 setRows: data];
+    [section3 setHeader: @"Game Log"];
+    [self setTableSections: [NSArray arrayWithObjects: section1, section2, section3, nil]];
     [stats setDelegate:self];
     [stats setDataSource:self];
 }
 
+-(NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
+    return tableSections.count;
+}
+
+- (NSString*)tableView: (UITableView*)tableView titleForHeaderInSection: (NSInteger)section {
+    return [[tableSections objectAtIndex: section] header];
+}
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+     return [[tableSections objectAtIndex: section] numberOfRows];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    PlayerStatsViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    if (cell == nil) {cell = [[PlayerStatsViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
-    cell.season.text = @"2013-14";
-    NSLog(@"%@=%@", @"SEASON", cell.season);
-    return cell;
+    return [[tableSections objectAtIndex: indexPath.section] cellInTableView: tableView forRow: indexPath.row];
 }
-
 
 @end
