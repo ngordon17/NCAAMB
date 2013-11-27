@@ -11,7 +11,8 @@
 
 @implementation PlayerViewController
 
-@synthesize data;
+@synthesize player_bio_data;
+@synthesize player_season_avgs;
 @synthesize header;
 @synthesize stats;
 @synthesize playerID;
@@ -22,7 +23,14 @@
     [super viewDidLoad];
     DBRequest* dataRequest = [[DBRequest alloc] init:[@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getPlayer.php?player_id=", playerID]];
     DBResult* result = [dataRequest exec];
-    data = [result getResult];
+    player_bio_data = [result getResult];
+    
+    dataRequest = [[DBRequest alloc] init:[@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getAvgStats.php?player_id=", playerID]];
+    result = [dataRequest exec];
+    
+    player_season_avgs = [result getResult];
+    //player_season_totals = [result getResult];
+    //player_season_game_log = [result getResult];
     [self initHeader];
     [self initStats];
 }
@@ -35,7 +43,7 @@
 #pragma mark - UIWebView 
 
 - (void) initHeader {
-    NSDictionary* player_bio = [data objectAtIndex:0];
+    NSDictionary* player_bio = [player_bio_data objectAtIndex:0];
     NSString *htmlFile = @"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerViewHTML.html";
     NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_PLAYER_NAME" withString:[@"" stringByAppendingFormat:@"%@ %@", [player_bio valueForKey:@"first_name"], [player_bio valueForKey:@"last_name"]]];
@@ -75,13 +83,13 @@
 
 -(void) initStats {
     PlayerStatsTableSection* section1 = [[PlayerStatsTableSection alloc] init];
-    [section1 setRows: data];
+    [section1 setRows: player_season_avgs];
     [section1 setHeader:@"Season Averages"];
     PlayerStatsTableSection* section2 = [[PlayerStatsTableSection alloc] init];
-    [section2 setRows: data];
+    [section2 setRows: player_season_avgs];
     [section2 setHeader:@"Season Totals"];
     PlayerStatsTableSection* section3 = [[PlayerStatsTableSection alloc] init];
-    [section3 setRows: data];
+    [section3 setRows: player_season_avgs];
     [section3 setHeader: @"Game Log"];
     [self setTableSections: [NSArray arrayWithObjects: section1, section2, section3, nil]];
     [stats setDelegate:self];

@@ -12,20 +12,15 @@
 
 @property(nonatomic, strong) IBOutlet UILabel *season;
 @property(nonatomic, strong) IBOutlet UILabel *team;
-@property(nonatomic, strong) IBOutlet UILabel *min;
-@property(nonatomic, strong) IBOutlet UILabel *fg;
-@property(nonatomic, strong) IBOutlet UILabel *fgp;
-@property(nonatomic, strong) IBOutlet UILabel *three;
+@property(nonatomic, strong) IBOutlet UILabel *mpg;
+@property(nonatomic, strong) IBOutlet UILabel *twop;
 @property(nonatomic, strong) IBOutlet UILabel *threep;
-@property(nonatomic, strong) IBOutlet UILabel *ft;
-@property(nonatomic, strong) IBOutlet UILabel *ftp;
-@property(nonatomic, strong) IBOutlet UILabel *reb;
-@property(nonatomic, strong) IBOutlet UILabel *ast;
-@property(nonatomic, strong) IBOutlet UILabel *blk;
-@property(nonatomic, strong) IBOutlet UILabel *stl;
-@property(nonatomic, strong) IBOutlet UILabel *pf;
-@property(nonatomic, strong) IBOutlet UILabel *to;
-@property(nonatomic, strong) IBOutlet UILabel *pts;
-
+@property(nonatomic, strong) IBOutlet UILabel *freep;
+@property(nonatomic, strong) IBOutlet UILabel *ppg;
+@property(nonatomic, strong) IBOutlet UILabel *orpg;
+@property(nonatomic, strong) IBOutlet UILabel *drpg;
+@property(nonatomic, strong) IBOutlet UILabel *spg;
+@property(nonatomic, strong) IBOutlet UILabel *apg;
+@property(nonatomic, strong) IBOutlet UILabel *pfpg;
 
 @end
