@@ -111,7 +111,7 @@ SELECT AVG(offensive_rebounds) AS ORPG, AVG(defensive_rebounds) AS DRPG, AVG(ste
     SUM(cast(free_throw_makes as float))/SUM(free_throw_attempts) AS free_percent,
     (SUM(cast(two_point_makes as float)) * 2 + SUM(three_point_makes) * 3)/COUNT(*) AS avg_points
 FROM GameStats
-WHERE player_id = 'c90c543f-1c4c-4d76-afd3-feda9ea83c3c' AND minutes <> 0;
+WHERE player_id = 'df89300b-42af-43eb-8873-7bda04941c56' AND minutes <> 0;
 
 -- list of teams in a specific conference ordered by record
 SELECT COALESCE(windb.id, lossdb.id), COALESCE(windb.alias, lossdb.alias), COALESCE(windb.name, lossdb.name), COALESCE(windb.win, 0) AS win, COALESCE(lossdb.loss, 0) AS loss
