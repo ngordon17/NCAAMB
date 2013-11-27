@@ -35,6 +35,9 @@
 		6C6686851844761100068F3B /* PlayerStatsTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6686841844761100068F3B /* PlayerStatsTableSection.m */; };
 		6C6686871844797700068F3B /* PlayerViewHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C6686861844797700068F3B /* PlayerViewHTML.html */; };
 		6CB8AE431843EA2B00DD3DC1 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */; };
+		6CBFFFC61845796A003160C2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFFFC51845796A003160C2 /* GameViewController.m */; };
+		6CBFFFCA184579A0003160C2 /* TeamRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFFFC9184579A0003160C2 /* TeamRosterViewController.m */; };
+		6CBFFFD118457B4A003160C2 /* RosterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFFFD018457B4A003160C2 /* RosterViewCell.m */; };
 		FB966ECD18439C6B00BBE3D6 /* libpq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65F75A183BE61A00EE2499 /* libpq.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +99,12 @@
 		6C6686861844797700068F3B /* PlayerViewHTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PlayerViewHTML.html; sourceTree = "<group>"; };
 		6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		6CBFFFC41845796A003160C2 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6CBFFFC51845796A003160C2 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		6CBFFFC81845799F003160C2 /* TeamRosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamRosterViewController.h; sourceTree = "<group>"; };
+		6CBFFFC9184579A0003160C2 /* TeamRosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamRosterViewController.m; sourceTree = "<group>"; };
+		6CBFFFCF18457B4A003160C2 /* RosterViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosterViewCell.h; sourceTree = "<group>"; };
+		6CBFFFD018457B4A003160C2 /* RosterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosterViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +182,7 @@
 		6C6477601842EE2300528A6D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				6CBFFFCB18457AF0003160C2 /* Roster */,
 				6C66867F18443D9C00068F3B /* Player */,
 				6C6477621842EE4000528A6D /* Schedule */,
 				6C6477611842EE3200528A6D /* Standings */,
@@ -232,6 +242,7 @@
 		6C65F722183BE57C00EE2499 /* NCAAMB */ = {
 			isa = PBXGroup;
 			children = (
+				6CBFFFC31845793A003160C2 /* Game */,
 				6CB8AE461843FA3D00DD3DC1 /* HTML */,
 				6C6477601842EE2300528A6D /* Cells */,
 				6C4A32F5183C9DBD00D2D80F /* Database */,
@@ -307,6 +318,7 @@
 		6C65F754183BE5B300EE2499 /* Team */ = {
 			isa = PBXGroup;
 			children = (
+				6CBFFFC718457987003160C2 /* Roster */,
 				6C6477591842801500528A6D /* View */,
 				6C6477581842801000528A6D /* Navigation */,
 			);
@@ -348,6 +360,15 @@
 			name = Player;
 			sourceTree = "<group>";
 		};
+		6C66868818447C9700068F3B /* Table Sections */ = {
+			isa = PBXGroup;
+			children = (
+				6C6686831844761100068F3B /* PlayerStatsTableSection.h */,
+				6C6686841844761100068F3B /* PlayerStatsTableSection.m */,
+			);
+			name = "Table Sections";
+			sourceTree = "<group>";
+		};
 		6CB8AE3C1843E03E00DD3DC1 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,10 +381,9 @@
 		6CB8AE3D1843E04B00DD3DC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6C66868818447C9700068F3B /* Table Sections */,
 				6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */,
 				6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */,
-				6C6686831844761100068F3B /* PlayerStatsTableSection.h */,
-				6C6686841844761100068F3B /* PlayerStatsTableSection.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -374,6 +394,33 @@
 				6C6686861844797700068F3B /* PlayerViewHTML.html */,
 			);
 			name = HTML;
+			sourceTree = "<group>";
+		};
+		6CBFFFC31845793A003160C2 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFFFC41845796A003160C2 /* GameViewController.h */,
+				6CBFFFC51845796A003160C2 /* GameViewController.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		6CBFFFC718457987003160C2 /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFFFC81845799F003160C2 /* TeamRosterViewController.h */,
+				6CBFFFC9184579A0003160C2 /* TeamRosterViewController.m */,
+			);
+			name = Roster;
+			sourceTree = "<group>";
+		};
+		6CBFFFCB18457AF0003160C2 /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFFFCF18457B4A003160C2 /* RosterViewCell.h */,
+				6CBFFFD018457B4A003160C2 /* RosterViewCell.m */,
+			);
+			name = Roster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CBFFFCA184579A0003160C2 /* TeamRosterViewController.m in Sources */,
 				6C65F76D183BE7E300EE2499 /* TeamNavigationController.m in Sources */,
 				6C64775C1842802D00528A6D /* TeamViewController.m in Sources */,
 				6C65F761183BE64C00EE2499 /* HomeController.m in Sources */,
@@ -482,6 +530,8 @@
 				6C65F767183BE7D600EE2499 /* ConferenceNavigationController.m in Sources */,
 				6C4A32FE183D5D6900D2D80F /* DBResult.m in Sources */,
 				6C66868218443DBD00068F3B /* PlayerStatsViewCell.m in Sources */,
+				6CBFFFC61845796A003160C2 /* GameViewController.m in Sources */,
+				6CBFFFD118457B4A003160C2 /* RosterViewCell.m in Sources */,
 				6CB8AE431843EA2B00DD3DC1 /* PlayerViewController.m in Sources */,
 				6C6477651842EE5C00528A6D /* ScheduleViewCell.m in Sources */,
 				6C65F72D183BE57C00EE2499 /* AppDelegate.m in Sources */,
