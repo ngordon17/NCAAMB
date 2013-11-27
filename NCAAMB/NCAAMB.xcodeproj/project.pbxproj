@@ -348,6 +348,15 @@
 			name = Player;
 			sourceTree = "<group>";
 		};
+		6C66868818447C9700068F3B /* Table Sections */ = {
+			isa = PBXGroup;
+			children = (
+				6C6686831844761100068F3B /* PlayerStatsTableSection.h */,
+				6C6686841844761100068F3B /* PlayerStatsTableSection.m */,
+			);
+			name = "Table Sections";
+			sourceTree = "<group>";
+		};
 		6CB8AE3C1843E03E00DD3DC1 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,10 +369,9 @@
 		6CB8AE3D1843E04B00DD3DC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6C66868818447C9700068F3B /* Table Sections */,
 				6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */,
 				6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */,
-				6C6686831844761100068F3B /* PlayerStatsTableSection.h */,
-				6C6686841844761100068F3B /* PlayerStatsTableSection.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
