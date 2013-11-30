@@ -14,7 +14,7 @@
 @synthesize data;
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"Get Player Bio"]) {
+    if ([segue.identifier isEqualToString:@"PlayerSegue"]) {
         if ([segue.destinationViewController isKindOfClass:[PlayerViewController class]]) {
             PlayerViewController *playerController = (PlayerViewController *)segue.destinationViewController;
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];

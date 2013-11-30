@@ -14,7 +14,7 @@
 @synthesize teamID;
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"Get Player Bio"]) {
+    if ([segue.identifier isEqualToString:@"PlayerSegue"]) {
         if ([segue.destinationViewController isKindOfClass:[PlayerViewController class]]) {
             PlayerViewController *playerController = (PlayerViewController *)segue.destinationViewController;
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
@@ -45,7 +45,7 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     if (cell == nil) {cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
-    cell.textLabel.text = [[data objectAtIndex:indexPath.row] valueForKey:@"name"];
+    cell.textLabel.text = [@"" stringByAppendingFormat:@"%@ %@", [[data objectAtIndex:indexPath.row] valueForKey:@"first_name"], [[data objectAtIndex:indexPath.row] valueForKey:@"last_name"]];
     return cell;
 }
 

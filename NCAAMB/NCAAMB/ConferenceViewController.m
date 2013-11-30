@@ -7,18 +7,19 @@
 //
 
 #import "ConferenceViewController.h"
-#import "TeamViewController.h"
+#import "TeamTabController.h"
+
 
 @implementation ConferenceViewController
 
 @synthesize data;
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"Get Team Schedule"]) {
-        if ([segue.destinationViewController isKindOfClass:[TeamViewController class]]) {
-            TeamViewController *teamController = (TeamViewController *)segue.destinationViewController;
+    if ([segue.identifier isEqualToString:@"TeamSegue"]) {
+        if ([segue.destinationViewController isKindOfClass:[TeamTabController class]]) {
+            TeamTabController *teamTabController = (TeamTabController *)segue.destinationViewController;
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
-            teamController.teamID = [[data objectAtIndex:indexPath.row] valueForKey:@"team_id"];
+            [teamTabController initTabs: [[data objectAtIndex:indexPath.row] valueForKey:@"id"]];
         }
     }
 }
