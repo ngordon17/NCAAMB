@@ -7,7 +7,7 @@
 //b11c69c8-e2cc-4a36-bd3b-80cdf91fef57
 
 #import "TeamNavigationController.h"
-#import "TeamViewController.h"
+#import "TeamTabController.h"
 
 
 @implementation TeamNavigationController
@@ -15,11 +15,11 @@
 @synthesize data;
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"Get Team Schedule"]) {
-        if ([segue.destinationViewController isKindOfClass:[TeamViewController class]]) {
-            TeamViewController *teamController = (TeamViewController *)segue.destinationViewController;
+    if ([segue.identifier isEqualToString:@"TeamSegue"]) {
+        if ([segue.destinationViewController isKindOfClass:[TeamTabController class]]) {
+            TeamTabController *teamTabController = (TeamTabController *)segue.destinationViewController;
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
-            teamController.teamID = [[data objectAtIndex:indexPath.row] valueForKey:@"id"];
+            [teamTabController initTabs: [[data objectAtIndex:indexPath.row] valueForKey:@"id"]];
         }
     }
 }

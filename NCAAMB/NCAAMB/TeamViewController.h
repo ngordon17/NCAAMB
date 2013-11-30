@@ -13,7 +13,7 @@
 
 @interface TeamViewController : UITableViewController
 
-@property (nonatomic, strong) NSString* teamID;
 @property (nonatomic, retain) NSArray* data;
+@property (nonatomic, strong) NSString* teamID;
 
 @end

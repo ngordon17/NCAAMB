@@ -118,11 +118,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="9PY-E9-6UX" customClass="ScheduleViewCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="9PY-E9-6UX" customClass="ScheduleViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9PY-E9-6UX" id="p7K-x1-cEC">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fE9-sc-bOY">
@@ -170,6 +170,7 @@
                                     <outlet property="home_team_name" destination="fE9-sc-bOY" id="5na-hK-nJi"/>
                                     <outlet property="scheduled_date" destination="GwE-tJ-sXK" id="GxH-40-zp1"/>
                                     <outlet property="scheduled_time" destination="3YJ-Rl-PGp" id="uKq-Kf-iLR"/>
+                                    <segue destination="vLo-Ga-aJI" kind="push" id="P1S-N2-T80"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -360,7 +361,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yAb-f3-Sg0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="801" y="1103"/>
+            <point key="canvasLocation" x="748" y="1103"/>
         </scene>
         <!--Team Navigation Controller - Teams-->
         <scene sceneID="6gZ-7w-hzD">
@@ -379,7 +380,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ftv-yQ-CAq" kind="push" identifier="Get Team Schedule" id="dHg-Nn-30k"/>
+                                    <segue destination="dov-UF-Tno" kind="push" identifier="TeamSegue" id="Xx5-jW-Eto"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -435,7 +436,7 @@
                                     <outlet property="conference_record" destination="vKh-Tq-9Gh" id="G6x-vq-mXm"/>
                                     <outlet property="overall_record" destination="RQd-xT-gXc" id="XDl-Uz-DyY"/>
                                     <outlet property="team_name" destination="wb9-hN-7su" id="8Yp-qo-DHM"/>
-                                    <segue destination="ftv-yQ-CAq" kind="push" identifier="Get Team Schedule" id="dtX-5H-Stm"/>
+                                    <segue destination="dov-UF-Tno" kind="push" id="2Se-Ol-YpR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -450,12 +451,41 @@
             </objects>
             <point key="canvasLocation" x="748" y="-320"/>
         </scene>
+        <!--Game View Controller-->
+        <scene sceneID="bpn-qb-Y5P">
+            <objects>
+                <tableViewController id="vLo-Ga-aJI" customClass="GameViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="58n-gZ-gcj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="DLB-f5-DQu">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DLB-f5-DQu" id="WYN-Jv-sVU">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="vLo-Ga-aJI" id="Zhz-fe-aRQ"/>
+                            <outlet property="delegate" destination="vLo-Ga-aJI" id="wzN-Tc-bSn"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="V1f-AI-Yei"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v5J-2E-N0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="399"/>
+        </scene>
         <!--Team View Controller - Schedule-->
         <scene sceneID="cvx-D9-iE8">
             <objects>
                 <tableViewController id="ftv-yQ-CAq" customClass="TeamViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="8A3-Qb-Xei">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -519,11 +549,12 @@
                             <outlet property="delegate" destination="ftv-yQ-CAq" id="zj3-i8-RRV"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="IsX-W6-d70"/>
                     <navigationItem key="navigationItem" title="Schedule" id="tmf-WV-WRw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldg-Ha-mLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="801" y="1784"/>
+            <point key="canvasLocation" x="1856" y="1368"/>
         </scene>
         <!--Team Roster View Controller-->
         <scene sceneID="ZfJ-lc-PDB">
@@ -606,10 +637,40 @@
                             <outlet property="delegate" destination="YhW-qt-SWh" id="yEc-39-hjT"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="7fe-KB-Ysd"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4uB-UR-J6q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1193" y="1795"/>
+            <point key="canvasLocation" x="673" y="2907"/>
+        </scene>
+        <!--Team Roster View Controller - Item-->
+        <scene sceneID="Nqd-51-b0F">
+            <objects>
+                <tableViewController id="8eM-qg-6Xz" customClass="TeamRosterViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2Em-Vw-FZ1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="31r-0l-0A1">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="31r-0l-0A1" id="Ken-Pj-r11">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8eM-qg-6Xz" id="a0Y-JC-JaY"/>
+                            <outlet property="delegate" destination="8eM-qg-6Xz" id="JGI-ML-jSW"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="e5z-Ti-gHX"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aYF-LW-FUM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1856" y="2071"/>
         </scene>
         <!--Conference Navigation Controller - Conferences-->
         <scene sceneID="QWr-4y-FDF">
@@ -661,6 +722,26 @@
             </objects>
             <point key="canvasLocation" x="-978" y="399"/>
         </scene>
+        <!--Team Tab Controller-->
+        <scene sceneID="1Zw-Dd-LCy">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="dov-UF-Tno" customClass="TeamTabController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="2Yj-9t-gJe"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="FG2-FJ-opn">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ftv-yQ-CAq" kind="relationship" relationship="viewControllers" id="l3u-wj-JPS"/>
+                        <segue destination="8eM-qg-6Xz" kind="relationship" relationship="viewControllers" id="8rF-7O-f1f"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YnD-gv-d6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1306" y="1784"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -668,6 +749,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="dtX-5H-Stm"/>
+        <segue reference="Xx5-jW-Eto"/>
     </inferredMetricsTieBreakers>
 </document>
