@@ -24,12 +24,12 @@
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');
-        $result->addAttribute('ORPG', $myrow['ORPG']);
-        $result->addAttribute('DRPG', $myrow['DRPG']);
-        $result->addAttribute('SPG', $myrow['SPG']);
-        $result->addAttribute('APG', $myrow['APG']);
-        $result->addAttribute('PFPG', $myrow['FPG']);
-        $result->addAttribute('MPG', $myrow['MPG']);
+        $result->addAttribute('ORPG', $myrow['orpg']);
+        $result->addAttribute('DRPG', $myrow['drpg']);
+        $result->addAttribute('SPG', $myrow['spg']);
+        $result->addAttribute('APG', $myrow['apg']);
+        $result->addAttribute('PFPG', $myrow['fpg']);
+        $result->addAttribute('MPG', $myrow['mpg']);
         $result->addAttribute('three_percent', $myrow['three_percent']);
         $result->addAttribute('two_percent', $myrow['two_percent']);
         $result->addAttribute('free_percent', $myrow['free_percent']);
