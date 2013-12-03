@@ -217,7 +217,7 @@
             </objects>
             <point key="canvasLocation" x="121" y="1103"/>
         </scene>
-        <!--Player View Controller-->
+        <!--Player View Controller - Player-->
         <scene sceneID="TbX-8e-Kq4">
             <objects>
                 <viewController id="khO-Oa-o6F" customClass="PlayerViewController" sceneMemberID="viewController">
@@ -353,7 +353,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jbE-ec-P3x"/>
+                    <navigationItem key="navigationItem" title="Player" id="jbE-ec-P3x"/>
                     <connections>
                         <outlet property="header" destination="BKO-QV-KuW" id="w9j-cg-rln"/>
                         <outlet property="stats" destination="6Pd-Eo-HA5" id="Bmr-86-q4E"/>
@@ -395,7 +395,7 @@
             </objects>
             <point key="canvasLocation" x="104" y="1784"/>
         </scene>
-        <!--Conference View Controller-->
+        <!--Conference View Controller - Conference-->
         <scene sceneID="3na-2h-5tp">
             <objects>
                 <tableViewController id="w3n-70-Znr" customClass="ConferenceViewController" sceneMemberID="viewController">
@@ -445,13 +445,13 @@
                             <outlet property="delegate" destination="w3n-70-Znr" id="8ek-cr-p7a"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="zwn-tF-7qC"/>
+                    <navigationItem key="navigationItem" title="Conference" id="zwn-tF-7qC"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bim-fH-fWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="748" y="-320"/>
         </scene>
-        <!--Game View Controller-->
+        <!--Game View Controller - Game-->
         <scene sceneID="bpn-qb-Y5P">
             <objects>
                 <tableViewController id="vLo-Ga-aJI" customClass="GameViewController" sceneMemberID="viewController">
@@ -474,7 +474,7 @@
                             <outlet property="delegate" destination="vLo-Ga-aJI" id="wzN-Tc-bSn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="V1f-AI-Yei"/>
+                    <navigationItem key="navigationItem" title="Game" id="V1f-AI-Yei"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v5J-2E-N0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -549,101 +549,14 @@
                             <outlet property="delegate" destination="ftv-yQ-CAq" id="zj3-i8-RRV"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="IsX-W6-d70"/>
+                    <tabBarItem key="tabBarItem" title="Roster" id="IsX-W6-d70"/>
                     <navigationItem key="navigationItem" title="Schedule" id="tmf-WV-WRw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldg-Ha-mLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1856" y="2224"/>
         </scene>
-        <!--Team Roster View Controller-->
-        <scene sceneID="ZfJ-lc-PDB">
-            <objects>
-                <tableViewController id="YhW-qt-SWh" customClass="TeamRosterViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7L8-a1-1G1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="s8Z-mq-z5q" customClass="RosterViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s8Z-mq-z5q" id="Axy-fa-Lke">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulG-SE-nnk">
-                                            <rect key="frame" x="20" y="2" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tA3-SQ-BdZ">
-                                            <rect key="frame" x="70" y="2" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="752-Tb-bmr">
-                                            <rect key="frame" x="120" y="2" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8EB-Tc-STM">
-                                            <rect key="frame" x="170" y="2" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFO-HP-3Ga">
-                                            <rect key="frame" x="220" y="2" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcK-dY-Djy">
-                                            <rect key="frame" x="264" y="2" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQd-hJ-Ti5">
-                                            <rect key="frame" x="20" y="20" width="42" height="23"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvO-P5-DHI">
-                                            <rect key="frame" x="70" y="20" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="YhW-qt-SWh" id="lPS-KM-yGN"/>
-                            <outlet property="delegate" destination="YhW-qt-SWh" id="yEc-39-hjT"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="7fe-KB-Ysd"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4uB-UR-J6q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="673" y="2907"/>
-        </scene>
-        <!--Team Roster View Controller - Item-->
+        <!--Team Roster View Controller - Roster-->
         <scene sceneID="Nqd-51-b0F">
             <objects>
                 <tableViewController id="8eM-qg-6Xz" customClass="TeamRosterViewController" sceneMemberID="viewController">
@@ -669,7 +582,8 @@
                             <outlet property="delegate" destination="8eM-qg-6Xz" id="JGI-ML-jSW"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="e5z-Ti-gHX"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" id="e5z-Ti-gHX"/>
+                    <navigationItem key="navigationItem" title="Roster" id="RqE-EB-bj3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYF-LW-FUM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
