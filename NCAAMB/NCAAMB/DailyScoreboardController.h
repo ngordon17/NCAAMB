@@ -13,6 +13,8 @@
 
 @interface DailyScoreboardController : UITableViewController
 
+
+@property (nonatomic, retain) IBOutlet UIDatePicker *date_picker;
 @property (nonatomic, retain) NSArray* data;
 
 @end

@@ -11,6 +11,7 @@
 @implementation DailyScoreboardController
 
 @synthesize data;
+@synthesize date_picker;
 
 
 -(void) viewDidLoad {
@@ -20,6 +21,7 @@
     NSLog(@"Team Result Size: %d", data.count);
     [super viewDidLoad];
 }
+
 
 -(NSString *) getCurrentDate {
     NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
