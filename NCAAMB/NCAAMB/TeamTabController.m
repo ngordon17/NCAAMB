@@ -31,8 +31,8 @@
 }
 
 - (void) initTabs: (NSString *) teamID {
-    [((TeamViewController *) self.viewControllers[0]) setTeamID: teamID];
     [((TeamRosterViewController *) self.viewControllers[1]) setTeamID: teamID];
+    [((TeamViewController *) self.viewControllers[0]) setTeamID: teamID];
 }
 
 

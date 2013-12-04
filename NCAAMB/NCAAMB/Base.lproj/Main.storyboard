@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2mg-68-lst">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2mg-68-lst">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Home Controller - Home-->
@@ -549,7 +549,7 @@
                             <outlet property="delegate" destination="ftv-yQ-CAq" id="zj3-i8-RRV"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Roster" id="IsX-W6-d70"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" id="IsX-W6-d70"/>
                     <navigationItem key="navigationItem" title="Schedule" id="tmf-WV-WRw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldg-Ha-mLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -582,7 +582,7 @@
                             <outlet property="delegate" destination="8eM-qg-6Xz" id="JGI-ML-jSW"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Schedule" id="e5z-Ti-gHX"/>
+                    <tabBarItem key="tabBarItem" title="Roster" id="e5z-Ti-gHX"/>
                     <navigationItem key="navigationItem" title="Roster" id="RqE-EB-bj3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYF-LW-FUM" userLabel="First Responder" sceneMemberID="firstResponder"/>

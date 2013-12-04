@@ -19,7 +19,7 @@
         if ([segue.destinationViewController isKindOfClass:[TeamTabController class]]) {
             TeamTabController *teamTabController = (TeamTabController *)segue.destinationViewController;
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
-            [teamTabController initTabs: [[data objectAtIndex:indexPath.row] valueForKey:@"id"]];
+            [teamTabController initTabs: [[data objectAtIndex:indexPath.row] valueForKey:@"team_id"]];
         }
     }
 }

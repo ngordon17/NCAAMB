@@ -45,6 +45,7 @@
 - (void) initHeader {
     NSDictionary* player_bio = [player_bio_data objectAtIndex:0];
     NSString *htmlFile = @"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerViewHTML.html";
+    //NSString *htmlFile = @"/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/PlayerViewHTML.html";
     NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_PLAYER_NAME" withString:[@"" stringByAppendingFormat:@"%@ %@", [player_bio valueForKey:@"first_name"], [player_bio valueForKey:@"last_name"]]];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_NUMBER_POSITION" withString:[@"" stringByAppendingFormat:@"%@ %@", [player_bio valueForKey:@"jersey_number"], [player_bio valueForKey:@"position"]]];
