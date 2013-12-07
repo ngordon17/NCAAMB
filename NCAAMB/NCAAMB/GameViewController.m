@@ -14,6 +14,9 @@
 
 @implementation GameViewController
 
+@synthesize data;
+@synthesize gameID;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -25,6 +28,10 @@
 
 - (void)viewDidLoad
 {
+    DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getBoxScore.php?game_id" stringByAppendingString: gameID]];
+    DBResult* result = [dataRequest exec];
+    data = [result getResult];
+    NSLog(@"Team Result Size: %d", data.count);
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }

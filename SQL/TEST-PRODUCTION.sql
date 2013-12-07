@@ -78,8 +78,7 @@ ORDER BY scheduled_datetime;
 --box score for a given game
 SELECT GameStats.*, Player.first_name, Player.last_name
 FROM GameStats, Player
-WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080' AND GameStats.player_id = player.id
-LIMIT 10;
+WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080' AND GameStats.player_id = player.id;
 
 --score for a specific game
 SELECT *

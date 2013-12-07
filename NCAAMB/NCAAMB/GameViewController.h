@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBRequest.h"
+#import "DBResult.h"
 
 @interface GameViewController : UITableViewController
+
+@property (nonatomic, retain) NSArray* data;
+@property (nonatomic, strong) NSString* gameID;
 
 @end

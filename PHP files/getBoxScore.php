@@ -15,8 +15,7 @@
   try {
     $st = $dbh->query('SELECT GameStats.*, Player.first_name, Player.last_name
                        FROM GameStats, Player
-                       WHERE game_id = \'' . $_GET["game_id"] . '\' AND GameStats.player_id = player.id
-                       LIMIT 10;');
+                       WHERE game_id = \'' . $_GET["game_id"] . '\' AND GameStats.player_id = player.id');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');
