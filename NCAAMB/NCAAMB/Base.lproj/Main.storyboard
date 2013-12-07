@@ -643,6 +643,7 @@
         <scene sceneID="1Zw-Dd-LCy">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="dov-UF-Tno" customClass="TeamTabController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="2Yj-9t-gJe"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -666,7 +667,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="2Se-Ol-YpR"/>
+        <segue reference="Xx5-jW-Eto"/>
         <segue reference="Sbx-eo-cP0"/>
     </inferredMetricsTieBreakers>
 </document>
