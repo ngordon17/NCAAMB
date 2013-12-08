@@ -12,7 +12,7 @@
 @implementation PlayerViewController
 
 @synthesize player_bio_data;
-@synthesize player_season_avgs;
+@synthesize player_season_stats;
 @synthesize header;
 @synthesize stats;
 @synthesize playerID;
@@ -25,10 +25,10 @@
     DBResult* result = [dataRequest exec];
     player_bio_data = [result getResult];
     
-    dataRequest = [[DBRequest alloc] init:[@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getAvgStats.php?player_id=", playerID]];
+    dataRequest = [[DBRequest alloc] init:[@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getStats.php?player_id=", playerID]];
     result = [dataRequest exec];
     
-    player_season_avgs = [result getResult];
+    player_season_stats = [result getResult];
     //player_season_totals = [result getResult];
     //player_season_game_log = [result getResult];
     [self initHeader];
@@ -84,13 +84,13 @@
 
 -(void) initStats {
     PlayerStatsTableSection* section1 = [[PlayerStatsTableSection alloc] init];
-    [section1 setRows: player_season_avgs];
+    [section1 setRows: player_season_stats];
     [section1 setHeader:@"Season Averages"];
     PlayerStatsTableSection* section2 = [[PlayerStatsTableSection alloc] init];
-    [section2 setRows: player_season_avgs];
+    [section2 setRows: player_season_stats];
     [section2 setHeader:@"Season Totals"];
     PlayerStatsTableSection* section3 = [[PlayerStatsTableSection alloc] init];
-    [section3 setRows: player_season_avgs];
+    [section3 setRows: player_season_stats];
     [section3 setHeader: @"Game Log"];
     [self setTableSections: [NSArray arrayWithObjects: section1, section2, section3, nil]];
     [stats setDelegate:self];

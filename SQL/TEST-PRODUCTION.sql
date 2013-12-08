@@ -103,14 +103,22 @@ ORDER BY last_name
 LIMIT 10;
 
 --specific player's average statistics
-SELECT COALESCE(AVG(offensive_rebounds), 0) AS ORPG, COALESCE(AVG(defensive_rebounds), 0) AS DRPG, COALESCE(AVG(steals), 0) AS SPG, 
-	COALESCE(AVG(assists), 0) AS APG, COALESCE(AVG(personal_fouls), 0) AS FPG, COALESCE(AVG(minutes), 0) as MPG,
+SELECT COALESCE(AVG(offensive_rebounds), 0) AS avg_offense_rebounds, COALESCE(SUM(offensive_rebounds), 0) AS total_offense_rebounds,
+    COALESCE(AVG(defensive_rebounds), 0) AS avg_def_rebounds, COALESCE(SUM(defensive_rebounds), 0) AS total_def_rebounds, 
+    COALESCE(AVG(steals), 0) AS avg_steals, COALESCE(SUM(steals), 0) AS total_steals, 
+	  COALESCE(AVG(assists), 0) AS avg_assists, COALESCE(SUM(assists), 0) AS total_assists, 
+    COALESCE(AVG(personal_fouls), 0) AS avg_fouls, COALESCE(SUM(personal_fouls), 0) AS total_fouls,
+    COALESCE(AVG(minutes), 0) as avg_minutes, COALESCE(SUM(minutes), 0) as total_minutes,
     COALESCE(SUM(cast(three_point_makes as float))/NULLIF(SUM(three_point_attempts), 0), 0) AS three_percent,
+    COALESCE(SUM(three_point_makes) * 3, 0) AS three_points,
     COALESCE(SUM(cast(two_point_makes as float))/NULLIF(SUM(two_point_attempts), 0), 0) AS two_percent,
+    COALESCE(SUM(two_point_makes) * 2, 0) AS two_points,
     COALESCE(SUM(cast(free_throw_makes as float))/NULLIF(SUM(free_throw_attempts), 0), 0) AS free_percent,
-    COALESCE((SUM(cast(two_point_makes as float)) * 2 + SUM(three_point_makes) * 3)/NULLIF(COUNT(*), 0), 0) AS avg_points
+    COALESCE(SUM(free_throw_makes), 0) AS free_points,
+    COALESCE((SUM(cast(two_point_makes as float)) * 2 + SUM(cast(three_point_makes as float)) * 3 + SUM(cast(free_throw_makes as float)))/NULLIF(COUNT(*), 0), 0) AS avg_points,
+    COALESCE(SUM(two_point_makes) * 2 + SUM(three_point_makes) * 3 + SUM(free_throw_makes), 0) AS total_points
 FROM GameStats
-WHERE player_id = 'df89300b-42af-43eb-8873-7bda04941c56' AND minutes <> 0;
+WHERE player_id = 'b6dc050a-ac6a-4cce-8cc4-709f5e978ca2' AND minutes <> 0;
 
 -- list of teams in a specific conference ordered by record
 SELECT COALESCE(windb.id, lossdb.id), COALESCE(windb.alias, lossdb.alias), COALESCE(windb.name, lossdb.name), COALESCE(windb.win, 0) AS win, COALESCE(lossdb.loss, 0) AS loss
