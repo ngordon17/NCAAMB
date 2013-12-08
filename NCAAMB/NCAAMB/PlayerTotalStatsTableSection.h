@@ -1,14 +1,15 @@
 //
-//  PlayerStatsTableSection.h
+//  PlayerTotalStatsTableSection.h
 //  NCAAMB
 //
-//  Created by Nicholas Gordon on 11/26/13.
+//  Created by Nicholas Gordon on 12/8/13.
 //  Copyright (c) 2013 Nicholas Gordon. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface PlayerStatsTableSection : NSObject
+@interface PlayerTotalStatsTableSection : NSObject
+
 
 @property(nonatomic, copy) NSString* header;
 @property(nonatomic, copy) NSArray* rows;

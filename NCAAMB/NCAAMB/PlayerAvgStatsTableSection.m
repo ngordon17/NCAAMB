@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Nicholas Gordon. All rights reserved.
 //
 
-#import "PlayerStatsTableSection.h"
+#import "PlayerAvgStatsTableSection.h"
 #import "PlayerStatsViewCell.h"
 
-@implementation PlayerStatsTableSection
+@implementation PlayerAvgStatsTableSection
 
 @synthesize header;
 @synthesize rows;

@@ -32,9 +32,10 @@
 		6C65F76D183BE7E300EE2499 /* TeamNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76C183BE7E300EE2499 /* TeamNavigationController.m */; };
 		6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */; };
 		6C66868218443DBD00068F3B /* PlayerStatsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66868118443DBD00068F3B /* PlayerStatsViewCell.m */; };
-		6C6686851844761100068F3B /* PlayerStatsTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6686841844761100068F3B /* PlayerStatsTableSection.m */; };
+		6C6686851844761100068F3B /* PlayerAvgStatsTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6686841844761100068F3B /* PlayerAvgStatsTableSection.m */; };
 		6C6686871844797700068F3B /* PlayerViewHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C6686861844797700068F3B /* PlayerViewHTML.html */; };
 		6C68DA1A18494E7200DD2562 /* TeamTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C68DA1918494E7200DD2562 /* TeamTabController.m */; };
+		6CADDB6A18551BDB00301731 /* PlayerTotalStatsTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CADDB6918551BDB00301731 /* PlayerTotalStatsTableSection.m */; };
 		6CB8AE431843EA2B00DD3DC1 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */; };
 		6CBFFFC61845796A003160C2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFFFC51845796A003160C2 /* GameViewController.m */; };
 		6CBFFFCA184579A0003160C2 /* TeamRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFFFC9184579A0003160C2 /* TeamRosterViewController.m */; };
@@ -95,11 +96,13 @@
 		6C65F76F183BE7EC00EE2499 /* DailyScoreboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyScoreboardController.m; sourceTree = "<group>"; };
 		6C66868018443DBD00068F3B /* PlayerStatsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatsViewCell.h; sourceTree = "<group>"; };
 		6C66868118443DBD00068F3B /* PlayerStatsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStatsViewCell.m; sourceTree = "<group>"; };
-		6C6686831844761100068F3B /* PlayerStatsTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatsTableSection.h; sourceTree = "<group>"; };
-		6C6686841844761100068F3B /* PlayerStatsTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStatsTableSection.m; sourceTree = "<group>"; };
+		6C6686831844761100068F3B /* PlayerAvgStatsTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerAvgStatsTableSection.h; sourceTree = "<group>"; };
+		6C6686841844761100068F3B /* PlayerAvgStatsTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerAvgStatsTableSection.m; sourceTree = "<group>"; };
 		6C6686861844797700068F3B /* PlayerViewHTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PlayerViewHTML.html; sourceTree = "<group>"; };
 		6C68DA1818494E7200DD2562 /* TeamTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamTabController.h; sourceTree = "<group>"; };
 		6C68DA1918494E7200DD2562 /* TeamTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTabController.m; sourceTree = "<group>"; };
+		6CADDB6818551BDB00301731 /* PlayerTotalStatsTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTotalStatsTableSection.h; sourceTree = "<group>"; };
+		6CADDB6918551BDB00301731 /* PlayerTotalStatsTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTotalStatsTableSection.m; sourceTree = "<group>"; };
 		6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		6CBFFFC41845796A003160C2 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
@@ -367,8 +370,8 @@
 		6C66868818447C9700068F3B /* Table Sections */ = {
 			isa = PBXGroup;
 			children = (
-				6C6686831844761100068F3B /* PlayerStatsTableSection.h */,
-				6C6686841844761100068F3B /* PlayerStatsTableSection.m */,
+				6CADDB6C18551BEE00301731 /* Total Stats */,
+				6CADDB6B18551BE200301731 /* Avg Stats */,
 			);
 			name = "Table Sections";
 			sourceTree = "<group>";
@@ -380,6 +383,24 @@
 				6C68DA1918494E7200DD2562 /* TeamTabController.m */,
 			);
 			name = Tabs;
+			sourceTree = "<group>";
+		};
+		6CADDB6B18551BE200301731 /* Avg Stats */ = {
+			isa = PBXGroup;
+			children = (
+				6C6686831844761100068F3B /* PlayerAvgStatsTableSection.h */,
+				6C6686841844761100068F3B /* PlayerAvgStatsTableSection.m */,
+			);
+			name = "Avg Stats";
+			sourceTree = "<group>";
+		};
+		6CADDB6C18551BEE00301731 /* Total Stats */ = {
+			isa = PBXGroup;
+			children = (
+				6CADDB6818551BDB00301731 /* PlayerTotalStatsTableSection.h */,
+				6CADDB6918551BDB00301731 /* PlayerTotalStatsTableSection.m */,
+			);
+			name = "Total Stats";
 			sourceTree = "<group>";
 		};
 		6CB8AE3C1843E03E00DD3DC1 /* Navigation */ = {
@@ -547,11 +568,12 @@
 				6CBFFFD118457B4A003160C2 /* RosterViewCell.m in Sources */,
 				6C68DA1A18494E7200DD2562 /* TeamTabController.m in Sources */,
 				6CB8AE431843EA2B00DD3DC1 /* PlayerViewController.m in Sources */,
+				6CADDB6A18551BDB00301731 /* PlayerTotalStatsTableSection.m in Sources */,
 				6C6477651842EE5C00528A6D /* ScheduleViewCell.m in Sources */,
 				6C65F72D183BE57C00EE2499 /* AppDelegate.m in Sources */,
 				6C2064DE183D8174001B2AAD /* ConferenceViewController.m in Sources */,
 				6C4A3301183D686F00D2D80F /* DBRequest.m in Sources */,
-				6C6686851844761100068F3B /* PlayerStatsTableSection.m in Sources */,
+				6C6686851844761100068F3B /* PlayerAvgStatsTableSection.m in Sources */,
 				6C65F770183BE7EC00EE2499 /* DailyScoreboardController.m in Sources */,
 				6C65F729183BE57C00EE2499 /* main.m in Sources */,
 			);

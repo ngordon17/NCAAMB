@@ -10,7 +10,8 @@
 #import "DBRequest.h"
 #import "DBResult.h"
 #import "PlayerStatsViewCell.h"
-#import "PlayerStatsTableSection.h"
+#import "PlayerAvgStatsTableSection.h"
+#import "PlayerTotalStatsTableSection.h"
 
 @interface PlayerViewController : UIViewController <UIWebViewDelegate, UITableViewDelegate, UITableViewDataSource>
 
@@ -19,6 +20,11 @@
 @property(nonatomic, retain) NSArray* tableSections;
 @property(nonatomic, strong) NSArray* player_bio_data;
 @property(nonatomic, strong) NSArray* player_season_stats;
+@property(nonatomic, strong) NSArray* player_season_totals;
+@property(nonatomic, strong) NSArray* player_season_game_log;
+
 @property(nonatomic, strong) NSString* playerID;
+
+-(NSArray *) getPlayerData: (NSString*) url player: (NSString*) playerID;
 
 @end
