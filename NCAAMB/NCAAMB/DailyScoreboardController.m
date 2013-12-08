@@ -7,12 +7,23 @@
 //
 
 #import "DailyScoreboardController.h"
+#import "GameViewController.h"
 
 @implementation DailyScoreboardController
 
 @synthesize data;
 @synthesize date_picker;
 
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"GameSegue"]) {
+        if ([segue.destinationViewController isKindOfClass:[GameViewController class]]) {
+            GameViewController *gameController = (GameViewController *)segue.destinationViewController;
+            NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+            gameController.gameID = [[data objectAtIndex:indexPath.row] valueForKey:@"id"];
+        }
+    }
+}
 
 -(void) viewDidLoad {
     DBRequest* dataRequest = [[DBRequest alloc] init:[@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getDateSchedule.php?date=", [self getCurrentDate]]];
