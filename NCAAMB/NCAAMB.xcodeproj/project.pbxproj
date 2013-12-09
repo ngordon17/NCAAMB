@@ -36,6 +36,7 @@
 		6C6686871844797700068F3B /* PlayerViewHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C6686861844797700068F3B /* PlayerViewHTML.html */; };
 		6C68DA1A18494E7200DD2562 /* TeamTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C68DA1918494E7200DD2562 /* TeamTabController.m */; };
 		6CADDB6A18551BDB00301731 /* PlayerTotalStatsTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CADDB6918551BDB00301731 /* PlayerTotalStatsTableSection.m */; };
+		6CADDB6F18558B7C00301731 /* BoxScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CADDB6E18558B7C00301731 /* BoxScoreCell.m */; };
 		6CB8AE431843EA2B00DD3DC1 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */; };
 		6CBFFFC61845796A003160C2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFFFC51845796A003160C2 /* GameViewController.m */; };
 		6CBFFFCA184579A0003160C2 /* TeamRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFFFC9184579A0003160C2 /* TeamRosterViewController.m */; };
@@ -103,6 +104,8 @@
 		6C68DA1918494E7200DD2562 /* TeamTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTabController.m; sourceTree = "<group>"; };
 		6CADDB6818551BDB00301731 /* PlayerTotalStatsTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTotalStatsTableSection.h; sourceTree = "<group>"; };
 		6CADDB6918551BDB00301731 /* PlayerTotalStatsTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTotalStatsTableSection.m; sourceTree = "<group>"; };
+		6CADDB6D18558B7C00301731 /* BoxScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxScoreCell.h; sourceTree = "<group>"; };
+		6CADDB6E18558B7C00301731 /* BoxScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxScoreCell.m; sourceTree = "<group>"; };
 		6CB8AE411843EA2B00DD3DC1 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		6CB8AE421843EA2B00DD3DC1 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		6CBFFFC41845796A003160C2 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
@@ -188,6 +191,7 @@
 		6C6477601842EE2300528A6D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				6CADDB7018558B8300301731 /* Box Score */,
 				6CBFFFCB18457AF0003160C2 /* Roster */,
 				6C66867F18443D9C00068F3B /* Player */,
 				6C6477621842EE4000528A6D /* Schedule */,
@@ -403,6 +407,15 @@
 			name = "Total Stats";
 			sourceTree = "<group>";
 		};
+		6CADDB7018558B8300301731 /* Box Score */ = {
+			isa = PBXGroup;
+			children = (
+				6CADDB6D18558B7C00301731 /* BoxScoreCell.h */,
+				6CADDB6E18558B7C00301731 /* BoxScoreCell.m */,
+			);
+			name = "Box Score";
+			sourceTree = "<group>";
+		};
 		6CB8AE3C1843E03E00DD3DC1 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CADDB6F18558B7C00301731 /* BoxScoreCell.m in Sources */,
 				6CBFFFCA184579A0003160C2 /* TeamRosterViewController.m in Sources */,
 				6C65F76D183BE7E300EE2499 /* TeamNavigationController.m in Sources */,
 				6C64775C1842802D00528A6D /* TeamViewController.m in Sources */,
