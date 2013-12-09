@@ -28,7 +28,7 @@
 
 - (void)viewDidLoad
 {
-    DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getBoxScore.php?game_id" stringByAppendingString: gameID]];
+    DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getBoxScore.php?game_id=" stringByAppendingString: gameID]];
     DBResult* result = [dataRequest exec];
     data = [result getResult];
     NSLog(@"Team Result Size: %d", data.count);

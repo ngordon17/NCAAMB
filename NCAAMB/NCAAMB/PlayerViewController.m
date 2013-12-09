@@ -15,6 +15,7 @@
 @synthesize player_season_stats;
 @synthesize player_season_game_log;
 @synthesize header;
+@synthesize player_season_totals;
 @synthesize stats;
 @synthesize playerID;
 @synthesize tableSections;
@@ -22,20 +23,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    DBRequest* dataRequest = [[DBRequest alloc] init:[@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getPlayer.php?player_id=", playerID]];
-    DBResult* result = [dataRequest exec];
-    player_bio_data = [result getResult];
     
-    dataRequest = [[DBRequest alloc] init:[@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getStats.php?player_id=", playerID]];
-    result = [dataRequest exec];
-    player_season_stats = [result getResult];
+    player_bio_data = [self getPlayerData:@"http://dukedb-dma13.cloudapp.net/ncaamb/getPlayer.php?player_id=" player:playerID];
+  
     
-    dataRequest = [[DBRequest alloc] init: [@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getGameLog.php?player_id=", playerID]];
-    result = [dataRequest exec];
-    player_season_game_log = [result getResult];
+    player_season_stats = [self getPlayerData:@"http://dukedb-dma13.cloudapp.net/ncaamb/getStats.php?player_id=" player:playerID];
+    
+    player_season_game_log = [self getPlayerData:@"http://dukedb-dma13.cloudapp.net/ncaamb/getStats.php?player_id=" player:playerID];
     
     [self initHeader];
     [self initStats];
+}
+
+-(NSArray *) getPlayerData: (NSString*) url player: (NSString*) pid {
+    DBRequest* request = [[DBRequest alloc] init: [@"" stringByAppendingFormat:@"%@%@", url, pid]];
+    DBResult* result = [request exec];
+    return [result getResult];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,8 +50,9 @@
 
 - (void) initHeader {
     NSDictionary* player_bio = [player_bio_data objectAtIndex:0];
-    //NSString *htmlFile = @"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerViewHTML.html";
-    NSString *htmlFile = @"/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/PlayerViewHTML.html";
+    NSDictionary* player_stats = [player_season_stats objectAtIndex:0];
+    NSString *htmlFile = @"/Users/yankeenjg/Desktop/NCAAMB/NCAAMB/NCAAMB/PlayerViewHTML.html";
+   // NSString *htmlFile = @"/Users/dalin/Desktop/School/Duke/Senior Fall/CS 316/NCAAMB/NCAAMB/NCAAMB/PlayerViewHTML.html";
     NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_PLAYER_NAME" withString:[@"" stringByAppendingFormat:@"%@ %@", [player_bio valueForKey:@"first_name"], [player_bio valueForKey:@"last_name"]]];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_NUMBER_POSITION" withString:[@"" stringByAppendingFormat:@"%@ %@", [player_bio valueForKey:@"jersey_number"], [player_bio valueForKey:@"position"]]];
@@ -58,9 +62,13 @@
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_HOME_TOWN" withString:[player_bio valueForKey:@"birthplace"]];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_HEIGHT" withString:[player_bio valueForKey:@"height"]];
     htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_WEIGHT" withString:[player_bio valueForKey:@"weight"]];
-    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_PPG" withString:@"0"];
-    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_RPG" withString:@"0"];
-    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_APG" withString:@"0"];
+
+    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_PPG" withString:[player_stats valueForKey:@"avg_points"]];
+    
+    float rpg = [[player_stats valueForKey:@"avg_def_rebounds"] floatValue] + [[player_stats valueForKey:@"avg_offense_rebounds"] floatValue];
+    
+    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_RPG" withString:[NSString stringWithFormat: @"%f", rpg]];
+    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"$_APG" withString:[player_stats valueForKey: @"avg_assists"]];
     
     [header loadHTMLString:htmlString baseURL:nil];
     header.delegate = self;
@@ -86,14 +94,14 @@
 #pragma mark - UITableView
 
 -(void) initStats {
-    PlayerStatsTableSection* section1 = [[PlayerStatsTableSection alloc] init];
+    PlayerAvgStatsTableSection* section1 = [[PlayerAvgStatsTableSection alloc] init];
     [section1 setRows: player_season_stats];
     [section1 setHeader:@"Season Averages"];
-    PlayerStatsTableSection* section2 = [[PlayerStatsTableSection alloc] init];
+    PlayerTotalStatsTableSection* section2 = [[PlayerTotalStatsTableSection alloc] init];
     [section2 setRows: player_season_stats];
     [section2 setHeader:@"Season Totals"];
-    PlayerStatsTableSection* section3 = [[PlayerStatsTableSection alloc] init];
-    [section3 setRows: player_season_stats];
+    PlayerAvgStatsTableSection* section3 = [[PlayerAvgStatsTableSection alloc] init];
+    [section3 setRows: player_season_game_log];
     [section3 setHeader: @"Game Log"];
     [self setTableSections: [NSArray arrayWithObjects: section1, section2, section3, nil]];
     [stats setDelegate:self];
