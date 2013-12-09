@@ -7,11 +7,22 @@
 //
 
 #import "TeamViewController.h"
+#import "GameViewController.h"
 
 @implementation TeamViewController
 
 @synthesize data;
 @synthesize teamID;
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"GameSegue"]) {
+        if ([segue.destinationViewController isKindOfClass:[GameViewController class]]) {
+            GameViewController *gameController = (GameViewController *)segue.destinationViewController;
+            NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+            gameController.gameID = [[data objectAtIndex:indexPath.row] valueForKey:@"id"];
+        }
+    }
+}
 
 -(void) viewDidLoad {
     DBRequest* dataRequest = [[DBRequest alloc] init:[@"http://dukedb-dma13.cloudapp.net/ncaamb/getTeamSchedule.php?team_id=" stringByAppendingString: teamID]];
