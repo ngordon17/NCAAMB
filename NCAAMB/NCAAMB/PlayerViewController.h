@@ -19,6 +19,7 @@
 @property(nonatomic, retain) NSArray* tableSections;
 @property(nonatomic, strong) NSArray* player_bio_data;
 @property(nonatomic, strong) NSArray* player_season_stats;
+@property(nonatomic, strong) NSArray* player_season_game_log;
 @property(nonatomic, strong) NSString* playerID;
 
 @end

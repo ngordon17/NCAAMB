@@ -32,29 +32,29 @@
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');
-        $result->addAttribute('avg_offense_rebounds', $myrow['avg_offense_rebounds']);
+        $result->addAttribute('avg_offense_rebounds', (float)$myrow['avg_offense_rebounds']);
         $result->addAttribute('total_offense_rebounds', $myrow['total_offense_rebounds']);
-        $result->addAttribute('avg_def_rebounds', $myrow['avg_def_rebounds']);
+        $result->addAttribute('avg_def_rebounds', (float)$myrow['avg_def_rebounds']);
         $result->addAttribute('total_def_rebounds', $myrow['total_def_rebounds']);
-        $result->addAttribute('avg_steals', $myrow['avg_steals']);
+        $result->addAttribute('avg_steals', (float)$myrow['avg_steals']);
         $result->addAttribute('total_steals', $myrow['total_steals']);
-        $result->addAttribute('avg_assists', $myrow['avg_assists']);
+        $result->addAttribute('avg_assists', (float)$myrow['avg_assists']);
         $result->addAttribute('total_assists', $myrow['total_assists']);
-        $result->addAttribute('avg_fouls', $myrow['avg_fouls']);
+        $result->addAttribute('avg_fouls', (float)$myrow['avg_fouls']);
         $result->addAttribute('total_fouls', $myrow['total_fouls']);
-        $result->addAttribute('avg_minutes', $myrow['avg_minutes']);
+        $result->addAttribute('avg_minutes', (float)$myrow['avg_minutes']);
         $result->addAttribute('total_minutes', $myrow['total_minutes']);
-        $result->addAttribute('three_percent', $myrow['three_percent']);
+        $result->addAttribute('three_percent', (float)$myrow['three_percent']);
         $result->addAttribute('three_points', $myrow['three_points']);
-        $result->addAttribute('two_percent', $myrow['two_percent']);
+        $result->addAttribute('two_percent', (float)$myrow['two_percent']);
         $result->addAttribute('two_points', $myrow['two_points']);
-        $result->addAttribute('free_percent', $myrow['free_percent']);
+        $result->addAttribute('free_percent', (float)$myrow['free_percent']);
         $result->addAttribute('free_points', $myrow['free_points']);
-        $result->addAttribute('avg_points', $myrow['avg_points']);
+        $result->addAttribute('avg_points', (float)$myrow['avg_points']);
         $result->addAttribute('total_points', $myrow['total_points']);
       } while ($myrow = $st->fetch());
     } else {
-      echo "There is no drinker in the database.";
+      echo "There are no stats for this player in the database.";
     }
   } catch (PDOException $e) {
     print "Database error: " . $e->getMessage() . "<br/>";

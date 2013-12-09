@@ -24,7 +24,7 @@
         $result->addAttribute('alias', $myrow['alias']);
       } while ($myrow = $st->fetch());
     } else {
-      echo "There is no drinker in the database.";
+      echo "There are no teams in the database.";
     }
   } catch (PDOException $e) {
     print "Database error: " . $e->getMessage() . "<br/>";

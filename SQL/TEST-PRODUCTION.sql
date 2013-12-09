@@ -120,6 +120,12 @@ SELECT COALESCE(AVG(offensive_rebounds), 0) AS avg_offense_rebounds, COALESCE(SU
 FROM GameStats
 WHERE player_id = 'b6dc050a-ac6a-4cce-8cc4-709f5e978ca2' AND minutes <> 0;
 
+--game log
+SELECT game_id, scheduled_datetime, offensive_rebounds, defensive_rebounds, steals, assists, personal_fouls, minutes, three_point_makes * 3 AS three_points,
+       two_point_makes * 2 AS two_points, free_throw_makes AS free_points, two_point_makes * 2 + three_point_makes * 3 + free_throw_makes AS total_points
+FROM GameStats, Game
+WHERE player_id = 'b6dc050a-ac6a-4cce-8cc4-709f5e978ca2' AND minutes <> 0 AND game_id = Game.id;
+
 -- list of teams in a specific conference ordered by record
 SELECT COALESCE(windb.id, lossdb.id), COALESCE(windb.alias, lossdb.alias), COALESCE(windb.name, lossdb.name), COALESCE(windb.win, 0) AS win, COALESCE(lossdb.loss, 0) AS loss
 FROM (SELECT Team.id AS id, Team.alias AS alias, Team.name AS name, w.wins AS win
@@ -127,7 +133,7 @@ FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS wins
              FROM Team, Game, Score
              WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND home_score > away_score)
              OR (Team.id = Game.away_team_id AND Game.id = Score.game_id AND away_score > home_score)
-             GROUP BY tid) AS w
+             GROUP BY tid) AS w,
 WHERE Team.conference_id = '88368ebb-01fb-44d5-a6c6-3e7d46bb3ab7' AND Team.id = w.tid) AS windb
 FULL OUTER JOIN
 (SELECT Team.id AS id, Team.alias AS alias, Team.name AS name, l.losses AS loss

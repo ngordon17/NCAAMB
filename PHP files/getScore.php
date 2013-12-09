@@ -24,7 +24,7 @@
         $result->addAttribute('away_score', $myrow['away_score']);
       } while ($myrow = $st->fetch());
     } else {
-      echo "There is no drinker in the database.";
+      echo "There is no information for this game in the database.";
     }
   } catch (PDOException $e) {
     print "Database error: " . $e->getMessage() . "<br/>";

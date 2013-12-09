@@ -41,7 +41,7 @@
         $result->addAttribute('num_losses', $myrow['loss']);
       } while ($myrow = $st->fetch());
     } else {
-      echo "There is no drinker in the database.";
+      echo "There are no standings for this conference in the database.";
     }
   } catch (PDOException $e) {
     print "Database error: " . $e->getMessage() . "<br/>";

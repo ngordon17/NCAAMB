@@ -13,6 +13,7 @@
 
 @synthesize player_bio_data;
 @synthesize player_season_stats;
+@synthesize player_season_game_log;
 @synthesize header;
 @synthesize stats;
 @synthesize playerID;
@@ -27,10 +28,12 @@
     
     dataRequest = [[DBRequest alloc] init:[@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getStats.php?player_id=", playerID]];
     result = [dataRequest exec];
-    
     player_season_stats = [result getResult];
-    //player_season_totals = [result getResult];
-    //player_season_game_log = [result getResult];
+    
+    dataRequest = [[DBRequest alloc] init: [@"" stringByAppendingFormat:@"%@%@", @"http://dukedb-dma13.cloudapp.net/ncaamb/getGameLog.php?player_id=", playerID]];
+    result = [dataRequest exec];
+    player_season_game_log = [result getResult];
+    
     [self initHeader];
     [self initStats];
 }
