@@ -32,7 +32,7 @@
         $result->addAttribute('birthplace', $myrow['birthplace']);
       } while ($myrow = $st->fetch());
     } else {
-      echo "There is no drinker in the database.";
+      echo "There are no players for this team in the database.";
     }
   } catch (PDOException $e) {
     print "Database error: " . $e->getMessage() . "<br/>";

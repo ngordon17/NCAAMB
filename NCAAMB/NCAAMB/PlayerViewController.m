@@ -13,8 +13,8 @@
 
 @synthesize player_bio_data;
 @synthesize player_season_stats;
-@synthesize header;
 @synthesize player_season_game_log;
+@synthesize header;
 @synthesize player_season_totals;
 @synthesize stats;
 @synthesize playerID;
@@ -23,7 +23,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     
     player_bio_data = [self getPlayerData:@"http://dukedb-dma13.cloudapp.net/ncaamb/getPlayer.php?player_id=" player:playerID];
   

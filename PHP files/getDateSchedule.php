@@ -39,7 +39,7 @@
         $result->addAttribute('scheduled_datetime', $myrow['scheduled_datetime']);
       } while ($myrow = $st->fetch());
     } else {
-      echo "There is no drinker in the database.";
+      echo "There is no schedule for this date in the database.";
     }
   } catch (PDOException $e) {
     print "Database error: " . $e->getMessage() . "<br/>";

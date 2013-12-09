@@ -43,7 +43,7 @@
         $result->addAttribute('points', $myrow['points']);
       } while ($myrow = $st->fetch());
     } else {
-      echo "There is no drinker in the database.";
+      echo "There is no box score for this game in the database.";
     }
   } catch (PDOException $e) {
     print "Database error: " . $e->getMessage() . "<br/>";
