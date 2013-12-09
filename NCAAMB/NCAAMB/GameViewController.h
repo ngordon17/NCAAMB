@@ -13,6 +13,7 @@
 @interface GameViewController : UITableViewController
 
 @property (nonatomic, retain) NSArray* data;
+@property(nonatomic, retain) NSArray* tableSections;
 @property (nonatomic, strong) NSString* gameID;
 
 @end

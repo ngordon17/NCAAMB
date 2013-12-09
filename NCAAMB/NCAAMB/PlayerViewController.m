@@ -7,6 +7,7 @@
 //
 
 #import "PlayerViewController.h"
+#import "PlayerGameLogTableSection.h"
 
 
 @implementation PlayerViewController
@@ -29,7 +30,7 @@
     
     player_season_stats = [self getPlayerData:@"http://dukedb-dma13.cloudapp.net/ncaamb/getStats.php?player_id=" player:playerID];
     
-    player_season_game_log = [self getPlayerData:@"http://dukedb-dma13.cloudapp.net/ncaamb/getStats.php?player_id=" player:playerID];
+    player_season_game_log = [self getPlayerData:@"http://dukedb-dma13.cloudapp.net/ncaamb/getGameLog.php?player_id=" player:playerID];
     
     [self initHeader];
     [self initStats];
@@ -86,9 +87,9 @@
     header.scrollView.scrollEnabled = NO;
     header.scrollView.bounces = NO;
     
-    if(self.navigationController.navigationBar.translucent == YES) {
+    //if(self.navigationController.navigationBar.translucent == YES) {
         view.scrollView.contentOffset = CGPointMake(view.frame.origin.x, view.frame.origin.y - 55);
-    }
+    //}
 }
 
 #pragma mark - UITableView
@@ -100,7 +101,7 @@
     PlayerTotalStatsTableSection* section2 = [[PlayerTotalStatsTableSection alloc] init];
     [section2 setRows: player_season_stats];
     [section2 setHeader:@"Season Totals"];
-    PlayerAvgStatsTableSection* section3 = [[PlayerAvgStatsTableSection alloc] init];
+    PlayerGameLogTableSection* section3 = [[PlayerGameLogTableSection alloc] init];
     [section3 setRows: player_season_game_log];
     [section3 setHeader: @"Game Log"];
     [self setTableSections: [NSArray arrayWithObjects: section1, section2, section3, nil]];
