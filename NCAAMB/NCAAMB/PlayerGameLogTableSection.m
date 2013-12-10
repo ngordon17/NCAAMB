@@ -23,23 +23,23 @@
     GameLogCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell1"];
     if (cell == nil) {cell = [[GameLogCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell1"];}
     
-    cell.date.text = [[rows objectAtIndex:row] valueForKey:@"scheduled_datetime"];
-    cell.opponent.text = [[rows objectAtIndex:row] valueForKey:@""];
-    cell.result.text = [[rows objectAtIndex:row] valueForKey:@""];
-    cell.minutes.text = [[rows objectAtIndex:row] valueForKey:@"minutes"];
-    cell.fgma.text = [[rows objectAtIndex:row] valueForKey:@"two_points"];
-    cell.fgp.text = [[rows objectAtIndex:row] valueForKey:@"two_points"];
-    cell.three_pma.text = [[rows objectAtIndex:row] valueForKey:@"three_points"];
-    cell.threep.text = [[rows objectAtIndex:row] valueForKey:@"three_points"];
-    cell.ftma.text = [[rows objectAtIndex:row] valueForKey:@"free_points"];
-    cell.ftp.text = [[rows objectAtIndex:row] valueForKey:@"free_points"];
-    cell.reb.text = [[rows objectAtIndex:row] valueForKey:@"offensive_rebounds"];
-    cell.ast.text =[[rows objectAtIndex:row] valueForKey:@"assists"];
-    cell.blk.text = [[rows objectAtIndex:row] valueForKey:@"blocks"];
-    cell.stl.text = [[rows objectAtIndex:row] valueForKey:@"steals"];
-    cell.pf.text = [[rows objectAtIndex:row] valueForKey:@"personal_fouls"];
-    cell.to.text = [[rows objectAtIndex:row] valueForKey:@"turnovers"];
-    cell.pts.text = [[rows objectAtIndex:row] valueForKey:@"points"];
+    cell.date.text = [[rows objectAtIndex:row] valueForKey:@"DATE"];
+    cell.opponent.text = [[rows objectAtIndex:row] valueForKey:@"OPP"];
+    cell.result.text = [[rows objectAtIndex:row] valueForKey:@"RESULT"];
+    cell.minutes.text = [[rows objectAtIndex:row] valueForKey:@"MIN"];
+    cell.fgma.text = [[rows objectAtIndex:row] valueForKey:@"FGM-FGA"];
+    cell.fgp.text = [[rows objectAtIndex:row] valueForKey:@"FGpercent"];
+    cell.three_pma.text = [[rows objectAtIndex:row] valueForKey:@"threePM-threePA"];
+    cell.threep.text = [[rows objectAtIndex:row] valueForKey:@"threepercent"];
+    cell.ftma.text = [[rows objectAtIndex:row] valueForKey:@"FTM-FTA"];
+    cell.ftp.text = [[rows objectAtIndex:row] valueForKey:@"Ftpercent"];
+    cell.reb.text = [[rows objectAtIndex:row] valueForKey:@"REB"];
+    cell.ast.text =[[rows objectAtIndex:row] valueForKey:@"AST"];
+    cell.blk.text = [[rows objectAtIndex:row] valueForKey:@"BLK"];
+    cell.stl.text = [[rows objectAtIndex:row] valueForKey:@"STL"];
+    cell.pf.text = [[rows objectAtIndex:row] valueForKey:@"PF"];
+    cell.to.text = [[rows objectAtIndex:row] valueForKey:@"TO"];
+    cell.pts.text = [[rows objectAtIndex:row] valueForKey:@"PTS"];
     
     return cell;
 }

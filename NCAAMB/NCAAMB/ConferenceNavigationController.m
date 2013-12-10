@@ -50,4 +50,20 @@
     return cell;
 }
 
+#pragma mark - UISearchBar Delegate
+
+#pragma mark - Search Bar Action
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
+    for (int row = 0; row < data.count; row++) {
+        NSDictionary *dict = [data objectAtIndex:row];
+        if ([[dict valueForKey:@"name"] isEqualToString:searchBar.text]) {
+            
+            [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+        }
+    }
+}
+    
+
+
 @end

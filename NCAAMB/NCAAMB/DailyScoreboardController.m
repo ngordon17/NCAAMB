@@ -21,6 +21,8 @@
             GameViewController *gameController = (GameViewController *)segue.destinationViewController;
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
             gameController.gameID = [[data objectAtIndex:indexPath.row] valueForKey:@"id"];
+            gameController.home_team = [[data objectAtIndex:indexPath.row] valueForKey: @"home_team_alias"];
+            gameController.away_team = [[data objectAtIndex:indexPath.row] valueForKey: @"away_team_alias"];
         }
     }
 }
@@ -35,6 +37,7 @@
 
 
 -(NSString *) getCurrentDate {
+
     NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"yyyy-MM-dd%20hh:mm:ss"];
     NSString* date = [formatter stringFromDate:[NSDate date]];

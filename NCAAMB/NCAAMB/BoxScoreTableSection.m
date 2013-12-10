@@ -24,7 +24,7 @@
     if (cell == nil) {cell = [[BoxScoreCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];}
     
     cell.name.text = [[rows objectAtIndex:row] valueForKey:@"player_name"];
-    cell.position.text = @"F";
+    cell.position.text = [[rows objectAtIndex:row] valueForKey:@"position"];
     cell.min.text = [[rows objectAtIndex:row] valueForKey:@"minutes"];
     cell.fgma.text = [NSString stringWithFormat:@"%@-%@", [[rows objectAtIndex:row] valueForKey:@"field_goal_makes"], [[rows objectAtIndex:row] valueForKey: @"field_goal_attempts"]];
     cell.three_pma.text = [NSString stringWithFormat:@"%@-%@", [[rows objectAtIndex:row] valueForKey:@"three_point_makes"], [[rows objectAtIndex:row] valueForKey: @"three_point_attempts"]];

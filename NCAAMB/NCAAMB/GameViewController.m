@@ -17,6 +17,8 @@
 
 @synthesize data;
 @synthesize gameID;
+@synthesize home_team;
+@synthesize away_team;
 @synthesize tableSections;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -49,12 +51,24 @@
 #pragma mark - UITableView
 
 -(void) initBoxScore {
+    NSMutableArray* home = [[NSMutableArray alloc] init];
+    NSMutableArray* away = [[NSMutableArray alloc] init];
+    
+    for (NSDictionary *dict in data) {
+        if ([[dict valueForKey:@"alias"] isEqualToString: home_team]) {
+            [home addObject:dict];
+        }
+        else {
+            [away addObject:dict];
+        }
+    }
+    
     BoxScoreTableSection* section1 = [[BoxScoreTableSection alloc] init];
-    [section1 setRows: data];
-    [section1 setHeader:@"Home"];
+    [section1 setRows: [[NSArray alloc] initWithArray:home]];
+    [section1 setHeader: [NSString stringWithFormat:@"%@ - %@", @"Home Team", [[home objectAtIndex:0] valueForKey:@"alias"]]];
     BoxScoreTableSection* section2 = [[BoxScoreTableSection alloc] init];
-    [section2 setRows: data];
-    [section2 setHeader:@"Away"];
+    [section2 setRows: [[NSArray alloc] initWithArray:away]];
+    [section2 setHeader:[NSString stringWithFormat:@"%@ - %@", @"Home Team", [[away objectAtIndex:0] valueForKey:@"alias"]]];
     [self setTableSections: [NSArray arrayWithObjects: section1, section2, nil]];
 }
 

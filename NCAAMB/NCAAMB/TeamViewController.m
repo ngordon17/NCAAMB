@@ -20,6 +20,8 @@
             GameViewController *gameController = (GameViewController *)segue.destinationViewController;
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
             gameController.gameID = [[data objectAtIndex:indexPath.row] valueForKey:@"id"];
+            gameController.home_team = [[data objectAtIndex:indexPath.row] valueForKey: @"home_team_alias"];
+            gameController.home_team = [[data objectAtIndex:indexPath.row] valueForKey: @"home_team_alias"];
         }
     }
 }
@@ -58,6 +60,8 @@
     cell.away_score.text = [row valueForKey:@"away_score"];
     
     cell.scheduled_date.text = [[[row valueForKey:@"scheduled_datetime"] componentsSeparatedByString:@" "] objectAtIndex:0];
+   
+    
     cell.scheduled_time.text = [[[row valueForKey:@"scheduled_datetime"] componentsSeparatedByString:@" "] objectAtIndex:1];
     
     return cell;

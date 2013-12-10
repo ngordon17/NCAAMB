@@ -15,5 +15,7 @@
 @property (nonatomic, retain) NSArray* data;
 @property(nonatomic, retain) NSArray* tableSections;
 @property (nonatomic, strong) NSString* gameID;
+@property (nonatomic, strong) NSString* home_team;
+@property (nonatomic, strong) NSString* away_team;
 
 @end

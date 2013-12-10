@@ -10,7 +10,7 @@
 #import "DBResult.h"
 #import "DBRequest.h"
 
-@interface PlayerNavigationController : UITableViewController
+@interface PlayerNavigationController : UITableViewController <UISearchBarDelegate>
 
 @property(nonatomic, retain) NSArray* data;
 
