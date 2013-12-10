@@ -13,15 +13,18 @@
   }
    
   try {
-    $st = $dbh->query('SELECT GameStats.*, Player.first_name, Player.last_name
-                       FROM GameStats, Player
-                       WHERE game_id = \'' . $_GET["game_id"] . '\' AND GameStats.player_id = player.id');
+    $st = $dbh->query('SELECT GameStats.*, first_name, last_name, position, alias, name
+                       FROM GameStats, Player, Team
+                       WHERE game_id = \'' . $_GET["game_id"] . '\' AND GameStats.player_id = player.id AND Player.team_id = Team.id');
     if (($myrow = $st->fetch())) {
       do {
         $result = $xml->addChild('result');
         $result->addAttribute('game_id', $myrow['game_id']);
         $result->addAttribute('player_id', $myrow['player_id']);
         $result->addAttribute('player_name', $myrow['first_name']. " " . $myrow['last_name']);
+        $result->addAttribute('alias', $myrow['alias']);
+        $result->addAttribute('name', $myrow['name']);
+        $result->addAttribute('position', $myrow['position']);
         $result->addAttribute('minutes', $myrow['minutes']);
         $result->addAttribute('three_point_attempts', $myrow['three_point_attempts']);
         $result->addAttribute('three_point_makes', $myrow['three_point_makes']);

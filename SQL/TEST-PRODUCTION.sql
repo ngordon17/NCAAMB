@@ -76,9 +76,9 @@ ON g.gid = s.gid
 ORDER BY scheduled_datetime;
 
 --box score for a given game
-SELECT GameStats.*, Player.first_name, Player.last_name
-FROM GameStats, Player
-WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080' AND GameStats.player_id = player.id;
+SELECT GameStats.*, first_name, last_name, position, alias, name
+FROM GameStats, Player, Team
+WHERE game_id = 'fbd4d02d-a1cc-4274-b186-4e6b08942080' AND GameStats.player_id = Player.id AND Player.team_id = Team.id;
 
 --score for a specific game
 SELECT *
@@ -121,10 +121,14 @@ FROM GameStats
 WHERE player_id = 'b6dc050a-ac6a-4cce-8cc4-709f5e978ca2' AND minutes <> 0;
 
 --game log
-SELECT game_id, scheduled_datetime, offensive_rebounds, defensive_rebounds, steals, assists, personal_fouls, minutes, three_point_makes * 3 AS three_points,
-       two_point_makes * 2 AS two_points, free_throw_makes AS free_points, two_point_makes * 2 + three_point_makes * 3 + free_throw_makes AS total_points
-FROM GameStats, Game
-WHERE player_id = 'b6dc050a-ac6a-4cce-8cc4-709f5e978ca2' AND minutes <> 0 AND game_id = Game.id;
+SELECT GameStats.game_id, scheduled_datetime, minutes, two_point_makes, two_point_attempts, three_point_makes, three_point_attempts,
+       free_throw_makes, free_throw_attempts, offensive_rebounds + defensive_rebounds AS rebounds, assists, blocks, steals, 
+       personal_fouls, turnovers, two_point_makes * 2 + three_point_makes * 3 + free_throw_makes AS total_points,
+       (CASE WHEN home_team_id = Team.id THEN (SELECT alias FROM Team WHERE away_team_id = Team.id) ELSE (SELECT alias FROM Team WHERE home_team_id = Team.id) END) AS opponent,
+       (CASE WHEN (home_team_id = Team.id AND home_score > away_score) OR (away_team_id = Team.id AND away_score > home_score) THEN 'W' ELSE 'L' END) AS result,
+       home_score, away_score
+FROM GameStats, Game, Player, Team, Score
+WHERE player_id = 'b6dc050a-ac6a-4cce-8cc4-709f5e978ca2' AND minutes <> 0 AND GameStats.game_id = Game.id AND player_id = Player.id AND Player.team_id = Team.id AND Game.id = Score.game_id;
 
 -- list of teams in a specific conference ordered by record
 SELECT COALESCE(windb.id, lossdb.id), COALESCE(windb.alias, lossdb.alias), COALESCE(windb.name, lossdb.name), COALESCE(windb.win, 0) AS win, COALESCE(lossdb.loss, 0) AS loss
@@ -133,7 +137,7 @@ FROM Team,  (SELECT Team.id AS tid, COUNT(*) AS wins
              FROM Team, Game, Score
              WHERE (Team.id = Game.home_team_id AND Game.id = Score.game_id AND home_score > away_score)
              OR (Team.id = Game.away_team_id AND Game.id = Score.game_id AND away_score > home_score)
-             GROUP BY tid) AS w,
+             GROUP BY tid) AS w
 WHERE Team.conference_id = '88368ebb-01fb-44d5-a6c6-3e7d46bb3ab7' AND Team.id = w.tid) AS windb
 FULL OUTER JOIN
 (SELECT Team.id AS id, Team.alias AS alias, Team.name AS name, l.losses AS loss
